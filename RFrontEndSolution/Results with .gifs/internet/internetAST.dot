@@ -1,0 +1,341 @@
+digraph {
+
+subgraph cluster0 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_PROG";
+
+"NT_EXPR_IF_STATEMENT_19996"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_20010"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_20017"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_20022"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_20025"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_20028"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_20031"
+ [fillcolor = yellow]
+}
+"NT_PROG_19995"->"NT_EXPR_IF_STATEMENT_19996"
+subgraph cluster1 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_IF_STATEMENT_CONDITION";
+
+"NT_EXPR_CALL_FUNCTION_19997"
+ [fillcolor = yellow]
+}
+subgraph cluster2 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_IF_STATEMENT_BODY";
+
+"NT_EXPR_CALL_FUNCTION_19999"
+ [fillcolor = yellow]
+}
+"NT_EXPR_IF_STATEMENT_19996"->"NT_EXPR_CALL_FUNCTION_19997"
+subgraph cluster3 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_19998< q >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_19997"->"NT_ID_19998< q >"
+"NT_EXPR_IF_STATEMENT_19996"->"NT_EXPR_CALL_FUNCTION_19999"
+subgraph cluster4 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_AND_BINARY_20000"
+ [fillcolor = yellow]
+}
+subgraph cluster5 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_20007"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_19999"->"NT_EXPR_AND_BINARY_20000"
+subgraph cluster6 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_AND_BINARY_LEFT";
+
+"NT_EXPR_COMPARISONS_20001"
+ [fillcolor = yellow]
+}
+subgraph cluster7 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_AND_BINARY_RIGHT";
+
+"NT_ID_20006< is.null >"
+ [fillcolor = green]
+}
+"NT_EXPR_AND_BINARY_20000"->"NT_EXPR_COMPARISONS_20001"
+subgraph cluster8 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_LEFT";
+
+"NT_EXPR_DOLLAR_AT_OPERATORS_20002"
+ [fillcolor = yellow]
+}
+subgraph cluster9 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_RIGHT";
+
+"NT_STRING_20005< unix >"
+ [fillcolor = green]
+}
+"NT_EXPR_COMPARISONS_20001"->"NT_EXPR_DOLLAR_AT_OPERATORS_20002"
+subgraph cluster10 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_BASE";
+
+"NT_ID_20003< .Platform >"
+ [fillcolor = green]
+}
+subgraph cluster11 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_OFFSET";
+
+"NT_ID_20004< OS.type >"
+ [fillcolor = green]
+}
+"NT_EXPR_DOLLAR_AT_OPERATORS_20002"->"NT_ID_20003< .Platform >"
+"NT_EXPR_DOLLAR_AT_OPERATORS_20002"->"NT_ID_20004< OS.type >"
+"NT_EXPR_COMPARISONS_20001"->"NT_STRING_20005< unix >"
+"NT_EXPR_AND_BINARY_20000"->"NT_ID_20006< is.null >"
+"NT_EXPR_CALL_FUNCTION_19999"->"NT_EXPR_CALL_FUNCTION_20007"
+subgraph cluster12 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_20008< nsl >"
+ [fillcolor = green]
+}
+subgraph cluster13 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_20009< cran.r-project.org >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_20007"->"NT_ID_20008< nsl >"
+"NT_EXPR_CALL_FUNCTION_20007"->"NT_STRING_20009< cran.r-project.org >"
+"NT_PROG_19995"->"NT_EXPR_CALL_FUNCTION_20010"
+subgraph cluster14 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_20011< nrow >"
+ [fillcolor = green]
+}
+subgraph cluster15 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_20012"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_20010"->"NT_ID_20011< nrow >"
+"NT_EXPR_CALL_FUNCTION_20010"->"NT_EXPR_CALL_FUNCTION_20012"
+subgraph cluster16 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_20013< available.packages >"
+ [fillcolor = green]
+}
+subgraph cluster17 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_20014"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_20012"->"NT_ID_20013< available.packages >"
+"NT_EXPR_CALL_FUNCTION_20012"->"NT_EXPR_CALL_FUNCTION_20014"
+subgraph cluster18 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_20015< contrib.url >"
+ [fillcolor = green]
+}
+subgraph cluster19 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_20016< http://cran.r-project.org >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_20014"->"NT_ID_20015< contrib.url >"
+"NT_EXPR_CALL_FUNCTION_20014"->"NT_STRING_20016< http://cran.r-project.org >"
+"NT_PROG_19995"->"NT_EXPR_CALL_FUNCTION_20017"
+subgraph cluster20 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_20018"
+ [fillcolor = yellow]
+}
+subgraph cluster21 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_20021< http://cran.r-project.org/ >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_20017"->"NT_EXPR_ASSIGNMENT_OPETATORS_20018"
+subgraph cluster22 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_20019< zz >"
+ [fillcolor = green]
+}
+subgraph cluster23 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_20020< url >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_20018"->"NT_ID_20019< zz >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_20018"->"NT_ID_20020< url >"
+"NT_EXPR_CALL_FUNCTION_20017"->"NT_STRING_20021< http://cran.r-project.org/ >"
+"NT_PROG_19995"->"NT_EXPR_CALL_FUNCTION_20022"
+subgraph cluster24 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_20023< readLines >"
+ [fillcolor = green]
+}
+subgraph cluster25 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_20024< zz >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_20022"->"NT_ID_20023< readLines >"
+"NT_EXPR_CALL_FUNCTION_20022"->"NT_ID_20024< zz >"
+"NT_PROG_19995"->"NT_EXPR_CALL_FUNCTION_20025"
+subgraph cluster26 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_20026< close >"
+ [fillcolor = green]
+}
+subgraph cluster27 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_20027< zz >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_20025"->"NT_ID_20026< close >"
+"NT_EXPR_CALL_FUNCTION_20025"->"NT_ID_20027< zz >"
+"NT_PROG_19995"->"NT_EXPR_CALL_FUNCTION_20028"
+subgraph cluster28 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_20029< read.table >"
+ [fillcolor = green]
+}
+subgraph cluster29 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_20030< http://www.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_20028"->"NT_ID_20029< read.table >"
+"NT_EXPR_CALL_FUNCTION_20028"->"NT_STRING_20030< http://www.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat >"
+"NT_PROG_19995"->"NT_EXPR_CALL_FUNCTION_20031"
+subgraph cluster30 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_20032< read.table >"
+ [fillcolor = green]
+}
+subgraph cluster31 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_20033< ftp://ftp.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_20031"->"NT_ID_20032< read.table >"
+"NT_EXPR_CALL_FUNCTION_20031"->"NT_STRING_20033< ftp://ftp.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat >"
+}

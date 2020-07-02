@@ -1,0 +1,8 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | c               | Free (System)   
+Global          | x               | Local Variable  
+Global          | sqrt            | Free (System)   
+Global          | identical       | Free (System)   
+-----------------------------------------------------

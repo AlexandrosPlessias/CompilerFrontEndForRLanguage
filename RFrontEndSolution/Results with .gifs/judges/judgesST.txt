@@ -1,0 +1,23 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | judges          | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | as.is           | Local Variable  
+Global          | T               | Free (System)   
+Global          | header          | Local Variable  
+Global          | judge.f         | Free (System)   
+Global          | as.factor       | Free (System)   
+Global          | judge           | Free (System)   
+Global          | judges.lm       | Local Variable  
+Global          | lm              | Free (System)   
+Global          | percent         | Free (System)   
+Global          | data            | Local Variable  
+Global          | judges.aov      | Local Variable  
+Global          | aov             | Free (System)   
+Global          | anova           | Free (System)   
+Global          | model.tables    | Free (System)   
+Global          | type            | Local Variable  
+Global          | plot            | Free (System)   
+Global          | predict         | Free (System)   
+Global          | resid           | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,48 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | q               | Free (System)   
+Global          | capabilities    | Free (System)   
+Global          | .Platform       | Free (System)   
+Global          | OS.type         | Free (System)   
+Global          | is.null         | Free (System)   
+Global          | nsl             | Free (System)   
+Global          | example         | Free (System)   
+Global          | curlGetHeaders  | Free (System)   
+Global          | run.donttest    | Local Variable  
+Global          | tf              | Local Variable  
+Global          | tempfile        | Free (System)   
+Global          | download.file   | Free (System)   
+Global          | method          | Local Variable  
+Global          | file.size       | Free (System)   
+Global          | unlink          | Free (System)   
+Global          | str             | Free (System)   
+Global          | readLines       | Free (System)   
+Global          | zz              | Local Variable  
+Global          | url             | Free (System)   
+Global          | stopifnot       | Free (System)   
+Global          | identical       | Free (System)   
+Global          | summary         | Free (System)   
+Global          | class           | Free (System)   
+Global          | close           | Free (System)   
+Global          | head            | Free (System)   
+Global          | warn            | Local Variable  
+Global          | testDownloadFile404 | Local Variable  
+Global          | tryCatch        | Free (System)   
+Global          | suppressWarnings | Free (System)   
+error           | e               | Formal Parameter 
+error           | conditionMessage | Free (System)   
+Global          | file.exists     | Free (System)   
+Global          | test404.1       | Local Variable  
+Global          | open            | Free (System)   
+warning         | w               | Formal Parameter 
+warning         | grepl           | Free (System)   
+warning         | conditionMessage | Free ( Exists in error) 
+Global          | tail            | Free (System)   
+Global          | read.table      | Free (System)   
+Global          | options         | Free (System)   
+Global          | url.method      | Local Variable  
+Global          | test404.2       | Local Variable  
+Global          | showConnections | Free (System)   
+Global          | all             | Local Variable  
+-----------------------------------------------------

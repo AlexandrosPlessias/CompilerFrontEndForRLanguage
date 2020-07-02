@@ -1,0 +1,16 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | .Platform       | Free (System)   
+Global          | OS.type         | Free (System)   
+Global          | is.null         | Free (System)   
+Global          | nsl             | Free (System)   
+Global          | nrow            | Free (System)   
+Global          | available.packages | Free (System)   
+Global          | contrib.url     | Free (System)   
+Global          | zz              | Local Variable  
+Global          | url             | Free (System)   
+Global          | readLines       | Free (System)   
+Global          | close           | Free (System)   
+Global          | read.table      | Free (System)   
+-----------------------------------------------------

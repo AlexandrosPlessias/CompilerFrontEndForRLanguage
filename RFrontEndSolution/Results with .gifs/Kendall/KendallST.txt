@@ -1,0 +1,10 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | Alc             | Local Variable  
+Global          | c               | Free (System)   
+Global          | Tob             | Local Variable  
+Global          | cor.test        | Free (System)   
+Global          | alternative     | Local Variable  
+Global          | method          | Local Variable  
+Global          | exact           | Local Variable  
+-----------------------------------------------------

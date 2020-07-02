@@ -1,0 +1,21 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | years           | Local Variable  
+Global          | timeseries      | Local Variable  
+Global          | cumsum          | Free (System)   
+Global          | c               | Free (System)   
+Global          | runif           | Free (System)   
+Global          | hilo            | Local Variable  
+Global          | range           | Free (System)   
+Global          | plot            | Free (System)   
+Global          | type            | Local Variable  
+Global          | lwd             | Local Variable  
+Global          | polygon         | Free (System)   
+Global          | x               | Local Variable  
+Global          | y               | Local Variable  
+Global          | rev             | Free (System)   
+Global          | density         | Local Variable  
+Global          | col             | Local Variable  
+Global          | border          | Local Variable  
+Global          | lines           | Free (System)   
+-----------------------------------------------------

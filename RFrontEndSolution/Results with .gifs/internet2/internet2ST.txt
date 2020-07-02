@@ -1,0 +1,52 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | .Platform       | Free (System)   
+Global          | OS.type         | Free (System)   
+Global          | is.null         | Free (System)   
+Global          | nsl             | Free (System)   
+Global          | try             | Free (System)   
+Global          | url             | Free (System)   
+Global          | method          | Local Variable  
+Global          | stop            | Free (System)   
+Global          | capabilities    | Free (System)   
+httpget         | url             | Formal Parameter 
+httpget         | port            | Formal Parameter 
+httpget         | urlel           | Local Variable  
+httpget         | strsplit        | Free (System)   
+httpget         | stop            | Free ( Exists in Global) 
+httpget         | host            | Local Variable  
+httpget         | rurl            | Local Variable  
+httpget         | paste           | Free (System)   
+httpget         | c               | Free (System)   
+httpget         | collapse        | Local Variable  
+httpget         | a               | Local Variable  
+httpget         | make.socket     | Free (System)   
+httpget         | on.exit         | Free (System)   
+httpget         | close.socket    | Free (System)   
+httpget         | headreq         | Local Variable  
+httpget         | write.socket    | Free (System)   
+httpget         | head            | Local Variable  
+httpget         | read.socket     | Free (System)   
+httpget         | maxlen          | Local Variable  
+httpget         | b               | Local Variable  
+httpget         | length          | Free (System)   
+httpget         | grep            | Free (System)   
+httpget         | len             | Local Variable  
+httpget         | as.numeric      | Free (System)   
+httpget         | value           | Local Variable  
+httpget         | getreq          | Local Variable  
+httpget         | junk            | Local Variable  
+httpget         | nchar           | Free (System)   
+httpget         | data            | Local Variable  
+httpget         | nn              | Local Variable  
+httpget         | sep             | Local Variable  
+Global          | nzchar          | Free (System)   
+Global          | Sys.getenv      | Free (System)   
+Global          | cat             | Free (System)   
+Global          | f               | Local Variable  
+Global          | httpget         | Funtion Call    
+Global          | str             | Free (System)   
+Global          | stopifnot       | Free (System)   
+Global          | length          | Free ( Exists in httpget) 
+-----------------------------------------------------

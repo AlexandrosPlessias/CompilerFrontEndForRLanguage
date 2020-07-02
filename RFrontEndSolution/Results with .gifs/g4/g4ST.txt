@@ -1,0 +1,25 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | points          | Local Variable  
+Global          | structure       | Free (System)   
+Global          | c               | Free (System)   
+Global          | .Dim            | Local Variable  
+Global          | .Dimnames       | Local Variable  
+Global          | list            | Free (System)   
+Global          | summary         | Free (System)   
+Global          | library         | Free (System)   
+Global          | lattice         | Free (System)   
+Global          | d3              | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | contourplot     | Free (System)   
+Global          | z               | Free (System)   
+Global          | x               | Free (System)   
+Global          | y               | Free (System)   
+Global          | data            | Local Variable  
+Global          | cuts            | Local Variable  
+Global          | region          | Local Variable  
+Global          | qlogis          | Free (System)   
+Global          | pretty          | Local Variable  
+Global          | levelplot       | Free (System)   
+Global          | contour         | Local Variable  
+-----------------------------------------------------

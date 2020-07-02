@@ -1,0 +1,27 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | data            | Local Variable  
+Global          | array           | Free (System)   
+Global          | c               | Free (System)   
+Global          | dim             | Local Variable  
+Global          | dimnames        | Local Variable  
+Global          | list            | Free (System)   
+Global          | ChildAbuse      | Local Variable  
+Global          | AdultAbuse      | Local Variable  
+Global          | result          | Local Variable  
+Global          | chisq.test      | Free (System)   
+Global          | correct         | Local Variable  
+Global          | print           | Free (System)   
+Global          | observed        | Free (System)   
+Global          | expected        | Free (System)   
+Global          | cat             | Free (System)   
+Global          | fisher.test     | Free (System)   
+Global          | simulate.p      | Local Variable  
+Global          | library         | Free (System)   
+Global          | epitools        | Free (System)   
+Global          | oddsratio       | Free (System)   
+Global          | verbose         | Local Variable  
+Global          | T               | Free (System)   
+Global          | oddsratio.fisher | Free (System)   
+Global          | conf.level      | Local Variable  
+-----------------------------------------------------

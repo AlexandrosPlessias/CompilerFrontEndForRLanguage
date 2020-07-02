@@ -1,0 +1,36 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | dat             | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | attach          | Free (System)   
+Global          | Group           | Local Variable  
+Global          | factor          | Free (System)   
+Global          | means           | Local Variable  
+Global          | tapply          | Free (System)   
+Global          | Arousal         | Free (System)   
+Global          | mean            | Free (System)   
+Global          | meandiff        | Local Variable  
+Global          | stdev           | Local Variable  
+Global          | sd              | Free (System)   
+Global          | sizes           | Local Variable  
+Global          | length          | Free (System)   
+Global          | cat             | Free (System)   
+Global          | t               | Local Variable  
+Global          | t.test          | Free (System)   
+Global          | alternative     | Local Variable  
+Global          | conf.level      | Local Variable  
+Global          | print           | Free (System)   
+Global          | library         | Free (System)   
+Global          | MBESS           | Free (System)   
+Global          | ci.smd          | Free (System)   
+Global          | ncp             | Local Variable  
+Global          | statistic       | Free (System)   
+Global          | n.1             | Local Variable  
+Global          | n.2             | Local Variable  
+Global          | smd             | Local Variable  
+Global          | ci.smd.c        | Free (System)   
+Global          | n.E             | Local Variable  
+Global          | n.C             | Local Variable  
+Global          | smd.c           | Local Variable  
+-----------------------------------------------------

@@ -1,0 +1,24 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | y1              | Local Variable  
+Global          | cumsum          | Free (System)   
+Global          | rnorm           | Free (System)   
+Global          | y2              | Local Variable  
+Global          | mean            | Local Variable  
+Global          | par             | Free (System)   
+Global          | mai             | Local Variable  
+Global          | c               | Free (System)   
+Global          | plot            | Free (System)   
+Global          | type            | Local Variable  
+Global          | col             | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | new             | Local Variable  
+Global          | ann             | Local Variable  
+Global          | yaxt            | Local Variable  
+Global          | axis            | Free (System)   
+Global          | legend          | Free (System)   
+Global          | x               | Local Variable  
+Global          | bty             | Local Variable  
+Global          | lty             | Local Variable  
+-----------------------------------------------------

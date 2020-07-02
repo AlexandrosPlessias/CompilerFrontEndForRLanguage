@@ -1,0 +1,50 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | library         | Free (System)   
+Global          | metafor         | Free (System)   
+Global          | dat             | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | dat2            | Local Variable  
+Global          | as.data.frame   | Free (System)   
+Global          | na.omit         | Free (System)   
+Global          | attach          | Free (System)   
+Global          | n1              | Local Variable  
+Global          | n2              | Free (System)   
+Global          | round           | Free (System)   
+Global          | N               | Free (System)   
+Global          | d               | Local Variable  
+Global          | ES2             | Free (System)   
+Global          | vard            | Local Variable  
+Global          | SEd             | Local Variable  
+Global          | sqrt            | Free (System)   
+Global          | W               | Local Variable  
+Global          | dbar            | Local Variable  
+Global          | sum             | Free (System)   
+Global          | vdbar           | Local Variable  
+Global          | SEdbar          | Local Variable  
+Global          | CIlower         | Local Variable  
+Global          | CIupper         | Local Variable  
+Global          | cat             | Free (System)   
+Global          | Q               | Local Variable  
+Global          | C               | Local Variable  
+Global          | df              | Local Variable  
+Global          | length          | Free (System)   
+Global          | Tsqr            | Local Variable  
+Global          | contrasts       | Free (System)   
+Global          | Type            | Free (System)   
+Global          | c               | Free (System)   
+Global          | reduced.model   | Local Variable  
+Global          | rma.uni         | Free (System)   
+Global          | yi              | Local Variable  
+Global          | sei             | Local Variable  
+Global          | method          | Local Variable  
+Global          | full.model      | Local Variable  
+Global          | mods            | Local Variable  
+Global          | factor          | Free (System)   
+Global          | moddiff         | Local Variable  
+Global          | anova.rma.uni   | Free (System)   
+Global          | digits          | Local Variable  
+Global          | fit.stats.f     | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,104 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | digits          | Local Variable  
+hilbert         | n               | Formal Parameter 
+hilbert         | i               | Local Variable  
+hilbert         | outer           | Free (System)   
+Global          | Eps             | Local Variable  
+Global          | .Machine        | Free (System)   
+Global          | double.eps      | Free (System)   
+Global          | X               | Local Variable  
+Global          | hilbert         | Funtion Call    
+Global          | s               | Local Variable  
+Global          | svd             | Free (System)   
+Global          | D               | Local Variable  
+Global          | diag            | Free (System)   
+Global          | d               | Free (System)   
+Global          | stopifnot       | Free (System)   
+Global          | abs             | Free (System)   
+Global          | u               | Free (System)   
+Global          | t               | Free (System)   
+Global          | v               | Free (System)   
+Global          | cbind           | Free (System)   
+Global          | nu              | Local Variable  
+Global          | dim             | Free (System)   
+Global          | c               | Free (System)   
+Global          | nv              | Local Variable  
+Global          | Conj            | Free (System)   
+A               | x               | Formal Parameter 
+fixsign         | apply           | Free (System)   
+A               | sign            | Free (System)   
+fixsign         | Re              | Free (System)   
+fixsign         | x               | Free ( Exists in A) 
+fixsign         | A               | Funtion Call    
+eigenok         | A               | Formal Parameter 
+eigenok         | E               | Formal Parameter 
+eigenok         | Eps             | Formal Parameter 
+eigenok         | .Machine        | Free ( Exists in Global) 
+eigenok         | double.eps      | Free ( Exists in Global) 
+eigenok         | print           | Free (System)   
+eigenok         | fixsign         | Funtion Call    
+eigenok         | vectors         | Free (System)   
+eigenok         | zapsmall        | Free (System)   
+eigenok         | values          | Free (System)   
+eigenok         | V               | Local Variable  
+eigenok         | lam             | Local Variable  
+eigenok         | stopifnot       | Free ( Exists in Global) 
+eigenok         | abs             | Free ( Exists in Global) 
+eigenok         | diag            | Free ( Exists in Global) 
+eigenok         | length          | Free (System)   
+eigenok         | t               | Free ( Exists in Global) 
+Ceigenok        | A               | Formal Parameter 
+Ceigenok        | E               | Formal Parameter 
+Ceigenok        | Eps             | Formal Parameter 
+Ceigenok        | .Machine        | Free ( Exists in Global) 
+Ceigenok        | double.eps      | Free ( Exists in Global) 
+Ceigenok        | print           | Free ( Exists in eigenok) 
+Ceigenok        | fixsign         | Funtion Call    
+Ceigenok        | vectors         | Free ( Exists in eigenok) 
+Ceigenok        | signif          | Free (System)   
+Ceigenok        | values          | Free ( Exists in eigenok) 
+Ceigenok        | V               | Local Variable  
+Ceigenok        | lam             | Local Variable  
+Ceigenok        | stopifnot       | Free ( Exists in Global) 
+Ceigenok        | Mod             | Free (System)   
+Ceigenok        | diag            | Free ( Exists in Global) 
+Ceigenok        | Conj            | Free ( Exists in Global) 
+Ceigenok        | t               | Free ( Exists in Global) 
+Global          | sm              | Local Variable  
+Global          | eigenok         | Funtion Call    
+Global          | eigen           | Free (System)   
+Global          | sym             | Local Variable  
+Global          | set.seed        | Free (System)   
+Global          | matrix          | Free (System)   
+Global          | rnorm           | Free (System)   
+Global          | as.complex      | Free (System)   
+Global          | Ceigenok        | Funtion Call    
+Global          | A               | Local Variable  
+Global          | rpois           | Free (System)   
+Global          | crossprod       | Free (System)   
+Global          | tcrossprod      | Free (System)   
+Global          | solve           | Free (System)   
+Global          | qr              | Free (System)   
+Global          | determinant     | Free (System)   
+Global          | log             | Local Variable  
+Global          | rcond           | Free (System)   
+Global          | La.svd          | Free (System)   
+Global          | As              | Local Variable  
+Global          | E               | Local Variable  
+Global          | values          | Free ( Exists in eigenok) 
+Global          | vectors         | Free ( Exists in eigenok) 
+Global          | chol            | Free (System)   
+Global          | backsolve       | Free (System)   
+Global          | runif           | Free (System)   
+Global          | Q               | Local Variable  
+Global          | zapsmall        | Free ( Exists in eigenok) 
+Global          | qraux           | Free (System)   
+Global          | Mod             | Free ( Exists in Ceigenok) 
+Global          | S               | Local Variable  
+Global          | upper.tri       | Free (System)   
+Global          | det             | Free (System)   
+Global          | Ac              | Local Variable  
+Global          | as.logical      | Free (System)   
+-----------------------------------------------------

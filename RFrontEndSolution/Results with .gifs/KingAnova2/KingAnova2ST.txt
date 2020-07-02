@@ -1,0 +1,31 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | car             | Free (System)   
+Global          | data            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | attach          | Free (System)   
+Global          | kingaov         | Local Variable  
+Global          | aov             | Free (System)   
+Global          | outcome         | Free (System)   
+Global          | factor          | Free (System)   
+Global          | Group           | Free (System)   
+Global          | Interval        | Free (System)   
+Global          | Error           | Free (System)   
+Global          | subject         | Free (System)   
+Global          | print           | Free (System)   
+Global          | summary         | Free (System)   
+Global          | interaction.plot | Free (System)   
+Global          | type            | Local Variable  
+Global          | pch             | Local Variable  
+Global          | c               | Free (System)   
+Global          | legend          | Local Variable  
+Global          | col             | Local Variable  
+Global          | text.col        | Local Variable  
+Global          | lty             | Local Variable  
+Global          | merge           | Local Variable  
+Global          | bg              | Local Variable  
+Global          | detach          | Free (System)   
+Global          | datLong         | Free (System)   
+-----------------------------------------------------
