@@ -1,0 +1,43 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | dat             | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | sep             | Local Variable  
+Global          | header          | Local Variable  
+Global          | attach          | Free (System)   
+Global          | nreps           | Local Variable  
+Global          | b1              | Local Variable  
+Global          | numeric         | Free (System)   
+Global          | b2              | Local Variable  
+Global          | model1          | Local Variable  
+Global          | lm              | Free (System)   
+Global          | SATcombined     | Free (System)   
+Global          | Expend          | Free (System)   
+Global          | LogPctSAT       | Free (System)   
+Global          | b1obs           | Local Variable  
+Global          | coeff           | Free (System)   
+Global          | b2obs           | Local Variable  
+Global          | i               | Free (System)   
+Global          | sample.50       | Local Variable  
+Global          | sort            | Free (System)   
+Global          | sample          | Free (System)   
+Global          | nrow            | Free (System)   
+Global          | replace         | Local Variable  
+Global          | sampdata        | Local Variable  
+Global          | model2          | Local Variable  
+Global          | seb1            | Local Variable  
+Global          | sd              | Free (System)   
+Global          | seb2            | Local Variable  
+Global          | cat             | Free (System)   
+Global          | par             | Free (System)   
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | hist            | Free (System)   
+Global          | breaks          | Local Variable  
+Global          | main            | Local Variable  
+Global          | lower.limit     | Local Variable  
+Global          | upper.limit     | Local Variable  
+Global          | model3          | Local Variable  
+Global          | PTratio         | Free (System)   
+Global          | model4          | Local Variable  
+-----------------------------------------------------

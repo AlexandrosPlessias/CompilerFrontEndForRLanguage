@@ -1,0 +1,1356 @@
+digraph {
+
+subgraph cluster0 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_PROG";
+
+"NT_EXPR_CALL_FUNCTION_2502"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2510"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2513"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2516"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2519"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2528"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2537"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2542"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2549"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2558"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2561"
+ [fillcolor = yellow]
+"NT_EXPR_FOR_2566"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2599"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2604"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2613"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2626"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2634"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2639"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2648"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2658"
+ [fillcolor = yellow]
+}
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2502"
+subgraph cluster1 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2503"
+ [fillcolor = yellow]
+}
+subgraph cluster2 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_2506< http://www.uvm.edu/~dhowell/methods7/DataFiles/Ex7-31.dat >"
+ [fillcolor = green]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2507"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2502"->"NT_EXPR_ASSIGNMENT_OPETATORS_2503"
+subgraph cluster3 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2504< datafile >"
+ [fillcolor = green]
+}
+subgraph cluster4 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2505< read.table >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2503"->"NT_ID_2504< datafile >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2503"->"NT_ID_2505< read.table >"
+"NT_EXPR_CALL_FUNCTION_2502"->"NT_STRING_2506< http://www.uvm.edu/~dhowell/methods7/DataFiles/Ex7-31.dat >"
+"NT_EXPR_CALL_FUNCTION_2502"->"NT_EXPR_ASSIGNMENT_OPETATORS_2507"
+subgraph cluster5 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2508< header >"
+ [fillcolor = green]
+}
+subgraph cluster6 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2509< T >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2507"->"NT_ID_2508< header >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2507"->"NT_ID_2509< T >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2510"
+subgraph cluster7 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2511< head >"
+ [fillcolor = green]
+}
+subgraph cluster8 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2512< datafile >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2510"->"NT_ID_2511< head >"
+"NT_EXPR_CALL_FUNCTION_2510"->"NT_ID_2512< datafile >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2513"
+subgraph cluster9 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2514< attach >"
+ [fillcolor = green]
+}
+subgraph cluster10 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2515< datafile >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2513"->"NT_ID_2514< attach >"
+"NT_EXPR_CALL_FUNCTION_2513"->"NT_ID_2515< datafile >"
+"NT_PROG_2501"->"NT_EXPR_ASSIGNMENT_OPETATORS_2516"
+subgraph cluster11 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2517< dv >"
+ [fillcolor = green]
+}
+subgraph cluster12 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2518< Gain >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2516"->"NT_ID_2517< dv >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2516"->"NT_ID_2518< Gain >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2519"
+subgraph cluster13 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2520"
+ [fillcolor = yellow]
+}
+subgraph cluster14 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_INDEXING_BASIC_2523"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2519"->"NT_EXPR_ASSIGNMENT_OPETATORS_2520"
+subgraph cluster15 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2521< n1 >"
+ [fillcolor = green]
+}
+subgraph cluster16 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2522< length >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2520"->"NT_ID_2521< n1 >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2520"->"NT_ID_2522< length >"
+"NT_EXPR_CALL_FUNCTION_2519"->"NT_EXPR_INDEXING_BASIC_2523"
+subgraph cluster17 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2524< Group >"
+ [fillcolor = green]}
+subgraph cluster18 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_EXPR_COMPARISONS_2525"
+ [fillcolor = yellow]}
+"NT_EXPR_INDEXING_BASIC_2523"->"NT_ID_2524< Group >"
+"NT_EXPR_INDEXING_BASIC_2523"->"NT_EXPR_COMPARISONS_2525"
+subgraph cluster19 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_LEFT";
+
+"NT_ID_2526< Group >"
+ [fillcolor = green]
+}
+subgraph cluster20 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_RIGHT";
+
+"NT_INT_2527< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_COMPARISONS_2525"->"NT_ID_2526< Group >"
+"NT_EXPR_COMPARISONS_2525"->"NT_INT_2527< 1 >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2528"
+subgraph cluster21 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2529"
+ [fillcolor = yellow]
+}
+subgraph cluster22 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_INDEXING_BASIC_2532"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2528"->"NT_EXPR_ASSIGNMENT_OPETATORS_2529"
+subgraph cluster23 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2530< n2 >"
+ [fillcolor = green]
+}
+subgraph cluster24 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2531< length >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2529"->"NT_ID_2530< n2 >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2529"->"NT_ID_2531< length >"
+"NT_EXPR_CALL_FUNCTION_2528"->"NT_EXPR_INDEXING_BASIC_2532"
+subgraph cluster25 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2533< Group >"
+ [fillcolor = green]}
+subgraph cluster26 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_EXPR_COMPARISONS_2534"
+ [fillcolor = yellow]}
+"NT_EXPR_INDEXING_BASIC_2532"->"NT_ID_2533< Group >"
+"NT_EXPR_INDEXING_BASIC_2532"->"NT_EXPR_COMPARISONS_2534"
+subgraph cluster27 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_LEFT";
+
+"NT_ID_2535< Group >"
+ [fillcolor = green]
+}
+subgraph cluster28 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_RIGHT";
+
+"NT_INT_2536< 2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_COMPARISONS_2534"->"NT_ID_2535< Group >"
+"NT_EXPR_COMPARISONS_2534"->"NT_INT_2536< 2 >"
+"NT_PROG_2501"->"NT_EXPR_ASSIGNMENT_OPETATORS_2537"
+subgraph cluster29 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2538< N >"
+ [fillcolor = green]
+}
+subgraph cluster30 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2539"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2537"->"NT_ID_2538< N >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2537"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2539"
+subgraph cluster31 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_ID_2540< n1 >"
+ [fillcolor = green]
+}
+subgraph cluster32 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_ID_2541< n2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2539"->"NT_ID_2540< n1 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2539"->"NT_ID_2541< n2 >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2542"
+subgraph cluster33 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2543"
+ [fillcolor = yellow]
+}
+subgraph cluster34 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2546< dv >"
+ [fillcolor = green]
+"NT_ID_2547< Group >"
+ [fillcolor = green]
+"NT_ID_2548< median >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2542"->"NT_EXPR_ASSIGNMENT_OPETATORS_2543"
+subgraph cluster35 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2544< medians >"
+ [fillcolor = green]
+}
+subgraph cluster36 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2545< tapply >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2543"->"NT_ID_2544< medians >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2543"->"NT_ID_2545< tapply >"
+"NT_EXPR_CALL_FUNCTION_2542"->"NT_ID_2546< dv >"
+"NT_EXPR_CALL_FUNCTION_2542"->"NT_ID_2547< Group >"
+"NT_EXPR_CALL_FUNCTION_2542"->"NT_ID_2548< median >"
+"NT_PROG_2501"->"NT_EXPR_ASSIGNMENT_OPETATORS_2549"
+subgraph cluster37 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2550< obt.median.diff >"
+ [fillcolor = green]
+}
+subgraph cluster38 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2551"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2549"->"NT_ID_2550< obt.median.diff >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2549"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2551"
+subgraph cluster39 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_INDEXING_BASIC_2552"
+ [fillcolor = yellow]
+}
+subgraph cluster40 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_INDEXING_BASIC_2555"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2551"->"NT_EXPR_INDEXING_BASIC_2552"
+subgraph cluster41 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2553< medians >"
+ [fillcolor = green]}
+subgraph cluster42 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_INT_2554< 1 >"
+ [fillcolor = green]}
+"NT_EXPR_INDEXING_BASIC_2552"->"NT_ID_2553< medians >"
+"NT_EXPR_INDEXING_BASIC_2552"->"NT_INT_2554< 1 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2551"->"NT_EXPR_INDEXING_BASIC_2555"
+subgraph cluster43 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2556< medians >"
+ [fillcolor = green]}
+subgraph cluster44 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_INT_2557< 2 >"
+ [fillcolor = green]}
+"NT_EXPR_INDEXING_BASIC_2555"->"NT_ID_2556< medians >"
+"NT_EXPR_INDEXING_BASIC_2555"->"NT_INT_2557< 2 >"
+"NT_PROG_2501"->"NT_EXPR_ASSIGNMENT_OPETATORS_2558"
+subgraph cluster45 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2559< nreps >"
+ [fillcolor = green]
+}
+subgraph cluster46 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_INT_2560< 10000 >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2558"->"NT_ID_2559< nreps >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2558"->"NT_INT_2560< 10000 >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2561"
+subgraph cluster47 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2562"
+ [fillcolor = yellow]
+}
+subgraph cluster48 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2565< nreps >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2561"->"NT_EXPR_ASSIGNMENT_OPETATORS_2562"
+subgraph cluster49 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2563< sample.median.diff >"
+ [fillcolor = green]
+}
+subgraph cluster50 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2564< numeric >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2562"->"NT_ID_2563< sample.median.diff >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2562"->"NT_ID_2564< numeric >"
+"NT_EXPR_CALL_FUNCTION_2561"->"NT_ID_2565< nreps >"
+"NT_PROG_2501"->"NT_EXPR_FOR_2566"
+subgraph cluster51 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_FOR_NAME";
+
+"NT_ID_2567< i >"
+ [fillcolor = green]
+}
+subgraph cluster52 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_FOR_VECTOR";
+
+"NT_EXPR_COLON_OPERATOR_2568"
+ [fillcolor = yellow]
+}
+subgraph cluster53 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_FOR_BODY";
+
+"NT_EXPR_COMPOUND_2571"
+ [fillcolor = yellow]
+}
+"NT_EXPR_FOR_2566"->"NT_ID_2567< i >"
+"NT_EXPR_FOR_2566"->"NT_EXPR_COLON_OPERATOR_2568"
+subgraph cluster54 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COLON_OPERATOR_LEFT";
+
+"NT_INT_2569< 1 >"
+ [fillcolor = green]
+}
+subgraph cluster55 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COLON_OPERATOR_RIGHT";
+
+"NT_ID_2570< nreps >"
+ [fillcolor = green]
+}
+"NT_EXPR_COLON_OPERATOR_2568"->"NT_INT_2569< 1 >"
+"NT_EXPR_COLON_OPERATOR_2568"->"NT_ID_2570< nreps >"
+"NT_EXPR_FOR_2566"->"NT_EXPR_COMPOUND_2571"
+subgraph cluster56 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPOUND";
+
+"NT_EXPR_CALL_FUNCTION_2572"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2581"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2588"
+ [fillcolor = yellow]
+}
+"NT_EXPR_COMPOUND_2571"->"NT_EXPR_CALL_FUNCTION_2572"
+subgraph cluster57 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2573"
+ [fillcolor = yellow]
+}
+subgraph cluster58 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2576< dv >"
+ [fillcolor = green]
+"NT_ID_2577< N >"
+ [fillcolor = green]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2578"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2572"->"NT_EXPR_ASSIGNMENT_OPETATORS_2573"
+subgraph cluster59 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2574< newsample >"
+ [fillcolor = green]
+}
+subgraph cluster60 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2575< sample >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2573"->"NT_ID_2574< newsample >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2573"->"NT_ID_2575< sample >"
+"NT_EXPR_CALL_FUNCTION_2572"->"NT_ID_2576< dv >"
+"NT_EXPR_CALL_FUNCTION_2572"->"NT_ID_2577< N >"
+"NT_EXPR_CALL_FUNCTION_2572"->"NT_EXPR_ASSIGNMENT_OPETATORS_2578"
+subgraph cluster61 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2579< replace >"
+ [fillcolor = green]
+}
+subgraph cluster62 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_LITERALSPECIFIER_2580< FALSE >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2578"->"NT_ID_2579< replace >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2578"->"NT_LITERALSPECIFIER_2580< FALSE >"
+"NT_EXPR_COMPOUND_2571"->"NT_EXPR_CALL_FUNCTION_2581"
+subgraph cluster63 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2582"
+ [fillcolor = yellow]
+}
+subgraph cluster64 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2585< newsample >"
+ [fillcolor = green]
+"NT_ID_2586< Group >"
+ [fillcolor = green]
+"NT_ID_2587< median >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2581"->"NT_EXPR_ASSIGNMENT_OPETATORS_2582"
+subgraph cluster65 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2583< newmedians >"
+ [fillcolor = green]
+}
+subgraph cluster66 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2584< tapply >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2582"->"NT_ID_2583< newmedians >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2582"->"NT_ID_2584< tapply >"
+"NT_EXPR_CALL_FUNCTION_2581"->"NT_ID_2585< newsample >"
+"NT_EXPR_CALL_FUNCTION_2581"->"NT_ID_2586< Group >"
+"NT_EXPR_CALL_FUNCTION_2581"->"NT_ID_2587< median >"
+"NT_EXPR_COMPOUND_2571"->"NT_EXPR_ASSIGNMENT_OPETATORS_2588"
+subgraph cluster67 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_EXPR_INDEXING_BASIC_2589"
+ [fillcolor = yellow]
+}
+subgraph cluster68 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2592"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2588"->"NT_EXPR_INDEXING_BASIC_2589"
+subgraph cluster69 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2590< sample.median.diff >"
+ [fillcolor = green]}
+subgraph cluster70 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_ID_2591< i >"
+ [fillcolor = green]}
+"NT_EXPR_INDEXING_BASIC_2589"->"NT_ID_2590< sample.median.diff >"
+"NT_EXPR_INDEXING_BASIC_2589"->"NT_ID_2591< i >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2588"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2592"
+subgraph cluster71 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_INDEXING_BASIC_2593"
+ [fillcolor = yellow]
+}
+subgraph cluster72 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_INDEXING_BASIC_2596"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2592"->"NT_EXPR_INDEXING_BASIC_2593"
+subgraph cluster73 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2594< newmedians >"
+ [fillcolor = green]}
+subgraph cluster74 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_INT_2595< 1 >"
+ [fillcolor = green]}
+"NT_EXPR_INDEXING_BASIC_2593"->"NT_ID_2594< newmedians >"
+"NT_EXPR_INDEXING_BASIC_2593"->"NT_INT_2595< 1 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2592"->"NT_EXPR_INDEXING_BASIC_2596"
+subgraph cluster75 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2597< newmedians >"
+ [fillcolor = green]}
+subgraph cluster76 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_INT_2598< 2 >"
+ [fillcolor = green]}
+"NT_EXPR_INDEXING_BASIC_2596"->"NT_ID_2597< newmedians >"
+"NT_EXPR_INDEXING_BASIC_2596"->"NT_INT_2598< 2 >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2599"
+subgraph cluster77 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2600"
+ [fillcolor = yellow]
+}
+subgraph cluster78 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2603< obt.median.diff >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2599"->"NT_EXPR_ASSIGNMENT_OPETATORS_2600"
+subgraph cluster79 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2601< obt.median.diff >"
+ [fillcolor = green]
+}
+subgraph cluster80 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2602< abs >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2600"->"NT_ID_2601< obt.median.diff >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2600"->"NT_ID_2602< abs >"
+"NT_EXPR_CALL_FUNCTION_2599"->"NT_ID_2603< obt.median.diff >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2604"
+subgraph cluster81 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2605"
+ [fillcolor = yellow]
+}
+subgraph cluster82 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_INDEXING_BASIC_2608"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2604"->"NT_EXPR_ASSIGNMENT_OPETATORS_2605"
+subgraph cluster83 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2606< above >"
+ [fillcolor = green]
+}
+subgraph cluster84 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2607< length >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2605"->"NT_ID_2606< above >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2605"->"NT_ID_2607< length >"
+"NT_EXPR_CALL_FUNCTION_2604"->"NT_EXPR_INDEXING_BASIC_2608"
+subgraph cluster85 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2609< sample.median.diff >"
+ [fillcolor = green]}
+subgraph cluster86 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_EXPR_COMPARISONS_2610"
+ [fillcolor = yellow]}
+"NT_EXPR_INDEXING_BASIC_2608"->"NT_ID_2609< sample.median.diff >"
+"NT_EXPR_INDEXING_BASIC_2608"->"NT_EXPR_COMPARISONS_2610"
+subgraph cluster87 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_LEFT";
+
+"NT_ID_2611< sample.median.diff >"
+ [fillcolor = green]
+}
+subgraph cluster88 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_RIGHT";
+
+"NT_ID_2612< obt.median.diff >"
+ [fillcolor = green]
+}
+"NT_EXPR_COMPARISONS_2610"->"NT_ID_2611< sample.median.diff >"
+"NT_EXPR_COMPARISONS_2610"->"NT_ID_2612< obt.median.diff >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2613"
+subgraph cluster89 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2614"
+ [fillcolor = yellow]
+}
+subgraph cluster90 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_INDEXING_BASIC_2617"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2613"->"NT_EXPR_ASSIGNMENT_OPETATORS_2614"
+subgraph cluster91 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2615< below >"
+ [fillcolor = green]
+}
+subgraph cluster92 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2616< length >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2614"->"NT_ID_2615< below >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2614"->"NT_ID_2616< length >"
+"NT_EXPR_CALL_FUNCTION_2613"->"NT_EXPR_INDEXING_BASIC_2617"
+subgraph cluster93 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_BASE";
+
+"NT_ID_2618< sample.median.diff >"
+ [fillcolor = green]}
+subgraph cluster94 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_INDEXING_BASIC_OFFSET";
+
+"NT_EXPR_COMPARISONS_2619"
+ [fillcolor = yellow]}
+"NT_EXPR_INDEXING_BASIC_2617"->"NT_ID_2618< sample.median.diff >"
+"NT_EXPR_INDEXING_BASIC_2617"->"NT_EXPR_COMPARISONS_2619"
+subgraph cluster95 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_LEFT";
+
+"NT_ID_2620< sample.median.diff >"
+ [fillcolor = green]
+}
+subgraph cluster96 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPARISONS_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2621"
+ [fillcolor = yellow]
+}
+"NT_EXPR_COMPARISONS_2619"->"NT_ID_2620< sample.median.diff >"
+"NT_EXPR_COMPARISONS_2619"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2621"
+subgraph cluster97 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_EXPR_PARENTHESIS_2622"
+ [fillcolor = yellow]
+}
+subgraph cluster98 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2625< obt.median.diff >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2621"->"NT_EXPR_PARENTHESIS_2622"
+subgraph cluster99 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_PARENTHESIS";
+
+"NT_EXPR_MINUS_OR_PLUS_UNARY_2623"
+ [fillcolor = yellow]
+}
+"NT_EXPR_PARENTHESIS_2622"->"NT_EXPR_MINUS_OR_PLUS_UNARY_2623"
+subgraph cluster100 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_UNARY";
+
+"NT_INT_2624< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_UNARY_2623"->"NT_INT_2624< 1 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2621"->"NT_ID_2625< obt.median.diff >"
+"NT_PROG_2501"->"NT_EXPR_ASSIGNMENT_OPETATORS_2626"
+subgraph cluster101 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2627< pextreme >"
+ [fillcolor = green]
+}
+subgraph cluster102 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2628"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2626"->"NT_ID_2627< pextreme >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2626"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2628"
+subgraph cluster103 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_EXPR_PARENTHESIS_2629"
+ [fillcolor = yellow]
+}
+subgraph cluster104 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2633< nreps >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2628"->"NT_EXPR_PARENTHESIS_2629"
+subgraph cluster105 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_PARENTHESIS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2630"
+ [fillcolor = yellow]
+}
+"NT_EXPR_PARENTHESIS_2629"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2630"
+subgraph cluster106 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_ID_2631< above >"
+ [fillcolor = green]
+}
+subgraph cluster107 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_ID_2632< below >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2630"->"NT_ID_2631< above >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2630"->"NT_ID_2632< below >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2628"->"NT_ID_2633< nreps >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2634"
+subgraph cluster108 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2635< cat >"
+ [fillcolor = green]
+}
+subgraph cluster109 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_2636< \n\n Probability under null of more extreme median difference than obtained = >"
+ [fillcolor = green]
+"NT_ID_2637< pextreme >"
+ [fillcolor = green]
+"NT_STRING_2638< \n\n >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2634"->"NT_ID_2635< cat >"
+"NT_EXPR_CALL_FUNCTION_2634"->"NT_STRING_2636< \n\n Probability under null of more extreme median difference than obtained = >"
+"NT_EXPR_CALL_FUNCTION_2634"->"NT_ID_2637< pextreme >"
+"NT_EXPR_CALL_FUNCTION_2634"->"NT_STRING_2638< \n\n >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2639"
+subgraph cluster110 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2640< hist >"
+ [fillcolor = green]
+}
+subgraph cluster111 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2641< sample.median.diff >"
+ [fillcolor = green]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2642"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2645"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2639"->"NT_ID_2640< hist >"
+"NT_EXPR_CALL_FUNCTION_2639"->"NT_ID_2641< sample.median.diff >"
+"NT_EXPR_CALL_FUNCTION_2639"->"NT_EXPR_ASSIGNMENT_OPETATORS_2642"
+subgraph cluster112 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2643< main >"
+ [fillcolor = green]
+}
+subgraph cluster113 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_STRING_2644< Null Median Differences >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2642"->"NT_ID_2643< main >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2642"->"NT_STRING_2644< Null Median Differences >"
+"NT_EXPR_CALL_FUNCTION_2639"->"NT_EXPR_ASSIGNMENT_OPETATORS_2645"
+subgraph cluster114 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2646< breaks >"
+ [fillcolor = green]
+}
+subgraph cluster115 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_INT_2647< 25 >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2645"->"NT_ID_2646< breaks >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2645"->"NT_INT_2647< 25 >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2648"
+subgraph cluster116 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2649< text >"
+ [fillcolor = green]
+}
+subgraph cluster117 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_FLOAT_2650< 2.85 >"
+ [fillcolor = green]
+"NT_INT_2651< 1200 >"
+ [fillcolor = green]
+"NT_EXPR_CALL_FUNCTION_2652"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2648"->"NT_ID_2649< text >"
+"NT_EXPR_CALL_FUNCTION_2648"->"NT_FLOAT_2650< 2.85 >"
+"NT_EXPR_CALL_FUNCTION_2648"->"NT_INT_2651< 1200 >"
+"NT_EXPR_CALL_FUNCTION_2648"->"NT_EXPR_CALL_FUNCTION_2652"
+subgraph cluster118 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2653< paste >"
+ [fillcolor = green]
+}
+subgraph cluster119 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_2654< Obt median diff = \n >"
+ [fillcolor = green]
+"NT_ID_2655< obt.median.diff >"
+ [fillcolor = green]
+"NT_STRING_2656< \nprob. under null = \n >"
+ [fillcolor = green]
+"NT_ID_2657< pextreme >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2652"->"NT_ID_2653< paste >"
+"NT_EXPR_CALL_FUNCTION_2652"->"NT_STRING_2654< Obt median diff = \n >"
+"NT_EXPR_CALL_FUNCTION_2652"->"NT_ID_2655< obt.median.diff >"
+"NT_EXPR_CALL_FUNCTION_2652"->"NT_STRING_2656< \nprob. under null = \n >"
+"NT_EXPR_CALL_FUNCTION_2652"->"NT_ID_2657< pextreme >"
+"NT_PROG_2501"->"NT_EXPR_CALL_FUNCTION_2658"
+subgraph cluster120 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2659< print >"
+ [fillcolor = green]
+}
+subgraph cluster121 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_2660"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2658"->"NT_ID_2659< print >"
+"NT_EXPR_CALL_FUNCTION_2658"->"NT_EXPR_CALL_FUNCTION_2660"
+subgraph cluster122 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2661< t.test >"
+ [fillcolor = green]
+}
+subgraph cluster123 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_TILDE_BINARY_2662"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2660"->"NT_ID_2661< t.test >"
+"NT_EXPR_CALL_FUNCTION_2660"->"NT_EXPR_TILDE_BINARY_2662"
+subgraph cluster124 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_TILDE_BINARY_LEFT";
+
+"NT_ID_2663< dv >"
+ [fillcolor = green]
+}
+subgraph cluster125 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_TILDE_BINARY_RIGHT";
+
+"NT_ID_2664< Group >"
+ [fillcolor = green]
+}
+"NT_EXPR_TILDE_BINARY_2662"->"NT_ID_2663< dv >"
+"NT_EXPR_TILDE_BINARY_2662"->"NT_ID_2664< Group >"
+}

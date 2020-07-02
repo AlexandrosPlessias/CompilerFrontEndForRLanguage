@@ -1,0 +1,33 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | n               | Local Variable  
+Global          | nreps           | Local Variable  
+Global          | sample.mean     | Local Variable  
+Global          | numeric         | Free (System)   
+Global          | par             | Free (System)   
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | sample.normal   | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | mean            | Local Variable  
+Global          | sd              | Local Variable  
+Global          | i               | Free (System)   
+Global          | sample          | Local Variable  
+Global          | hist            | Free (System)   
+Global          | breaks          | Local Variable  
+Global          | main            | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | sample.chisq    | Local Variable  
+Global          | rchisq          | Free (System)   
+Global          | df              | Local Variable  
+Global          | sample.expon    | Local Variable  
+Global          | rexp            | Free (System)   
+Global          | rate            | Local Variable  
+Global          | means.exp       | Local Variable  
+Global          | sample.first.exp | Local Variable  
+Global          | mean.diff       | Local Variable  
+Global          | sample.first    | Local Variable  
+Global          | sample.second   | Local Variable  
+Global          | ask             | Local Variable  
+Global          | print           | Free (System)   
+-----------------------------------------------------

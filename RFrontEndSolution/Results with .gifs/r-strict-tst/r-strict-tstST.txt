@@ -1,0 +1,35 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | warn            | Local Variable  
+all.eq0         | x               | Formal Parameter 
+all.eq0         | y               | Formal Parameter 
+all.eq0         | ...             | Formal Parameter 
+all.eq0         | all.equal       | Free (System)   
+Global          | x               | Free ( Exists in all.eq0) 
+Global          | y               | Free ( Exists in all.eq0) 
+Global          | tolerance       | Local Variable  
+Global          | ...             | Free ( Exists in all.eq0) 
+Global          | set.seed        | Free (System)   
+Global          | stopifnot       | Free (System)   
+Global          | all.eq0         | Funtion Call    
+Global          | rhyper          | Free (System)   
+Global          | c               | Free (System)   
+Global          | print           | Free (System)   
+Global          | ct3             | Local Variable  
+Global          | system.time     | Free (System)   
+Global          | N               | Local Variable  
+Global          | m               | Local Variable  
+Global          | n               | Local Variable  
+Global          | k               | Local Variable  
+Global          | .Machine        | Free (System)   
+Global          | integer.max     | Free (System)   
+Global          | p               | Local Variable  
+Global          | q               | Local Variable  
+Global          | cat             | Free (System)   
+Global          | sprintf         | Free (System)   
+Global          | rH              | Local Variable  
+Global          | is.finite       | Free (System)   
+Global          | identical       | Free (System)   
+Global          | rgamma          | Free (System)   
+-----------------------------------------------------

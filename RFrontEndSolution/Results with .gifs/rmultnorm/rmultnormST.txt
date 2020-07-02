@@ -1,0 +1,15 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | MASS            | Free (System)   
+Global          | Sigma           | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | c               | Free (System)   
+Global          | nrow            | Local Variable  
+Global          | mu              | Local Variable  
+Global          | dat             | Local Variable  
+Global          | mvrnorm         | Free (System)   
+Global          | n               | Local Variable  
+Global          | empirical       | Local Variable  
+Global          | T               | Free (System)   
+-----------------------------------------------------

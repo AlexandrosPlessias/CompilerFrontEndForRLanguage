@@ -1,0 +1,28 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | nreps           | Local Variable  
+Global          | cat             | Free (System)   
+Global          | nsmall          | Local Variable  
+Global          | scan            | Free (System)   
+Global          | nmax            | Local Variable  
+Global          | nlarge          | Local Variable  
+Global          | sampdist.mean.small | Local Variable  
+Global          | numeric         | Free (System)   
+Global          | sampdist.mean.large | Local Variable  
+Global          | par             | Free (System)   
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | i               | Free (System)   
+Global          | sample          | Local Variable  
+Global          | runif           | Free (System)   
+Global          | mean            | Free (System)   
+Global          | hist            | Free (System)   
+Global          | main            | Local Variable  
+Global          | paste           | Free (System)   
+Global          | xlab            | Local Variable  
+Global          | xlim            | Local Variable  
+Global          | ylim            | Local Variable  
+Global          | breaks          | Local Variable  
+Global          | qqnorm          | Free (System)   
+Global          | qqline          | Free (System)   
+-----------------------------------------------------

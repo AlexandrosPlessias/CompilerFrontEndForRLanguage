@@ -1,0 +1,34 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | data            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | head            | Free (System)   
+Global          | Condition       | Free (System)   
+Global          | factor          | Free (System)   
+Global          | Sex             | Free (System)   
+Global          | Person          | Free (System)   
+Global          | attach          | Free (System)   
+Global          | dataLong        | Local Variable  
+Global          | reshape         | Free (System)   
+Global          | varying         | Local Variable  
+Global          | v.names         | Local Variable  
+Global          | timevar         | Local Variable  
+Global          | idvar           | Local Variable  
+Global          | ids             | Local Variable  
+Global          | direction       | Local Variable  
+Global          | detach          | Free (System)   
+Global          | Time            | Free (System)   
+Global          | tapply          | Free (System)   
+Global          | outcome         | Free (System)   
+Global          | mean            | Free (System)   
+Global          | time            | Free (System)   
+Global          | options         | Free (System)   
+Global          | contrasts       | Local Variable  
+Global          | c               | Free (System)   
+Global          | model1          | Local Variable  
+Global          | aov             | Free (System)   
+Global          | Error           | Free (System)   
+Global          | summary         | Free (System)   
+-----------------------------------------------------

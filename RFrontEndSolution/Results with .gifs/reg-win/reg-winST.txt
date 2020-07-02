@@ -1,0 +1,22 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | record          | Local Variable  
+Global          | plot            | Free (System)   
+Global          | dev.off         | Free (System)   
+Global          | gc              | Free (System)   
+Global          | bar             | Local Variable  
+Global          | winProgressBar  | Free (System)   
+Global          | min             | Local Variable  
+Global          | max             | Local Variable  
+Global          | width           | Local Variable  
+Global          | setWinProgressBar | Free (System)   
+Global          | close           | Free (System)   
+Global          | try             | Free (System)   
+Global          | x               | Local Variable  
+Global          | sprintf         | Free (System)   
+Global          | y               | Local Variable  
+Global          | c               | Free (System)   
+Global          | stopifnot       | Free (System)   
+Global          | identical       | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,1 @@
+.\Graphviz\bin\dot.exe -Tgif .\reg-tests-2.dot -o .\reg-tests-2AST.gif out of memory
