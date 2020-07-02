@@ -1,0 +1,23 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | A               | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | sep             | Local Variable  
+Global          | col.names       | Local Variable  
+Global          | c               | Free (System)   
+Global          | nrow            | Free (System)   
+Global          | summary         | Free (System)   
+Global          | year            | Free (System)   
+Global          | newcol          | Free (System)   
+Global          | my1             | Free (System)   
+Global          | my2             | Free (System)   
+Global          | newvar          | Local Variable  
+Global          | str             | Free (System)   
+Global          | library         | Free (System)   
+Global          | Hmisc           | Free (System)   
+Global          | contents        | Free (System)   
+Global          | describe        | Free (System)   
+Global          | date            | Free (System)   
+Global          | as.Date         | Free (System)   
+Global          | format          | Local Variable  
+-----------------------------------------------------

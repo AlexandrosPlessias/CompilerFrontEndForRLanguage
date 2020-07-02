@@ -1,0 +1,535 @@
+digraph {
+
+subgraph cluster0 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_PROG";
+
+"NT_EXPR_CALL_FUNCTION_34035"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_34050"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_34053"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_34058"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_34069"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_34078"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_34083"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_34086"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_34089"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_34092"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_34095"
+ [fillcolor = yellow]
+}
+"NT_PROG_34034"->"NT_EXPR_CALL_FUNCTION_34035"
+subgraph cluster1 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_34036"
+ [fillcolor = yellow]
+}
+subgraph cluster2 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_34039< x.data >"
+ [fillcolor = green]
+"NT_EXPR_ASSIGNMENT_OPETATORS_34040"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_34043"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_34035"->"NT_EXPR_ASSIGNMENT_OPETATORS_34036"
+subgraph cluster3 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_34037< A >"
+ [fillcolor = green]
+}
+subgraph cluster4 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_34038< read.table >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_34036"->"NT_ID_34037< A >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_34036"->"NT_ID_34038< read.table >"
+"NT_EXPR_CALL_FUNCTION_34035"->"NT_STRING_34039< x.data >"
+"NT_EXPR_CALL_FUNCTION_34035"->"NT_EXPR_ASSIGNMENT_OPETATORS_34040"
+subgraph cluster5 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_34041< sep >"
+ [fillcolor = green]
+}
+subgraph cluster6 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_STRING_34042< , >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_34040"->"NT_ID_34041< sep >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_34040"->"NT_STRING_34042< , >"
+"NT_EXPR_CALL_FUNCTION_34035"->"NT_EXPR_CALL_FUNCTION_34043"
+subgraph cluster7 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_34044"
+ [fillcolor = yellow]
+}
+subgraph cluster8 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_34047< year >"
+ [fillcolor = green]
+"NT_STRING_34048< my1 >"
+ [fillcolor = green]
+"NT_STRING_34049< my2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_34043"->"NT_EXPR_ASSIGNMENT_OPETATORS_34044"
+subgraph cluster9 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_34045< col.names >"
+ [fillcolor = green]
+}
+subgraph cluster10 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_34046< c >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_34044"->"NT_ID_34045< col.names >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_34044"->"NT_ID_34046< c >"
+"NT_EXPR_CALL_FUNCTION_34043"->"NT_STRING_34047< year >"
+"NT_EXPR_CALL_FUNCTION_34043"->"NT_STRING_34048< my1 >"
+"NT_EXPR_CALL_FUNCTION_34043"->"NT_STRING_34049< my2 >"
+"NT_PROG_34034"->"NT_EXPR_CALL_FUNCTION_34050"
+subgraph cluster11 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_34051< nrow >"
+ [fillcolor = green]
+}
+subgraph cluster12 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_34052< A >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_34050"->"NT_ID_34051< nrow >"
+"NT_EXPR_CALL_FUNCTION_34050"->"NT_ID_34052< A >"
+"NT_PROG_34034"->"NT_EXPR_CALL_FUNCTION_34053"
+subgraph cluster13 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_34054< summary >"
+ [fillcolor = green]
+}
+subgraph cluster14 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_DOLLAR_AT_OPERATORS_34055"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_34053"->"NT_ID_34054< summary >"
+"NT_EXPR_CALL_FUNCTION_34053"->"NT_EXPR_DOLLAR_AT_OPERATORS_34055"
+subgraph cluster15 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_BASE";
+
+"NT_ID_34056< A >"
+ [fillcolor = green]
+}
+subgraph cluster16 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_OFFSET";
+
+"NT_ID_34057< year >"
+ [fillcolor = green]
+}
+"NT_EXPR_DOLLAR_AT_OPERATORS_34055"->"NT_ID_34056< A >"
+"NT_EXPR_DOLLAR_AT_OPERATORS_34055"->"NT_ID_34057< year >"
+"NT_PROG_34034"->"NT_EXPR_ASSIGNMENT_OPETATORS_34058"
+subgraph cluster17 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_EXPR_DOLLAR_AT_OPERATORS_34059"
+ [fillcolor = yellow]
+}
+subgraph cluster18 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_34062"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_34058"->"NT_EXPR_DOLLAR_AT_OPERATORS_34059"
+subgraph cluster19 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_BASE";
+
+"NT_ID_34060< A >"
+ [fillcolor = green]
+}
+subgraph cluster20 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_OFFSET";
+
+"NT_ID_34061< newcol >"
+ [fillcolor = green]
+}
+"NT_EXPR_DOLLAR_AT_OPERATORS_34059"->"NT_ID_34060< A >"
+"NT_EXPR_DOLLAR_AT_OPERATORS_34059"->"NT_ID_34061< newcol >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_34058"->"NT_EXPR_MINUS_OR_PLUS_BINARY_34062"
+subgraph cluster21 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_DOLLAR_AT_OPERATORS_34063"
+ [fillcolor = yellow]
+}
+subgraph cluster22 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_DOLLAR_AT_OPERATORS_34066"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_34062"->"NT_EXPR_DOLLAR_AT_OPERATORS_34063"
+subgraph cluster23 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_BASE";
+
+"NT_ID_34064< A >"
+ [fillcolor = green]
+}
+subgraph cluster24 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_OFFSET";
+
+"NT_ID_34065< my1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_DOLLAR_AT_OPERATORS_34063"->"NT_ID_34064< A >"
+"NT_EXPR_DOLLAR_AT_OPERATORS_34063"->"NT_ID_34065< my1 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_34062"->"NT_EXPR_DOLLAR_AT_OPERATORS_34066"
+subgraph cluster25 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_BASE";
+
+"NT_ID_34067< A >"
+ [fillcolor = green]
+}
+subgraph cluster26 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_OFFSET";
+
+"NT_ID_34068< my2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_DOLLAR_AT_OPERATORS_34066"->"NT_ID_34067< A >"
+"NT_EXPR_DOLLAR_AT_OPERATORS_34066"->"NT_ID_34068< my2 >"
+"NT_PROG_34034"->"NT_EXPR_ASSIGNMENT_OPETATORS_34069"
+subgraph cluster27 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_34070< newvar >"
+ [fillcolor = green]
+}
+subgraph cluster28 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_34071"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_34069"->"NT_ID_34070< newvar >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_34069"->"NT_EXPR_MINUS_OR_PLUS_BINARY_34071"
+subgraph cluster29 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_DOLLAR_AT_OPERATORS_34072"
+ [fillcolor = yellow]
+}
+subgraph cluster30 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_DOLLAR_AT_OPERATORS_34075"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_34071"->"NT_EXPR_DOLLAR_AT_OPERATORS_34072"
+subgraph cluster31 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_BASE";
+
+"NT_ID_34073< A >"
+ [fillcolor = green]
+}
+subgraph cluster32 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_OFFSET";
+
+"NT_ID_34074< my1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_DOLLAR_AT_OPERATORS_34072"->"NT_ID_34073< A >"
+"NT_EXPR_DOLLAR_AT_OPERATORS_34072"->"NT_ID_34074< my1 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_34071"->"NT_EXPR_DOLLAR_AT_OPERATORS_34075"
+subgraph cluster33 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_BASE";
+
+"NT_ID_34076< A >"
+ [fillcolor = green]
+}
+subgraph cluster34 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_OFFSET";
+
+"NT_ID_34077< my2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_DOLLAR_AT_OPERATORS_34075"->"NT_ID_34076< A >"
+"NT_EXPR_DOLLAR_AT_OPERATORS_34075"->"NT_ID_34077< my2 >"
+"NT_PROG_34034"->"NT_EXPR_ASSIGNMENT_OPETATORS_34078"
+subgraph cluster35 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_EXPR_DOLLAR_AT_OPERATORS_34079"
+ [fillcolor = yellow]
+}
+subgraph cluster36 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_LITERALSPECIFIER_34082< NULL >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_34078"->"NT_EXPR_DOLLAR_AT_OPERATORS_34079"
+subgraph cluster37 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_BASE";
+
+"NT_ID_34080< A >"
+ [fillcolor = green]
+}
+subgraph cluster38 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DOLLAR_AT_OPERATORS_OFFSET";
+
+"NT_ID_34081< my1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_DOLLAR_AT_OPERATORS_34079"->"NT_ID_34080< A >"
+"NT_EXPR_DOLLAR_AT_OPERATORS_34079"->"NT_ID_34081< my1 >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_34078"->"NT_LITERALSPECIFIER_34082< NULL >"
+"NT_PROG_34034"->"NT_EXPR_CALL_FUNCTION_34083"
+subgraph cluster39 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_34084< str >"
+ [fillcolor = green]
+}
+subgraph cluster40 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_34085< A >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_34083"->"NT_ID_34084< str >"
+"NT_EXPR_CALL_FUNCTION_34083"->"NT_ID_34085< A >"
+"NT_PROG_34034"->"NT_EXPR_CALL_FUNCTION_34086"
+subgraph cluster41 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_34087< summary >"
+ [fillcolor = green]
+}
+subgraph cluster42 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_34088< A >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_34086"->"NT_ID_34087< summary >"
+"NT_EXPR_CALL_FUNCTION_34086"->"NT_ID_34088< A >"
+"NT_PROG_34034"->"NT_EXPR_CALL_FUNCTION_34089"
+subgraph cluster43 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_34090< library >"
+ [fillcolor = green]
+}
+subgraph cluster44 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_34091< Hmisc >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_34089"->"NT_ID_34090< library >"
+"NT_EXPR_CALL_FUNCTION_34089"->"NT_ID_34091< Hmisc >"
+"NT_PROG_34034"->"NT_EXPR_CALL_FUNCTION_34092"
+subgraph cluster45 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_34093< contents >"
+ [fillcolor = green]
+}
+subgraph cluster46 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_34094< A >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_34092"->"NT_ID_34093< contents >"
+"NT_EXPR_CALL_FUNCTION_34092"->"NT_ID_34094< A >"
+"NT_PROG_34034"->"NT_EXPR_CALL_FUNCTION_34095"
+subgraph cluster47 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_34096< describe >"
+ [fillcolor = green]
+}
+subgraph cluster48 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_34097< A >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_34095"->"NT_ID_34096< describe >"
+"NT_EXPR_CALL_FUNCTION_34095"->"NT_ID_34097< A >"
+}

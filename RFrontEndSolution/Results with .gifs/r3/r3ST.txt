@@ -1,0 +1,17 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | A               | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | sep             | Local Variable  
+Global          | skip            | Local Variable  
+Global          | na.strings      | Local Variable  
+Global          | c               | Free (System)   
+Global          | file            | Local Variable  
+Global          | col.names       | Local Variable  
+Global          | junk            | Free (System)   
+Global          | date            | Free (System)   
+Global          | as.Date         | Free (System)   
+Global          | paste           | Free (System)   
+Global          | as.character    | Free (System)   
+Global          | format          | Local Variable  
+-----------------------------------------------------

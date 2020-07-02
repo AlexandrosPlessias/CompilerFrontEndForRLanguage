@@ -1,0 +1,11 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | bzfile          | Free (System)   
+Global          | read.table      | Free (System)   
+Global          | gzfile          | Free (System)   
+Global          | mydata          | Local Variable  
+Global          | pipe            | Free (System)   
+Global          | url             | Free (System)   
+Global          | load            | Free (System)   
+-----------------------------------------------------

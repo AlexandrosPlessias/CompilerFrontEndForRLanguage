@@ -1,0 +1,24 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | A               | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | date            | Local Variable  
+Global          | c               | Free (System)   
+Global          | x               | Local Variable  
+Global          | runif           | Free (System)   
+Global          | y               | Local Variable  
+Global          | as.Date         | Free (System)   
+Global          | library         | Free (System)   
+Global          | zoo             | Free (System)   
+Global          | B               | Local Variable  
+Global          | z               | Local Variable  
+Global          | as.matrix       | Free (System)   
+Global          | order.by        | Local Variable  
+Global          | rm              | Free (System)   
+Global          | C               | Local Variable  
+Global          | coredata        | Free (System)   
+Global          | rownames        | Free (System)   
+Global          | as.character    | Free (System)   
+Global          | time            | Free (System)   
+Global          | str             | Free (System)   
+-----------------------------------------------------

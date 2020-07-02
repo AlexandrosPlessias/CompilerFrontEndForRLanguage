@@ -1,0 +1,23 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | B               | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | x1              | Local Variable  
+Global          | runif           | Free (System)   
+Global          | x2              | Local Variable  
+Global          | x3              | Local Variable  
+Global          | summary         | Free (System)   
+Global          | write.table     | Free (System)   
+Global          | file            | Local Variable  
+Global          | sep             | Local Variable  
+Global          | col.names       | Local Variable  
+Global          | C               | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | row.names       | Local Variable  
+Global          | save            | Free (System)   
+Global          | rm              | Free (System)   
+Global          | load            | Free (System)   
+Global          | cat             | Free (System)   
+Global          | system.time     | Free (System)   
+-----------------------------------------------------

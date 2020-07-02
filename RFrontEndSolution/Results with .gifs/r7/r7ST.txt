@@ -1,0 +1,31 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | A               | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | name            | Local Variable  
+Global          | c               | Free (System)   
+Global          | ownership       | Local Variable  
+Global          | listed.at       | Local Variable  
+Global          | is.listed       | Local Variable  
+Global          | x               | Local Variable  
+Global          | date            | Local Variable  
+Global          | as.Date         | Free (System)   
+Global          | write.table     | Free (System)   
+Global          | file            | Local Variable  
+Global          | sep             | Local Variable  
+Global          | col.names       | Local Variable  
+Global          | qmethod         | Local Variable  
+Global          | B               | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | row.names       | Local Variable  
+Global          | save            | Free (System)   
+Global          | load            | Free (System)   
+Global          | library         | Free (System)   
+Global          | StatDataML      | Free (System)   
+Global          | writeSDML       | Free (System)   
+Global          | readSDML        | Free (System)   
+Global          | foreign         | Free (System)   
+Global          | write.dta       | Free (System)   
+Global          | read.dta        | Free (System)   
+-----------------------------------------------------

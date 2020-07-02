@@ -1,0 +1,77 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+superror        | rfoo            | Formal Parameter 
+superror        | pfoo            | Formal Parameter 
+superror        | sample.size     | Formal Parameter 
+superror        | ...             | Formal Parameter 
+superror        | x               | Local Variable  
+superror        | tx              | Local Variable  
+superror        | table           | Free (System)   
+superror        | signif          | Free (System)   
+superror        | xi              | Local Variable  
+superror        | as.numeric      | Free (System)   
+superror        | names           | Free (System)   
+superror        | f               | Local Variable  
+superror        | fhat            | Local Variable  
+superror        | cumsum          | Free (System)   
+superror        | max             | Free (System)   
+superror        | abs             | Free (System)   
+pdkwbound       | n               | Formal Parameter 
+pdkwbound       | t               | Formal Parameter 
+pdkwbound       | exp             | Free (System)   
+Global          | n               | Free ( Exists in pdkwbound) 
+Global          | t               | Free ( Exists in pdkwbound) 
+qdkwbound       | n               | Formal Parameter 
+qdkwbound       | p               | Formal Parameter 
+qdkwbound       | sqrt            | Free (System)   
+Global          | log             | Free (System)   
+Global          | p               | Free ( Exists in qdkwbound) 
+dkwtest         | stub            | Formal Parameter 
+dkwtest         | ...             | Formal Parameter 
+dkwtest         | sample.size     | Formal Parameter 
+dkwtest         | pthreshold      | Formal Parameter 
+dkwtest         | print.result    | Formal Parameter 
+dkwtest         | print.detail    | Formal Parameter 
+dkwtest         | stop.on.failure | Formal Parameter 
+dkwtest         | rfoo            | Local Variable  
+dkwtest         | eval            | Free (System)   
+dkwtest         | as.name         | Free (System)   
+dkwtest         | paste           | Free (System)   
+dkwtest         | sep             | Local Variable  
+dkwtest         | pfoo            | Local Variable  
+dkwtest         | s               | Local Variable  
+dkwtest         | superror        | Funtion Call    
+dkwtest         | printargs       | Local Variable  
+dkwtest         | substitute      | Free (System)   
+dkwtest         | list            | Free (System)   
+dkwtest         | cat             | Free (System)   
+dkwtest         | deparse         | Free (System)   
+dkwtest         | signif          | Free ( Exists in superror) 
+dkwtest         | min             | Free (System)   
+dkwtest         | round           | Free (System)   
+dkwtest         | pdkwbound       | Funtion Call    
+dkwtest         | rval            | Local Variable  
+dkwtest         | qdkwbound       | Funtion Call    
+dkwtest         | c               | Free (System)   
+dkwtest         | stop            | Free (System)   
+Global          | .proctime00     | Local Variable  
+Global          | proc.time       | Free (System)   
+Global          | dkwtest         | Funtion Call    
+Global          | size            | Local Variable  
+Global          | prob            | Local Variable  
+Global          | lambda          | Local Variable  
+Global          | mean            | Local Variable  
+Global          | sd              | Local Variable  
+Global          | shape           | Local Variable  
+Global          | m               | Local Variable  
+Global          | k               | Local Variable  
+Global          | df              | Local Variable  
+Global          | location        | Local Variable  
+Global          | scale           | Local Variable  
+Global          | shape1          | Local Variable  
+Global          | shape2          | Local Variable  
+Global          | df1             | Local Variable  
+Global          | df2             | Local Variable  
+Global          | ncp             | Local Variable  
+Global          | cat             | Free ( Exists in dkwtest) 
+-----------------------------------------------------

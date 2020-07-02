@@ -1,0 +1,40 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | par             | Free (System)   
+Global          | bg              | Local Variable  
+Global          | normal          | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | chi             | Local Variable  
+Global          | rchisq          | Free (System)   
+Global          | hist            | Free (System)   
+Global          | breaks          | Local Variable  
+Global          | main            | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | qqnorm          | Free (System)   
+Global          | ylab            | Local Variable  
+Global          | qqline          | Free (System)   
+Global          | probability     | Local Variable  
+Global          | xlim            | Local Variable  
+Global          | new             | Local Variable  
+Global          | curve           | Free (System)   
+Global          | dnorm           | Free (System)   
+Global          | standard.chi    | Local Variable  
+Global          | mean            | Free (System)   
+Global          | sd              | Free (System)   
+Global          | ask             | Local Variable  
+Global          | data            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | attach          | Free (System)   
+Global          | Pctgain         | Local Variable  
+Global          | Posttest        | Free (System)   
+Global          | Pretest         | Free (System)   
+Global          | Gain            | Local Variable  
+Global          | RxTimeData      | Local Variable  
+Global          | y               | Local Variable  
+Global          | RxTime          | Free (System)   
+-----------------------------------------------------

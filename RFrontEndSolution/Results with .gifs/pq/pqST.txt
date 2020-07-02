@@ -1,0 +1,11 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | qt              | Free (System)   
+Global          | c               | Free (System)   
+Global          | pt              | Free (System)   
+Global          | qchisq          | Free (System)   
+Global          | pchisq          | Free (System)   
+Global          | lower           | Local Variable  
+Global          | F               | Free (System)   
+-----------------------------------------------------

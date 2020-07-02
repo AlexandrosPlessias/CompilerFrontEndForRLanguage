@@ -1,0 +1,14 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | gdata           | Free (System)   
+Global          | a               | Local Variable  
+Global          | read.xls        | Free (System)   
+Global          | sheet           | Local Variable  
+Global          | str             | Free (System)   
+Global          | date            | Free (System)   
+Global          | as.Date         | Free (System)   
+Global          | as.character    | Free (System)   
+Global          | X               | Free (System)   
+Global          | format          | Local Variable  
+-----------------------------------------------------
