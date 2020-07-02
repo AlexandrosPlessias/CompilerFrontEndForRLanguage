@@ -1,0 +1,17 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | keep.source     | Local Variable  
+Global          | print           | Free (System)   
+Global          | z               | Local Variable  
+Global          | c               | Free (System)   
+Global          | cat             | Free (System)   
+Global          | file            | Local Variable  
+Global          | sep             | Local Variable  
+Global          | readLines       | Free (System)   
+Global          | source          | Free (System)   
+Global          | echo            | Local Variable  
+Global          | unlink          | Free (System)   
+Global          | zz              | Local Variable  
+Global          | close           | Free (System)   
+-----------------------------------------------------

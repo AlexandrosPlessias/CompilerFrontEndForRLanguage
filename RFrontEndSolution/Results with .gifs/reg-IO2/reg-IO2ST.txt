@@ -1,0 +1,42 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | stringsAsFactors | Local Variable  
+Global          | file.create     | Free (System)   
+Global          | try             | Free (System)   
+Global          | read.table      | Free (System)   
+Global          | col.names       | Local Variable  
+Global          | LETTERS         | Free (System)   
+Global          | unlink          | Free (System)   
+Global          | cat             | Free (System)   
+Global          | file            | Local Variable  
+Global          | header          | Local Variable  
+Global          | row.names       | Local Variable  
+Global          | letters         | Free (System)   
+Global          | fill            | Local Variable  
+Global          | blank.lines.skip | Local Variable  
+Global          | sep             | Local Variable  
+Global          | res             | Local Variable  
+Global          | sapply          | Free (System)   
+Global          | typeof          | Free (System)   
+Global          | class           | Free (System)   
+Global          | res2            | Local Variable  
+Global          | colClasses      | Local Variable  
+Global          | c               | Free (System)   
+Global          | rep             | Free (System)   
+Global          | type.convert    | Free (System)   
+Global          | character       | Free (System)   
+Global          | T               | Free (System)   
+Global          | comment.char    | Local Variable  
+Global          | con             | Local Variable  
+Global          | file.path       | Free (System)   
+Global          | Sys.getenv      | Free (System)   
+Global          | encoding        | Local Variable  
+Global          | scan            | Free (System)   
+Global          | quiet           | Local Variable  
+Global          | close           | Free (System)   
+Global          | x               | Local Variable  
+Global          | writeLines      | Free (System)   
+Global          | readLines       | Free (System)   
+Global          | allowEscapes    | Local Variable  
+-----------------------------------------------------

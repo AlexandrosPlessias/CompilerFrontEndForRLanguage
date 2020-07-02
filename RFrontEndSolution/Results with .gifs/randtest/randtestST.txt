@@ -1,0 +1,20 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | n               | Local Variable  
+Global          | dim             | Free (System)   
+Global          | lab1            | Free (System)   
+Global          | na              | Local Variable  
+Global          | table           | Free (System)   
+Global          | group           | Free (System)   
+Global          | lab1bigd        | Local Variable  
+Global          | lab1bigr        | Free (System)   
+Global          | rep             | Free (System)   
+Global          | i               | Free (System)   
+Global          | s               | Local Variable  
+Global          | sample          | Free (System)   
+Global          | ma              | Local Variable  
+Global          | mean            | Free (System)   
+Global          | Y               | Free (System)   
+Global          | mb              | Local Variable  
+Global          | sort            | Free (System)   
+-----------------------------------------------------

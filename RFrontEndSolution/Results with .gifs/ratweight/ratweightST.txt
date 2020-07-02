@@ -1,0 +1,25 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | rat             | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | as.is           | Local Variable  
+Global          | amount.f        | Free (System)   
+Global          | as.factor       | Free (System)   
+Global          | amount          | Free (System)   
+Global          | type.f          | Free (System)   
+Global          | type            | Free (System)   
+Global          | rat.lm          | Local Variable  
+Global          | lm              | Free (System)   
+Global          | gain            | Free (System)   
+Global          | data            | Local Variable  
+Global          | rat.lm2         | Local Variable  
+Global          | anova           | Free (System)   
+Global          | rat.aov         | Local Variable  
+Global          | aov             | Free (System)   
+Global          | summary         | Free (System)   
+Global          | model.tables    | Free (System)   
+Global          | se              | Local Variable  
+Global          | TukeyHSD        | Free (System)   
+-----------------------------------------------------

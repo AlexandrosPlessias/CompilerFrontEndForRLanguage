@@ -1,0 +1,40 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | base.and.rec    | Local Variable  
+Global          | .packages       | Free (System)   
+Global          | all.available   | Local Variable  
+Global          | lib             | Local Variable  
+Global          | .Library        | Free (System)   
+Global          | set.seed        | Free (System)   
+Global          | options         | Free (System)   
+Global          | pager           | Local Variable  
+Global          | .Platform       | Free (System)   
+Global          | OS.type         | Free (System)   
+Global          | pdf             | Free (System)   
+Global          | encoding        | Local Variable  
+Global          | example         | Free (System)   
+Global          | SSasympOrig     | Free (System)   
+Global          | run.donttest    | Local Variable  
+Global          | SSlogis         | Free (System)   
+Global          | constrOptim     | Free (System)   
+Global          | cancor          | Free (System)   
+Global          | aov             | Free (System)   
+Global          | factanal        | Free (System)   
+Global          | family          | Free (System)   
+Global          | fft             | Free (System)   
+Global          | glm             | Free (System)   
+Global          | glm.control     | Free (System)   
+Global          | extractAIC      | Free (System)   
+Global          | glm.D93         | Free (System)   
+Global          | influence.measures | Free (System)   
+Global          | lm              | Free (System)   
+Global          | ls.diag         | Free (System)   
+Global          | model.tables    | Free (System)   
+Global          | nlminb          | Free (System)   
+Global          | optim           | Free (System)   
+Global          | prcomp          | Free (System)   
+Global          | step            | Free (System)   
+Global          | summary.manova  | Free (System)   
+Global          | uniroot         | Free (System)   
+Global          | proc.time       | Free (System)   
+-----------------------------------------------------

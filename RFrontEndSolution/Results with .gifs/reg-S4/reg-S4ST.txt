@@ -1,0 +1,434 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | useFancyQuotes  | Local Variable  
+Global          | require         | Free (System)   
+Global          | methods         | Free (System)   
+Global          | assertError     | Local Variable  
+Global          | tools           | Free (System)   
+Global          | stats4          | Free (System)   
+Global          | detach          | Free (System)   
+Global          | cc              | Local Variable  
+Global          | getClassDef     | Free (System)   
+Global          | stopifnot       | Free (System)   
+Global          | .isMethodsDispatchOn | Free (System)   
+Global          | new             | Free (System)   
+Global          | setClass        | Free (System)   
+Global          | representation  | Free (System)   
+Global          | date            | Local Variable  
+x               | x               | Formal Parameter 
+Global          | as.POSIXct      | Free (System)   
+Global          | format          | Free (System)   
+Global          | all.equal       | Free (System)   
+f               | x               | Formal Parameter 
+f               | y               | Formal Parameter 
+f               | c               | Free (System)   
+Global          | xy              | Local Variable  
+Global          | trace           | Free (System)   
+f               | signal          | Local Variable  
+Global          | quote           | Free (System)   
+c               | x               | Formal Parameter 
+Global          | exit            | Local Variable  
+Global          | print           | Local Variable  
+Global          | fxy             | Local Variable  
+Global          | identical       | Free (System)   
+Global          | untrace         | Free (System)   
+setGeneric      | object          | Formal Parameter 
+setMethod       | object          | Formal Parameter 
+c               | y               | Formal Parameter 
+c               | paste           | Free (System)   
+y               | x               | Formal Parameter 
+Global          | try             | Free (System)   
+Global          | paste           | Free ( Exists in c) 
+Global          | sig             | Local Variable  
+Global          | xyy             | Free (System)   
+Global          | removeGeneric   | Free (System)   
+Global          | a               | Local Variable  
+Global          | foo             | Local Variable  
+Global          | pi              | Free (System)   
+Global          | show            | Free (System)   
+setMethod       | cat             | Free (System)   
+setMethod       | x               | Formal Parameter 
+setMethod       | ...             | Formal Parameter 
+Global          | digits          | Local Variable  
+Global          | setClassUnion   | Free (System)   
+Global          | members         | Local Variable  
+Global          | code            | Local Variable  
+Global          | nc              | Local Variable  
+Global          | str             | Free (System)   
+Global          | library         | Free (System)   
+Global          | showMethods     | Free (System)   
+Global          | classes         | Local Variable  
+Global          | d2              | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | b               | Local Variable  
+Global          | I               | Free (System)   
+Global          | matrix          | Free (System)   
+Global          | Dim             | Local Variable  
+Global          | as.character    | Free ( Exists in wrap2) 
+signature       | ...             | Formal Parameter 
+Global          | i               | Local Variable  
+Global          | j               | Local Variable  
+drop            | x               | Formal Parameter 
+drop            | i               | Formal Parameter 
+drop            | j               | Formal Parameter 
+drop            | drop            | Formal Parameter 
+Global          | removeMethod    | Free (System)   
+drop            | new             | Free ( Exists in Global) 
+Global          | bar             | Local Variable  
+Global          | contains        | Local Variable  
+setGeneric      | arg             | Formal Parameter 
+setGeneric      | standardGeneric | Free (System)   
+Global          | object          | Local Variable  
+arg             | object          | Formal Parameter 
+arg             | arg             | Formal Parameter 
+arg             | cat             | Free ( Exists in setMethod) 
+Global          | arg             | Local Variable  
+Global          | z               | Local Variable  
+Global          | prototype       | Local Variable  
+Global          | selectSuperClasses | Free (System)   
+Global          | dropVirtual     | Local Variable  
+length          | x               | Formal Parameter 
+Global          | .selectSuperClasses | Free (System)   
+Global          | getClass        | Free (System)   
+Global          | all             | Free (System)   
+Global          | getGroupMembers | Free (System)   
+Global          | any             | Free (System)   
+logic.brob.error | nm              | Formal Parameter 
+logic.brob.error | stop            | Free (System)   
+Global          | nm              | Free ( Exists in logic.brob.error) 
+logic2          | e1              | Formal Parameter 
+logic2          | e2              | Formal Parameter 
+logic2          | logic.brob.error | Funtion Call    
+Global          | .Generic        | Free (System)   
+Global          | logic2          | Funtion Call    
+y               | y               | Formal Parameter 
+Global          | m               | Local Variable  
+Global          | cbind           | Free (System)   
+Global          | name            | Local Variable  
+Global          | f2              | Local Variable  
+Global          | .Data           | Local Variable  
+Global          | diag            | Free (System)   
+Global          | as              | Free (System)   
+Global          | isS4            | Free (System)   
+Global          | m.              | Local Variable  
+Global          | asS4            | Free (System)   
+Global          | .hasSlot        | Free (System)   
+setGeneric      | x               | Formal Parameter 
+setGeneric      | ...             | Formal Parameter 
+useAsDefault    | x               | Formal Parameter 
+useAsDefault    | ...             | Formal Parameter 
+useAsDefault    | sum             | Free (System)   
+Global          | ...             | Free ( Exists in setMethod) 
+Global          | Gfun            | Free (System)   
+x               | extrarg         | Formal Parameter 
+x               | cat             | Free ( Exists in setMethod) 
+x               | Gfun            | Free ( Exists in Global) 
+x               | unclass         | Free (System)   
+x               | callGeneric     | Free (System)   
+x               | as              | Free ( Exists in Global) 
+wrapG           | x               | Formal Parameter 
+wrapG           | a1              | Formal Parameter 
+wrapG           | a2              | Formal Parameter 
+wrapG           | myextra         | Local Variable  
+wrapG           | missing         | Free (System)   
+wrapG           | Gfun            | Free ( Exists in Global) 
+wrapG           | extrarg         | Local Variable  
+Global          | mm              | Local Variable  
+Global          | wrapG           | Funtion Call    
+Global          | extrarg         | Local Variable  
+Global          | m2              | Local Variable  
+Global          | m3              | Local Variable  
+Global          | Gf              | Free (System)   
+x               | ...             | Formal Parameter 
+x               | a1              | Formal Parameter 
+x               | sprintf         | Free (System)   
+x               | nrow            | Free (System)   
+x               | ncol            | Free (System)   
+x               | list            | Free (System)   
+wrap2           | x               | Formal Parameter 
+wrap2           | a1              | Formal Parameter 
+wrap2           | ...             | Formal Parameter 
+wrap2           | A1              | Local Variable  
+wrap2           | missing         | Free ( Exists in wrapG) 
+wrap2           | as.character    | Free (System)   
+wrap2           | Gf              | Free ( Exists in Global) 
+Global          | wrap2           | Funtion Call    
+Global          | answer.all      | Local Variable  
+Global          | x_c1            | Local Variable  
+Global          | as.integer      | Free (System)   
+Global          | as.logical      | Free (System)   
+setMethod       | pi              | Free ( Exists in Global) 
+Global          | as.complex      | Free (System)   
+setMethod       | as.raw          | Free (System)   
+Global          | as.raw          | Free ( Exists in setMethod) 
+Global          | as.numeric      | Free (System)   
+as.double       | x               | Formal Parameter 
+setMethod       | e1              | Formal Parameter 
+as.double       | ...             | Formal Parameter 
+as.double       | .Data           | Free ( Exists in Global) 
+as.double       | pi              | Free ( Exists in Global) 
+Global          | x_c2            | Local Variable  
+Global          | as.double       | Funtion Call    
+Global          | selectMethod    | Free (System)   
+Global          | xx              | Local Variable  
+setMethod       | unclass         | Free ( Exists in x) 
+Global          | match.call      | Free (System)   
+Global          | removeClass     | Free (System)   
+pfit            | data            | Formal Parameter 
+pfit            | m               | Local Variable  
+pfit            | mean            | Free (System)   
+pfit            | loglik          | Local Variable  
+pfit            | sum             | Free ( Exists in useAsDefault) 
+pfit            | dpois           | Free (System)   
+pfit            | ans             | Local Variable  
+pfit            | list            | Free ( Exists in x) 
+pfit            | par             | Local Variable  
+pfit            | class           | Free (System)   
+AIC.pfit        | object          | Formal Parameter 
+AIC.pfit        | ...             | Formal Parameter 
+AIC.pfit        | k               | Formal Parameter 
+AIC.pfit        | loglik          | Free ( Exists in pfit) 
+Global          | AIC             | Free (System)   
+Global          | pfit            | Funtion Call    
+Global          | dnames          | Local Variable  
+Global          | isVirtualClass  | Free (System)   
+Global          | slotNames       | Free (System)   
+setMethod       | name            | Formal Parameter 
+x               | format          | Free ( Exists in Global) 
+x               | match.call      | Free ( Exists in Global) 
+Global          | bla             | Local Variable  
+Global          | is              | Free (System)   
+Global          | Sys.time        | Free (System)   
+Global          | e4              | Local Variable  
+Global          | as.environment  | Free (System)   
+gg4             | g               | Formal Parameter 
+Global          | getGenerics     | Free (System)   
+Global          | unlist          | Free (System)   
+Global          | lapply          | Free (System)   
+gg4             | is.null         | Free (System)   
+Global          | getGeneric      | Free (System)   
+g               | x               | Formal Parameter 
+Global          | where           | Local Variable  
+Global          | em              | Local Variable  
+ggm             | g               | Formal Parameter 
+Global          | gms             | Local Variable  
+ggm             | is.null         | Free ( Exists in gg4) 
+Global          | ggm             | Funtion Call    
+Global          | get_S4_generics_with_methods | Free (System)   
+Global          | isGeneric       | Free (System)   
+Global          | hasMethods      | Free (System)   
+Global          | gg4             | Funtion Call    
+Global          | t.              | Local Variable  
+Global          | ts              | Free (System)   
+Global          | frequency       | Local Variable  
+Global          | start           | Local Variable  
+Global          | x               | Local Variable  
+Global          | tt              | Local Variable  
+Global          | t2              | Local Variable  
+y               | ...             | Formal Parameter 
+Global          | tt2             | Local Variable  
+Global          | dim             | Free (System)   
+setGeneric      | printit         | Formal Parameter 
+setGeneric      | name            | Formal Parameter 
+Global          | assertCondition | Free (System)   
+setMethod       | printit         | Formal Parameter 
+setMethod       | match.call      | Free ( Exists in Global) 
+Global          | c1              | Local Variable  
+Global          | c2              | Local Variable  
+Global          | s1              | Local Variable  
+Global          | getMethod       | Free (System)   
+Global          | s2              | Local Variable  
+Global          | dimnames        | Local Variable  
+Global          | list            | Free ( Exists in x) 
+Global          | nf              | Local Variable  
+Global          | n2              | Local Variable  
+Global          | n3              | Local Variable  
+Global          | ncol            | Local Variable  
+setGeneric      | deparse.level   | Formal Parameter 
+signature       | na.last         | Formal Parameter 
+signature       | decreasing      | Formal Parameter 
+signature       | standardGeneric | Free ( Exists in setGeneric) 
+Global          | rbind           | Free (System)   
+Global          | signature       | Local Variable  
+setMethod       | na.rm           | Formal Parameter 
+Global          | e1              | Local Variable  
+e2              | e1              | Formal Parameter 
+e2              | e2              | Formal Parameter 
+e2              | sapply          | Free (System)   
+Global          | e2              | Local Variable  
+setMethod       | unlist          | Free ( Exists in Global) 
+setMethod       | callNextMethod  | Free (System)   
+setMethod       | xtfrm           | Free (System)   
+Global          | class           | Free ( Exists in pfit) 
+mean.L          | x               | Formal Parameter 
+mean.L          | ...             | Formal Parameter 
+mean.L          | new             | Free ( Exists in Global) 
+Global          | mean            | Free ( Exists in pfit) 
+Global          | x2              | Local Variable  
+Global          | mx              | Local Variable  
+Global          | median          | Free (System)   
+Global          | packageSlot     | Free (System)   
+Global          | S               | Local Variable  
+Global          | ss              | Local Variable  
+Global          | ok.f            | Local Variable  
+Global          | gl              | Free (System)   
+Global          | labels          | Local Variable  
+Global          | letters         | Free (System)   
+Global          | bad.f           | Local Variable  
+Global          | structure       | Free (System)   
+Global          | rep             | Free (System)   
+Global          | each            | Local Variable  
+Global          | levels          | Local Variable  
+Global          | validObject     | Free (System)   
+Global          | id              | Local Variable  
+Global          | xtfrm           | Free ( Exists in setMethod) 
+setMethod       | .Data           | Free ( Exists in Global) 
+setMethod       | i               | Formal Parameter 
+setMethod       | j               | Formal Parameter 
+setMethod       | drop            | Formal Parameter 
+Global          | drop            | Funtion Call    
+Global          | problNames      | Local Variable  
+myTry           | expr            | Formal Parameter 
+myTry           | ...             | Formal Parameter 
+myTry           | tryCatch        | Free (System)   
+Global          | expr            | Free ( Exists in myTry) 
+error           | e               | Formal Parameter 
+tstSlotname     | nm              | Formal Parameter 
+tstSlotname     | r               | Local Variable  
+tstSlotname     | myTry           | Funtion Call    
+tstSlotname     | setClass        | Free ( Exists in Global) 
+tstSlotname     | representation  | Local Variable  
+tstSlotname     | structure       | Free ( Exists in Global) 
+tstSlotname     | list            | Free ( Exists in x) 
+tstSlotname     | .Names          | Local Variable  
+tstSlotname     | is              | Free ( Exists in Global) 
+tstSlotname     | ch              | Local Variable  
+tstSlotname     | LETTERS         | Free (System)   
+tstSlotname     | x               | Local Variable  
+tstSlotname     | do.call         | Free (System)   
+tstSlotname     | new             | Free ( Exists in Global) 
+tstSlotname     | c               | Funtion Call    
+tstSlotname     | y               | Local Variable  
+tstSlotname     | capture.output  | Free (System)   
+tstSlotname     | show            | Free ( Exists in Global) 
+tstSlotname     | slot            | Free (System)   
+tstSlotname     | stopifnot       | Free ( Exists in Global) 
+tstSlotname     | validObject     | Free ( Exists in Global) 
+tstSlotname     | identical       | Free ( Exists in Global) 
+Global          | R               | Local Variable  
+Global          | tstSlotname     | Funtion Call    
+Global          | simplify        | Local Variable  
+Global          | is.character    | Free (System)   
+Global          | sapply          | Free ( Exists in e2) 
+Global          | names           | Free (System)   
+Global          | isTRUE          | Free (System)   
+setMethod       | size            | Formal Parameter 
+setMethod       | replace         | Formal Parameter 
+setMethod       | prob            | Formal Parameter 
+Global          | sample          | Free (System)   
+Global          | set.seed        | Free (System)   
+Global          | is.function     | Free (System)   
+Global          | qqplot          | Free (System)   
+setGeneric      | y               | Formal Parameter 
+Global          | L               | Local Variable  
+Global          | A               | Free (System)   
+Global          | stop            | Free ( Exists in logic.brob.error) 
+Global          | is.null         | Free ( Exists in gg4) 
+Global          | is.integer      | Free (System)   
+Global          | aa              | Local Variable  
+setMethod       | aa              | Free ( Exists in Global) 
+length          | length          | Funtion Call    
+setMethod       | new             | Free ( Exists in Global) 
+setMethod       | is.na           | Free (System)   
+Global          | length          | Funtion Call    
+Global          | rev             | Free (System)   
+Global          | mapply          | Free (System)   
+setMethod       | strictly        | Formal Parameter 
+setMethod       | is.unsorted     | Free (System)   
+Global          | na.rm           | Local Variable  
+Global          | strictly        | Local Variable  
+Global          | is.unsorted     | Free ( Exists in setMethod) 
+Global          | text            | Local Variable  
+Global          | source          | Free (System)   
+Global          | textConnection  | Free (System)   
+Global          | keep.source     | Local Variable  
+Global          | getSrcref       | Free (System)   
+setMethod       | as.character    | Free ( Exists in Global) 
+Global          | identity        | Free (System)   
+setMethod       | callGeneric     | Free ( Exists in x) 
+Global          | fun             | Free (System)   
+Global          | do.call         | Free ( Exists in tstSlotname) 
+setMethod       | c               | Funtion Call    
+Global          | setOldClass     | Free (System)   
+Global          | c               | Funtion Call    
+Global          | n               | Local Variable  
+Global          | attributes      | Free (System)   
+Global          | message         | Free (System)   
+setMethod       | dim             | Free ( Exists in Global) 
+.Object         | .Object         | Formal Parameter 
+.Object         | y               | Formal Parameter 
+.Object         | a               | Free ( Exists in Global) 
+y               | cat             | Free ( Exists in setMethod) 
+y               | a               | Free ( Exists in Global) 
+y               | rbind           | Free ( Exists in Global) 
+Global          | mat1            | Local Variable  
+Global          | nrow            | Local Variable  
+Global          | obj1            | Local Variable  
+Global          | om1             | Local Variable  
+Global          | rbind2          | Free (System)   
+Global          | rm              | Free (System)   
+Global          | dates           | Local Variable  
+Global          | outer           | Free (System)   
+Global          | setNames        | Free (System)   
+Global          | LETTERS         | Free ( Exists in tstSlotname) 
+Global          | im              | Local Variable  
+Global          | Sys.Date        | Free (System)   
+Global          | ii              | Local Variable  
+Global          | i.i             | Local Variable  
+Global          | slots           | Local Variable  
+Global          | timeunits       | Local Variable  
+Global          | three           | Local Variable  
+Global          | m1              | Local Variable  
+Global          | colnames        | Free (System)   
+Global          | deparse.level   | Local Variable  
+Global          | M2              | Local Variable  
+Global          | t               | Free (System)   
+Global          | m12             | Free (System)   
+Global          | T               | Local Variable  
+Global          | invisible       | Free (System)   
+Global          | getClasses      | Free (System)   
+Global          | globalenv       | Free (System)   
+Global          | nn              | Local Variable  
+Global          | slot1           | Local Variable  
+Global          | slot2           | Local Variable  
+Global          | design          | Local Variable  
+Global          | D.              | Local Variable  
+Global          | C1              | Local Variable  
+Global          | y               | Funtion Call    
+Global          | C2              | Local Variable  
+Global          | formula         | Free (System)   
+Global          | N               | Local Variable  
+Global          | inherits        | Free (System)   
+Global          | is.table        | Free (System)   
+Global          | is.ordered      | Free (System)   
+Global          | obj             | Local Variable  
+Global          | cl4             | Local Variable  
+Global          | which           | Free (System)   
+Global          | search          | Free (System)   
+Global          | force           | Local Variable  
+f               | withCallingHandlers | Free (System)   
+f               | g               | Free ( Exists in gg4) 
+f               | sqrt            | Free (System)   
+warning         | w               | Formal Parameter 
+warning         | signal          | Local Variable  
+warning         | invokeRestart   | Free (System)   
+Global          | op              | Local Variable  
+Global          | options         | Free (System)   
+Global          | warn            | Local Variable  
+Global          | f               | Funtion Call    
+Global          | setGeneric      | Funtion Call    
+Global          | formals         | Free (System)   
+Global          | base            | Free (System)   
+Global          | as.vector       | Free (System)   
+-----------------------------------------------------

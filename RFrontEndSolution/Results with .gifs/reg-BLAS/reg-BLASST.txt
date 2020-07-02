@@ -1,0 +1,16 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | is.na           | Free (System)   
+Global          | x               | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | c               | Free (System)   
+Global          | y               | Local Variable  
+Global          | z               | Local Variable  
+Global          | tcrossprod      | Free (System)   
+Global          | stopifnot       | Free (System)   
+Global          | identical       | Free (System)   
+Global          | t               | Free (System)   
+Global          | is.nan          | Free (System)   
+Global          | log             | Free (System)   
+-----------------------------------------------------

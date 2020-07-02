@@ -1,0 +1,503 @@
+digraph {
+
+subgraph cluster0 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_PROG";
+
+"NT_EXPR_CALL_FUNCTION_35606"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_35618"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_35630"
+ [fillcolor = yellow]
+"NT_EXPR_PARENTHESIS_35644"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_35651"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_35661"
+ [fillcolor = yellow]
+}
+"NT_PROG_35605"->"NT_EXPR_CALL_FUNCTION_35606"
+subgraph cluster1 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35607< stopifnot >"
+ [fillcolor = green]
+}
+subgraph cluster2 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_35608"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_35613"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_35606"->"NT_ID_35607< stopifnot >"
+"NT_EXPR_CALL_FUNCTION_35606"->"NT_EXPR_CALL_FUNCTION_35608"
+subgraph cluster3 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35609< is.na >"
+ [fillcolor = green]
+}
+subgraph cluster4 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_WRAPPED_WITH_PERCENT_35610"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_35608"->"NT_ID_35609< is.na >"
+"NT_EXPR_CALL_FUNCTION_35608"->"NT_EXPR_WRAPPED_WITH_PERCENT_35610"
+subgraph cluster5 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_WRAPPED_WITH_PERCENT_LEFT";
+
+"NT_LITERALSPECIFIER_35611< NA >"
+ [fillcolor = green]
+}
+subgraph cluster6 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_WRAPPED_WITH_PERCENT_RIGHT";
+
+"NT_INT_35612< 0 >"
+ [fillcolor = green]
+}
+"NT_EXPR_WRAPPED_WITH_PERCENT_35610"->"NT_LITERALSPECIFIER_35611< NA >"
+"NT_EXPR_WRAPPED_WITH_PERCENT_35610"->"NT_INT_35612< 0 >"
+"NT_EXPR_CALL_FUNCTION_35606"->"NT_EXPR_CALL_FUNCTION_35613"
+subgraph cluster7 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35614< is.na >"
+ [fillcolor = green]
+}
+subgraph cluster8 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_WRAPPED_WITH_PERCENT_35615"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_35613"->"NT_ID_35614< is.na >"
+"NT_EXPR_CALL_FUNCTION_35613"->"NT_EXPR_WRAPPED_WITH_PERCENT_35615"
+subgraph cluster9 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_WRAPPED_WITH_PERCENT_LEFT";
+
+"NT_INT_35616< 0 >"
+ [fillcolor = green]
+}
+subgraph cluster10 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_WRAPPED_WITH_PERCENT_RIGHT";
+
+"NT_LITERALSPECIFIER_35617< NA >"
+ [fillcolor = green]
+}
+"NT_EXPR_WRAPPED_WITH_PERCENT_35615"->"NT_INT_35616< 0 >"
+"NT_EXPR_WRAPPED_WITH_PERCENT_35615"->"NT_LITERALSPECIFIER_35617< NA >"
+"NT_PROG_35605"->"NT_EXPR_CALL_FUNCTION_35618"
+subgraph cluster11 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_35619"
+ [fillcolor = yellow]
+}
+subgraph cluster12 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_35622"
+ [fillcolor = yellow]
+"NT_INT_35628< 2 >"
+ [fillcolor = green]
+"NT_INT_35629< 2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_35618"->"NT_EXPR_ASSIGNMENT_OPETATORS_35619"
+subgraph cluster13 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_35620< x >"
+ [fillcolor = green]
+}
+subgraph cluster14 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_35621< matrix >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_35619"->"NT_ID_35620< x >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_35619"->"NT_ID_35621< matrix >"
+"NT_EXPR_CALL_FUNCTION_35618"->"NT_EXPR_CALL_FUNCTION_35622"
+subgraph cluster15 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35623< c >"
+ [fillcolor = green]
+}
+subgraph cluster16 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_INT_35624< 1 >"
+ [fillcolor = green]
+"NT_INT_35625< 0 >"
+ [fillcolor = green]
+"NT_LITERALSPECIFIER_35626< NA >"
+ [fillcolor = green]
+"NT_INT_35627< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_35622"->"NT_ID_35623< c >"
+"NT_EXPR_CALL_FUNCTION_35622"->"NT_INT_35624< 1 >"
+"NT_EXPR_CALL_FUNCTION_35622"->"NT_INT_35625< 0 >"
+"NT_EXPR_CALL_FUNCTION_35622"->"NT_LITERALSPECIFIER_35626< NA >"
+"NT_EXPR_CALL_FUNCTION_35622"->"NT_INT_35627< 1 >"
+"NT_EXPR_CALL_FUNCTION_35618"->"NT_INT_35628< 2 >"
+"NT_EXPR_CALL_FUNCTION_35618"->"NT_INT_35629< 2 >"
+"NT_PROG_35605"->"NT_EXPR_CALL_FUNCTION_35630"
+subgraph cluster17 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_35631"
+ [fillcolor = yellow]
+}
+subgraph cluster18 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_35634"
+ [fillcolor = yellow]
+"NT_INT_35642< 3 >"
+ [fillcolor = green]
+"NT_INT_35643< 2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_35630"->"NT_EXPR_ASSIGNMENT_OPETATORS_35631"
+subgraph cluster19 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_35632< y >"
+ [fillcolor = green]
+}
+subgraph cluster20 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_35633< matrix >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_35631"->"NT_ID_35632< y >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_35631"->"NT_ID_35633< matrix >"
+"NT_EXPR_CALL_FUNCTION_35630"->"NT_EXPR_CALL_FUNCTION_35634"
+subgraph cluster21 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35635< c >"
+ [fillcolor = green]
+}
+subgraph cluster22 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_INT_35636< 1 >"
+ [fillcolor = green]
+"NT_INT_35637< 0 >"
+ [fillcolor = green]
+"NT_INT_35638< 0 >"
+ [fillcolor = green]
+"NT_INT_35639< 2 >"
+ [fillcolor = green]
+"NT_INT_35640< 1 >"
+ [fillcolor = green]
+"NT_INT_35641< 0 >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_35634"->"NT_ID_35635< c >"
+"NT_EXPR_CALL_FUNCTION_35634"->"NT_INT_35636< 1 >"
+"NT_EXPR_CALL_FUNCTION_35634"->"NT_INT_35637< 0 >"
+"NT_EXPR_CALL_FUNCTION_35634"->"NT_INT_35638< 0 >"
+"NT_EXPR_CALL_FUNCTION_35634"->"NT_INT_35639< 2 >"
+"NT_EXPR_CALL_FUNCTION_35634"->"NT_INT_35640< 1 >"
+"NT_EXPR_CALL_FUNCTION_35634"->"NT_INT_35641< 0 >"
+"NT_EXPR_CALL_FUNCTION_35630"->"NT_INT_35642< 3 >"
+"NT_EXPR_CALL_FUNCTION_35630"->"NT_INT_35643< 2 >"
+"NT_PROG_35605"->"NT_EXPR_PARENTHESIS_35644"
+subgraph cluster23 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_PARENTHESIS";
+
+"NT_EXPR_CALL_FUNCTION_35645"
+ [fillcolor = yellow]
+}
+"NT_EXPR_PARENTHESIS_35644"->"NT_EXPR_CALL_FUNCTION_35645"
+subgraph cluster24 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_35646"
+ [fillcolor = yellow]
+}
+subgraph cluster25 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_35649< x >"
+ [fillcolor = green]
+"NT_ID_35650< y >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_35645"->"NT_EXPR_ASSIGNMENT_OPETATORS_35646"
+subgraph cluster26 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_35647< z >"
+ [fillcolor = green]
+}
+subgraph cluster27 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_35648< tcrossprod >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_35646"->"NT_ID_35647< z >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_35646"->"NT_ID_35648< tcrossprod >"
+"NT_EXPR_CALL_FUNCTION_35645"->"NT_ID_35649< x >"
+"NT_EXPR_CALL_FUNCTION_35645"->"NT_ID_35650< y >"
+"NT_PROG_35605"->"NT_EXPR_CALL_FUNCTION_35651"
+subgraph cluster28 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35652< stopifnot >"
+ [fillcolor = green]
+}
+subgraph cluster29 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_35653"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_35651"->"NT_ID_35652< stopifnot >"
+"NT_EXPR_CALL_FUNCTION_35651"->"NT_EXPR_CALL_FUNCTION_35653"
+subgraph cluster30 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35654< identical >"
+ [fillcolor = green]
+}
+subgraph cluster31 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_35655< z >"
+ [fillcolor = green]
+"NT_EXPR_CALL_FUNCTION_35656"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_35653"->"NT_ID_35654< identical >"
+"NT_EXPR_CALL_FUNCTION_35653"->"NT_ID_35655< z >"
+"NT_EXPR_CALL_FUNCTION_35653"->"NT_EXPR_CALL_FUNCTION_35656"
+subgraph cluster32 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_WRAPPED_WITH_PERCENT_35657"
+ [fillcolor = yellow]
+}
+subgraph cluster33 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_35660< y >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_35656"->"NT_EXPR_WRAPPED_WITH_PERCENT_35657"
+subgraph cluster34 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_WRAPPED_WITH_PERCENT_LEFT";
+
+"NT_ID_35658< x >"
+ [fillcolor = green]
+}
+subgraph cluster35 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_WRAPPED_WITH_PERCENT_RIGHT";
+
+"NT_ID_35659< t >"
+ [fillcolor = green]
+}
+"NT_EXPR_WRAPPED_WITH_PERCENT_35657"->"NT_ID_35658< x >"
+"NT_EXPR_WRAPPED_WITH_PERCENT_35657"->"NT_ID_35659< t >"
+"NT_EXPR_CALL_FUNCTION_35656"->"NT_ID_35660< y >"
+"NT_PROG_35605"->"NT_EXPR_CALL_FUNCTION_35661"
+subgraph cluster36 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35662< stopifnot >"
+ [fillcolor = green]
+}
+subgraph cluster37 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_35663"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_35661"->"NT_ID_35662< stopifnot >"
+"NT_EXPR_CALL_FUNCTION_35661"->"NT_EXPR_CALL_FUNCTION_35663"
+subgraph cluster38 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35664< is.nan >"
+ [fillcolor = green]
+}
+subgraph cluster39 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_WRAPPED_WITH_PERCENT_35665"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_35663"->"NT_ID_35664< is.nan >"
+"NT_EXPR_CALL_FUNCTION_35663"->"NT_EXPR_WRAPPED_WITH_PERCENT_35665"
+subgraph cluster40 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_WRAPPED_WITH_PERCENT_LEFT";
+
+"NT_EXPR_CALL_FUNCTION_35666"
+ [fillcolor = yellow]
+}
+subgraph cluster41 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_WRAPPED_WITH_PERCENT_RIGHT";
+
+"NT_INT_35669< 0 >"
+ [fillcolor = green]
+}
+"NT_EXPR_WRAPPED_WITH_PERCENT_35665"->"NT_EXPR_CALL_FUNCTION_35666"
+subgraph cluster42 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_35667< log >"
+ [fillcolor = green]
+}
+subgraph cluster43 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_INT_35668< 0 >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_35666"->"NT_ID_35667< log >"
+"NT_EXPR_CALL_FUNCTION_35666"->"NT_INT_35668< 0 >"
+"NT_EXPR_WRAPPED_WITH_PERCENT_35665"->"NT_INT_35669< 0 >"
+}

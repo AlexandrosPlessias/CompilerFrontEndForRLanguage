@@ -1,0 +1,15 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | file            | Local Variable  
+Global          | encoding        | Local Variable  
+Global          | width           | Local Variable  
+Global          | height          | Local Variable  
+Global          | paper           | Local Variable  
+Global          | compress        | Local Variable  
+Global          | library         | Free (System)   
+Global          | graphics        | Free (System)   
+Global          | example         | Free (System)   
+Global          | text            | Free (System)   
+Global          | q               | Free (System)   
+-----------------------------------------------------
