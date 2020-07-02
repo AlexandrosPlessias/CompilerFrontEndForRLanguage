@@ -1,0 +1,16 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | error           | Local Variable  
+Global          | expression      | Free (System)   
+Global          | stop            | Free (System)   
+Global          | integer         | Free (System)   
+Global          | double          | Free (System)   
+Global          | complex         | Free (System)   
+Global          | character       | Free (System)   
+Global          | vector          | Free (System)   
+foo             | on.exit         | Free (System)   
+foo             | bar             | Funtion Call    
+foo             | foo             | Funtion Call    
+Global          | foo             | Funtion Call    
+-----------------------------------------------------

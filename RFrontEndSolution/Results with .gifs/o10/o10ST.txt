@@ -1,0 +1,15 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x               | Local Variable  
+Global          | runif           | Free (System)   
+Global          | y               | Local Variable  
+Global          | z               | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | D               | Local Variable  
+Global          | data.frame      | Free (System)   
+amodel          | modelstring     | Formal Parameter 
+amodel          | summary         | Free (System)   
+amodel          | lm              | Free (System)   
+amodel          | D               | Free ( Exists in Global) 
+Global          | amodel          | Funtion Call    
+-----------------------------------------------------

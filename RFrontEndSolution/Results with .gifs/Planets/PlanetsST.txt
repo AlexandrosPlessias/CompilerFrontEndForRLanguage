@@ -1,0 +1,33 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | Rank            | Local Variable  
+Global          | Distance        | Local Variable  
+Global          | mass            | Local Variable  
+Global          | model1          | Local Variable  
+Global          | lm              | Free (System)   
+Global          | plot            | Free (System)   
+Global          | abline          | Free (System)   
+Global          | Residuals       | Local Variable  
+Global          | residuals       | Free (System)   
+Global          | lrf             | Local Variable  
+Global          | loess           | Free (System)   
+Global          | lines           | Free (System)   
+Global          | spline          | Free (System)   
+Global          | fitted          | Free (System)   
+Global          | lnDist          | Local Variable  
+Global          | log             | Free (System)   
+Global          | model2          | Local Variable  
+Global          | resid           | Local Variable  
+Global          | model3          | Local Variable  
+Global          | resid3          | Local Variable  
+Global          | fitted.values   | Free (System)   
+Global          | pred            | Local Variable  
+Global          | coefficients    | Free (System)   
+Global          | preddist        | Local Variable  
+Global          | exp             | Free (System)   
+Global          | cat             | Free (System)   
+Global          | par             | Free (System)   
+-----------------------------------------------------

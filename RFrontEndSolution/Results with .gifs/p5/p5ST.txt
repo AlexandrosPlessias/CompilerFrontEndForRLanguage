@@ -1,0 +1,36 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | x               | Local Variable  
+Global          | sample          | Free (System)   
+Global          | replace         | Local Variable  
+Global          | education       | Local Variable  
+Global          | factor          | Free (System)   
+Global          | labels          | Local Variable  
+Global          | c               | Free (System)   
+Global          | gender          | Local Variable  
+Global          | age             | Local Variable  
+Global          | runif           | Free (System)   
+Global          | min             | Local Variable  
+Global          | max             | Local Variable  
+Global          | D               | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | rm              | Free (System)   
+Global          | print           | Free (System)   
+Global          | table           | Free (System)   
+Global          | nrow            | Free (System)   
+Global          | addmargins      | Free (System)   
+Global          | library         | Free (System)   
+Global          | xtable          | Free (System)   
+Global          | digits          | Local Variable  
+Global          | by              | Free (System)   
+Global          | mean            | Free (System)   
+Global          | sd              | Free (System)   
+Global          | summary         | Free (System)   
+Global          | a               | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | list            | Free (System)   
+Global          | rownames        | Free (System)   
+Global          | levels          | Free (System)   
+Global          | colnames        | Free (System)   
+-----------------------------------------------------

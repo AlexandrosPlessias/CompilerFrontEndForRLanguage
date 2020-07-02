@@ -1,0 +1,79 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+ols.lf1         | theta           | Formal Parameter 
+ols.lf1         | y               | Formal Parameter 
+ols.lf1         | X               | Formal Parameter 
+ols.lf1         | beta            | Local Variable  
+ols.lf1         | sigma2          | Local Variable  
+ols.lf1         | n               | Local Variable  
+ols.lf1         | e               | Local Variable  
+ols.lf1         | logl            | Local Variable  
+ols.lf1         | log             | Free (System)   
+ols.lf1         | pi              | Free (System)   
+ols.lf1         | t               | Free (System)   
+ols.gradient    | theta           | Formal Parameter 
+ols.gradient    | y               | Formal Parameter 
+ols.gradient    | X               | Formal Parameter 
+ols.gradient    | beta            | Local Variable  
+ols.gradient    | sigma2          | Local Variable  
+ols.gradient    | e               | Local Variable  
+ols.gradient    | n               | Local Variable  
+ols.gradient    | g               | Local Variable  
+ols.gradient    | numeric         | Free (System)   
+ols.gradient    | length          | Free (System)   
+ols.gradient    | t               | Free ( Exists in ols.lf1) 
+Global          | X               | Local Variable  
+Global          | runif           | Free (System)   
+Global          | theta.true      | Local Variable  
+Global          | c               | Free (System)   
+Global          | y               | Local Variable  
+Global          | sqrt            | Free (System)   
+Global          | rnorm           | Free (System)   
+Global          | d               | Local Variable  
+Global          | summary         | Free (System)   
+Global          | lm              | Free (System)   
+Global          | theta.ols       | Local Variable  
+Global          | sigma2          | Local Variable  
+Global          | sigma           | Free (System)   
+Global          | coefficients    | Free (System)   
+Global          | cat             | Free (System)   
+Global          | optim           | Free (System)   
+Global          | method          | Local Variable  
+Global          | fn              | Local Variable  
+Global          | ols.lf1         | Funtion Call    
+Global          | lower           | Local Variable  
+Global          | upper           | Local Variable  
+Global          | rep             | Free (System)   
+Global          | gr              | Local Variable  
+Global          | ols.gradient    | Funtion Call    
+Global          | p               | Local Variable  
+Global          | hessian         | Local Variable  
+Global          | inverted        | Local Variable  
+Global          | solve           | Free (System)   
+Global          | results         | Local Variable  
+Global          | cbind           | Free (System)   
+Global          | par             | Free (System)   
+Global          | diag            | Free (System)   
+Global          | colnames        | Free (System)   
+Global          | rownames        | Free (System)   
+Global          | print           | Free (System)   
+Global          | theta           | Local Variable  
+delta.values    | x               | Formal Parameter 
+Global          | seq             | Free (System)   
+Global          | logl.values     | Local Variable  
+Global          | as.numeric      | Free (System)   
+Global          | lapply          | Free (System)   
+delta.values    | ols.lf1         | Funtion Call    
+delta.values    | theta           | Free ( Exists in ols.lf1) 
+delta.values    | c               | Free ( Exists in Global) 
+delta.values    | y               | Free ( Exists in ols.lf1) 
+delta.values    | X               | Free ( Exists in ols.lf1) 
+Global          | plot            | Free (System)   
+Global          | delta.values    | Funtion Call    
+Global          | type            | Local Variable  
+Global          | lwd             | Local Variable  
+Global          | col             | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | grid            | Free (System)   
+-----------------------------------------------------

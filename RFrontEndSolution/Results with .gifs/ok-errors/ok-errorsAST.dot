@@ -1,0 +1,596 @@
+digraph {
+
+subgraph cluster0 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_PROG";
+
+"NT_EXPR_CALL_FUNCTION_25105"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_25112"
+ [fillcolor = yellow]
+"NT_EXPR_IF_STATEMENT_25115"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_25154"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_25160"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_25170"
+ [fillcolor = yellow]
+}
+"NT_PROG_25104"->"NT_EXPR_CALL_FUNCTION_25105"
+subgraph cluster1 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25106< options >"
+ [fillcolor = green]
+}
+subgraph cluster2 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_25107"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_25105"->"NT_ID_25106< options >"
+"NT_EXPR_CALL_FUNCTION_25105"->"NT_EXPR_CALL_FUNCTION_25107"
+subgraph cluster3 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_25108"
+ [fillcolor = yellow]
+}
+subgraph cluster4 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_LITERALSPECIFIER_25111< NULL >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_25107"->"NT_EXPR_ASSIGNMENT_OPETATORS_25108"
+subgraph cluster5 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_25109< error >"
+ [fillcolor = green]
+}
+subgraph cluster6 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_25110< expression >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_25108"->"NT_ID_25109< error >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_25108"->"NT_ID_25110< expression >"
+"NT_EXPR_CALL_FUNCTION_25107"->"NT_LITERALSPECIFIER_25111< NULL >"
+"NT_PROG_25104"->"NT_EXPR_CALL_FUNCTION_25112"
+subgraph cluster7 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25113< stop >"
+ [fillcolor = green]
+}
+subgraph cluster8 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_25114< test of `options(error=expression(NULL))' >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_25112"->"NT_ID_25113< stop >"
+"NT_EXPR_CALL_FUNCTION_25112"->"NT_STRING_25114< test of `options(error=expression(NULL))' >"
+"NT_PROG_25104"->"NT_EXPR_IF_STATEMENT_25115"
+subgraph cluster9 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_IF_STATEMENT_CONDITION";
+
+"NT_EXPR_COMPOUND_25116"
+ [fillcolor = yellow]
+}
+subgraph cluster10 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_IF_STATEMENT_BODY";
+
+"NT_LITERALSPECIFIER_25153< FALSE >"
+ [fillcolor = green]
+}
+"NT_EXPR_IF_STATEMENT_25115"->"NT_EXPR_COMPOUND_25116"
+subgraph cluster11 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPOUND";
+
+"NT_EXPR_CALL_FUNCTION_25117"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_25124"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_25131"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_25138"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_25145"
+ [fillcolor = yellow]
+}
+"NT_EXPR_COMPOUND_25116"->"NT_EXPR_CALL_FUNCTION_25117"
+subgraph cluster12 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25118< integer >"
+ [fillcolor = green]
+}
+subgraph cluster13 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25119"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_25117"->"NT_ID_25118< integer >"
+"NT_EXPR_CALL_FUNCTION_25117"->"NT_EXPR_MINUS_OR_PLUS_BINARY_25119"
+subgraph cluster14 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_EXPONENTIATION_BINARY_25120"
+ [fillcolor = yellow]
+}
+subgraph cluster15 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_INT_25123< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25119"->"NT_EXPR_EXPONENTIATION_BINARY_25120"
+subgraph cluster16 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_LEFT";
+
+"NT_INT_25121< 2 >"
+ [fillcolor = green]
+}
+subgraph cluster17 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_RIGHT";
+
+"NT_INT_25122< 30 >"
+ [fillcolor = green]
+}
+"NT_EXPR_EXPONENTIATION_BINARY_25120"->"NT_INT_25121< 2 >"
+"NT_EXPR_EXPONENTIATION_BINARY_25120"->"NT_INT_25122< 30 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25119"->"NT_INT_25123< 1 >"
+"NT_EXPR_COMPOUND_25116"->"NT_EXPR_CALL_FUNCTION_25124"
+subgraph cluster18 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25125< double >"
+ [fillcolor = green]
+}
+subgraph cluster19 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25126"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_25124"->"NT_ID_25125< double >"
+"NT_EXPR_CALL_FUNCTION_25124"->"NT_EXPR_MINUS_OR_PLUS_BINARY_25126"
+subgraph cluster20 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_EXPONENTIATION_BINARY_25127"
+ [fillcolor = yellow]
+}
+subgraph cluster21 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_INT_25130< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25126"->"NT_EXPR_EXPONENTIATION_BINARY_25127"
+subgraph cluster22 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_LEFT";
+
+"NT_INT_25128< 2 >"
+ [fillcolor = green]
+}
+subgraph cluster23 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_RIGHT";
+
+"NT_INT_25129< 30 >"
+ [fillcolor = green]
+}
+"NT_EXPR_EXPONENTIATION_BINARY_25127"->"NT_INT_25128< 2 >"
+"NT_EXPR_EXPONENTIATION_BINARY_25127"->"NT_INT_25129< 30 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25126"->"NT_INT_25130< 1 >"
+"NT_EXPR_COMPOUND_25116"->"NT_EXPR_CALL_FUNCTION_25131"
+subgraph cluster24 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25132< complex >"
+ [fillcolor = green]
+}
+subgraph cluster25 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25133"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_25131"->"NT_ID_25132< complex >"
+"NT_EXPR_CALL_FUNCTION_25131"->"NT_EXPR_MINUS_OR_PLUS_BINARY_25133"
+subgraph cluster26 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_EXPONENTIATION_BINARY_25134"
+ [fillcolor = yellow]
+}
+subgraph cluster27 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_INT_25137< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25133"->"NT_EXPR_EXPONENTIATION_BINARY_25134"
+subgraph cluster28 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_LEFT";
+
+"NT_INT_25135< 2 >"
+ [fillcolor = green]
+}
+subgraph cluster29 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_RIGHT";
+
+"NT_INT_25136< 30 >"
+ [fillcolor = green]
+}
+"NT_EXPR_EXPONENTIATION_BINARY_25134"->"NT_INT_25135< 2 >"
+"NT_EXPR_EXPONENTIATION_BINARY_25134"->"NT_INT_25136< 30 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25133"->"NT_INT_25137< 1 >"
+"NT_EXPR_COMPOUND_25116"->"NT_EXPR_CALL_FUNCTION_25138"
+subgraph cluster30 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25139< character >"
+ [fillcolor = green]
+}
+subgraph cluster31 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25140"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_25138"->"NT_ID_25139< character >"
+"NT_EXPR_CALL_FUNCTION_25138"->"NT_EXPR_MINUS_OR_PLUS_BINARY_25140"
+subgraph cluster32 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_EXPONENTIATION_BINARY_25141"
+ [fillcolor = yellow]
+}
+subgraph cluster33 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_INT_25144< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25140"->"NT_EXPR_EXPONENTIATION_BINARY_25141"
+subgraph cluster34 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_LEFT";
+
+"NT_INT_25142< 2 >"
+ [fillcolor = green]
+}
+subgraph cluster35 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_RIGHT";
+
+"NT_INT_25143< 30 >"
+ [fillcolor = green]
+}
+"NT_EXPR_EXPONENTIATION_BINARY_25141"->"NT_INT_25142< 2 >"
+"NT_EXPR_EXPONENTIATION_BINARY_25141"->"NT_INT_25143< 30 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25140"->"NT_INT_25144< 1 >"
+"NT_EXPR_COMPOUND_25116"->"NT_EXPR_CALL_FUNCTION_25145"
+subgraph cluster36 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25146< vector >"
+ [fillcolor = green]
+}
+subgraph cluster37 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_25147< list >"
+ [fillcolor = green]
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25148"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_25145"->"NT_ID_25146< vector >"
+"NT_EXPR_CALL_FUNCTION_25145"->"NT_STRING_25147< list >"
+"NT_EXPR_CALL_FUNCTION_25145"->"NT_EXPR_MINUS_OR_PLUS_BINARY_25148"
+subgraph cluster38 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_EXPONENTIATION_BINARY_25149"
+ [fillcolor = yellow]
+}
+subgraph cluster39 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_INT_25152< 2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25148"->"NT_EXPR_EXPONENTIATION_BINARY_25149"
+subgraph cluster40 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_LEFT";
+
+"NT_INT_25150< 2 >"
+ [fillcolor = green]
+}
+subgraph cluster41 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_RIGHT";
+
+"NT_INT_25151< 30 >"
+ [fillcolor = green]
+}
+"NT_EXPR_EXPONENTIATION_BINARY_25149"->"NT_INT_25150< 2 >"
+"NT_EXPR_EXPONENTIATION_BINARY_25149"->"NT_INT_25151< 30 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25148"->"NT_INT_25152< 2 >"
+"NT_EXPR_IF_STATEMENT_25115"->"NT_LITERALSPECIFIER_25153< FALSE >"
+"NT_PROG_25104"->"NT_EXPR_ASSIGNMENT_OPETATORS_25154"
+subgraph cluster42 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_25155< bar >"
+ [fillcolor = green]
+}
+subgraph cluster43 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_DEFINE_FUNCTION_25156"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_25154"->"NT_ID_25155< bar >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_25154"->"NT_EXPR_DEFINE_FUNCTION_25156"
+subgraph cluster44 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DEFINE_FUNCTION_BODY";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25157"
+ [fillcolor = yellow]
+}
+"NT_EXPR_DEFINE_FUNCTION_25156"->"NT_EXPR_MINUS_OR_PLUS_BINARY_25157"
+subgraph cluster45 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_INT_25158< 1 >"
+ [fillcolor = green]
+}
+subgraph cluster46 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_INT_25159< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25157"->"NT_INT_25158< 1 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_25157"->"NT_INT_25159< 1 >"
+"NT_PROG_25104"->"NT_EXPR_ASSIGNMENT_OPETATORS_25160"
+subgraph cluster47 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_25161< foo >"
+ [fillcolor = green]
+}
+subgraph cluster48 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_DEFINE_FUNCTION_25162"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_25160"->"NT_ID_25161< foo >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_25160"->"NT_EXPR_DEFINE_FUNCTION_25162"
+subgraph cluster49 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_DEFINE_FUNCTION_BODY";
+
+"NT_EXPR_COMPOUND_25163"
+ [fillcolor = yellow]
+}
+"NT_EXPR_DEFINE_FUNCTION_25162"->"NT_EXPR_COMPOUND_25163"
+subgraph cluster50 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_COMPOUND";
+
+"NT_EXPR_CALL_FUNCTION_25164"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_25168"
+ [fillcolor = yellow]
+}
+"NT_EXPR_COMPOUND_25163"->"NT_EXPR_CALL_FUNCTION_25164"
+subgraph cluster51 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25165< on.exit >"
+ [fillcolor = green]
+}
+subgraph cluster52 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_25166"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_25164"->"NT_ID_25165< on.exit >"
+"NT_EXPR_CALL_FUNCTION_25164"->"NT_EXPR_CALL_FUNCTION_25166"
+subgraph cluster53 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25167< bar >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_25166"->"NT_ID_25167< bar >"
+"NT_EXPR_COMPOUND_25163"->"NT_EXPR_CALL_FUNCTION_25168"
+subgraph cluster54 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25169< foo >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_25168"->"NT_ID_25169< foo >"
+"NT_PROG_25104"->"NT_EXPR_CALL_FUNCTION_25170"
+subgraph cluster55 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_25171< foo >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_25170"->"NT_ID_25171< foo >"
+}

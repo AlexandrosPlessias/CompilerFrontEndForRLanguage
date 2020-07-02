@@ -1,0 +1,50 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+two.cdfs.plot   | x1              | Formal Parameter 
+two.cdfs.plot   | x2              | Formal Parameter 
+two.cdfs.plot   | legendstrings   | Formal Parameter 
+two.cdfs.plot   | xlab            | Formal Parameter 
+two.cdfs.plot   | log             | Formal Parameter 
+two.cdfs.plot   | ...             | Formal Parameter 
+two.cdfs.plot   | stopifnot       | Free (System)   
+two.cdfs.plot   | length          | Free (System)   
+two.cdfs.plot   | hilo            | Local Variable  
+two.cdfs.plot   | range           | Free (System)   
+two.cdfs.plot   | c               | Free (System)   
+two.cdfs.plot   | par             | Free (System)   
+two.cdfs.plot   | mai             | Local Variable  
+two.cdfs.plot   | plot            | Free (System)   
+two.cdfs.plot   | ecdf            | Free (System)   
+two.cdfs.plot   | xlim            | Local Variable  
+two.cdfs.plot   | verticals       | Local Variable  
+two.cdfs.plot   | cex             | Local Variable  
+two.cdfs.plot   | ylab            | Local Variable  
+two.cdfs.plot   | main            | Local Variable  
+two.cdfs.plot   | grid            | Free (System)   
+two.cdfs.plot   | add             | Local Variable  
+two.cdfs.plot   | lwd             | Local Variable  
+two.cdfs.plot   | legend          | Free (System)   
+two.cdfs.plot   | x               | Local Variable  
+two.cdfs.plot   | lty             | Local Variable  
+two.cdfs.plot   | bty             | Local Variable  
+two.cdfs.plot   | k               | Local Variable  
+two.cdfs.plot   | ks.test         | Free (System)   
+two.cdfs.plot   | text            | Free (System)   
+two.cdfs.plot   | y               | Local Variable  
+two.cdfs.plot   | pos             | Local Variable  
+two.cdfs.plot   | labels          | Local Variable  
+two.cdfs.plot   | paste           | Free (System)   
+two.cdfs.plot   | sprintf         | Free (System)   
+two.cdfs.plot   | statistic       | Free (System)   
+two.cdfs.plot   | p.value         | Free (System)   
+Global          | x1              | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | mean            | Local Variable  
+Global          | sd              | Local Variable  
+Global          | x2              | Local Variable  
+Global          | two.cdfs.plot   | Funtion Call    
+Global          | c               | Free ( Exists in two.cdfs.plot) 
+Global          | xlab            | Local Variable  
+Global          | log             | Local Variable  
+Global          | alternative     | Local Variable  
+-----------------------------------------------------

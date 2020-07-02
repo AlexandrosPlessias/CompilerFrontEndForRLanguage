@@ -1,0 +1,19 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | boot            | Free (System)   
+samplemedian    | x               | Formal Parameter 
+samplemedian    | d               | Formal Parameter 
+Global          | data            | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | b               | Local Variable  
+Global          | samplemedian    | Funtion Call    
+Global          | R               | Local Variable  
+Global          | cat             | Free (System)   
+Global          | sd              | Free (System)   
+Global          | t               | Free (System)   
+Global          | plot            | Free (System)   
+Global          | boot.ci         | Free (System)   
+Global          | conf            | Local Variable  
+Global          | type            | Local Variable  
+-----------------------------------------------------

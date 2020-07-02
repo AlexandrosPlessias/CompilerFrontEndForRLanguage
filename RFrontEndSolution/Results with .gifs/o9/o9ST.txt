@@ -1,0 +1,60 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x               | Local Variable  
+Global          | seq             | Free (System)   
+Global          | pi              | Free (System)   
+Global          | length.out      | Local Variable  
+Global          | set.seed        | Free (System)   
+Global          | y               | Local Variable  
+Global          | sin             | Free (System)   
+Global          | rnorm           | Free (System)   
+basicplot       | x               | Formal Parameter 
+basicplot       | y               | Formal Parameter 
+basicplot       | minx            | Formal Parameter 
+basicplot       | maxx            | Formal Parameter 
+basicplot       | title           | Formal Parameter 
+basicplot       | pi              | Free ( Exists in Global) 
+basicplot       | plot            | Free (System)   
+basicplot       | xlim            | Local Variable  
+basicplot       | c               | Free (System)   
+basicplot       | ylim            | Local Variable  
+basicplot       | main            | Local Variable  
+basicplot       | lines           | Free (System)   
+basicplot       | sin             | Free ( Exists in Global) 
+basicplot       | col             | Local Variable  
+basicplot       | lty             | Local Variable  
+basicplot       | lwd             | Local Variable  
+basicplot       | abline          | Free (System)   
+basicplot       | h               | Local Variable  
+basicplot       | v               | Local Variable  
+Global          | x.outsample     | Local Variable  
+Global          | x2              | Local Variable  
+Global          | x3              | Local Variable  
+Global          | x4              | Local Variable  
+Global          | cor             | Free (System)   
+Global          | cbind           | Free (System)   
+Global          | m               | Local Variable  
+Global          | poly            | Free (System)   
+Global          | all.equal       | Free (System)   
+Global          | diag            | Free (System)   
+Global          | par             | Free (System)   
+Global          | mfrow           | Local Variable  
+Global          | c               | Free ( Exists in basicplot) 
+Global          | p               | Local Variable  
+Global          | lm              | Free (System)   
+Global          | I               | Free (System)   
+Global          | summary         | Free (System)   
+Global          | basicplot       | Funtion Call    
+Global          | title           | Local Variable  
+Global          | lines           | Free ( Exists in basicplot) 
+Global          | fitted          | Free (System)   
+Global          | col             | Local Variable  
+Global          | lwd             | Local Variable  
+Global          | predictions.p   | Local Variable  
+Global          | predict         | Free (System)   
+Global          | list            | Free (System)   
+Global          | type            | Local Variable  
+Global          | lty             | Local Variable  
+Global          | d               | Local Variable  
+Global          | predictions.op  | Local Variable  
+-----------------------------------------------------

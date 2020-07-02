@@ -1,0 +1,38 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | car             | Free (System)   
+Global          | data            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | datLong         | Local Variable  
+Global          | reshape         | Free (System)   
+Global          | varying         | Local Variable  
+Global          | v.names         | Local Variable  
+Global          | timevar         | Local Variable  
+Global          | idvar           | Local Variable  
+Global          | ids             | Local Variable  
+Global          | direction       | Local Variable  
+Global          | attach          | Free (System)   
+Global          | time            | Local Variable  
+Global          | factor          | Free (System)   
+Global          | Subject         | Local Variable  
+Global          | options         | Free (System)   
+Global          | contrasts       | Local Variable  
+Global          | c               | Free (System)   
+Global          | modelAOV        | Local Variable  
+Global          | aov             | Free (System)   
+Global          | outcome         | Free (System)   
+Global          | Error           | Free (System)   
+Global          | print           | Free (System)   
+Global          | summary         | Free (System)   
+Global          | plot            | Free (System)   
+Global          | pch             | Local Variable  
+Global          | col             | Local Variable  
+Global          | lines           | Free (System)   
+Global          | gmeans          | Free (System)   
+Global          | legend          | Free (System)   
+Global          | text.col        | Local Variable  
+Global          | merge           | Local Variable  
+Global          | bg              | Local Variable  
+-----------------------------------------------------

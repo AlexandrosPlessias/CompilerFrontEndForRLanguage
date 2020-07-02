@@ -1,0 +1,56 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | file            | Local Variable  
+Global          | summary         | Free (System)   
+Global          | firms           | Free (System)   
+Global          | plot            | Free (System)   
+Global          | density         | Free (System)   
+Global          | log             | Free (System)   
+Global          | mktcap          | Free (System)   
+Global          | spread          | Free (System)   
+Global          | type            | Local Variable  
+Global          | cex             | Local Variable  
+Global          | col             | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | m               | Local Variable  
+Global          | lm              | Free (System)   
+Global          | library         | Free (System)   
+Global          | gtools          | Free (System)   
+Global          | gdata           | Free (System)   
+size.category   | piece           | Formal Parameter 
+Global          | quantcut        | Free (System)   
+Global          | q               | Local Variable  
+Global          | seq             | Free (System)   
+Global          | labels          | Local Variable  
+Global          | F               | Free (System)   
+Global          | table           | Free (System)   
+Global          | means           | Local Variable  
+Global          | aggregate       | Free (System)   
+Global          | list            | Free (System)   
+Global          | mean            | Free (System)   
+Global          | print           | Free (System)   
+Global          | data.frame      | Free (System)   
+Global          | wtd.means       | Local Variable  
+Global          | by              | Free (System)   
+size.category   | sum             | Free (System)   
+size.category   | mktcap          | Free ( Exists in Global) 
+size.category   | spread          | Free ( Exists in Global) 
+Global          | lines           | Free (System)   
+Global          | lwd             | Local Variable  
+Global          | pch             | Local Variable  
+Global          | legend          | Free (System)   
+Global          | x               | Local Variable  
+Global          | y               | Local Variable  
+Global          | bty             | Local Variable  
+Global          | c               | Free (System)   
+Global          | lty             | Local Variable  
+Global          | size.category   | Funtion Call    
+Global          | sd              | Free (System)   
+Global          | size.quartiles  | Local Variable  
+Global          | spread.quartiles | Local Variable  
+Global          | nrow            | Free (System)   
+Global          | aggregate.table | Free (System)   
+Global          | nobs            | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,14 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | c               | Free (System)   
+Global          | pnorm           | Free (System)   
+Global          | qnorm           | Free (System)   
+Global          | summary         | Free (System)   
+Global          | rnorm           | Free (System)   
+Global          | dchisq          | Free (System)   
+Global          | df              | Local Variable  
+Global          | pchisq          | Free (System)   
+Global          | qchisq          | Free (System)   
+Global          | rchisq          | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,20 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | r               | Local Variable  
+Global          | c               | Free (System)   
+Global          | acf             | Free (System)   
+Global          | plot            | Local Variable  
+Global          | set.seed        | Local Variable  
+Global          | simulated       | Local Variable  
+Global          | replicate       | Free (System)   
+Global          | sample          | Free (System)   
+Global          | replace         | Local Variable  
+Global          | quantile        | Free (System)   
+Global          | probs           | Local Variable  
+Global          | density         | Free (System)   
+Global          | col             | Local Variable  
+Global          | abline          | Free (System)   
+Global          | v               | Local Variable  
+Global          | lwd             | Local Variable  
+Global          | lty             | Local Variable  
+-----------------------------------------------------

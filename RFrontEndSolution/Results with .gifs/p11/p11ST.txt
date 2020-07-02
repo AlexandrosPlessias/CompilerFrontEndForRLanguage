@@ -1,0 +1,47 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+dgp             | N               | Formal Parameter 
+dgp             | mu              | Formal Parameter 
+dgp             | runif           | Free (System)   
+one.test        | N               | Formal Parameter 
+one.test        | truemu          | Formal Parameter 
+one.test        | x               | Local Variable  
+one.test        | dgp             | Funtion Call    
+one.test        | muhat           | Local Variable  
+one.test        | mean            | Free (System)   
+one.test        | s               | Local Variable  
+one.test        | sd              | Free (System)   
+one.test        | sqrt            | Free (System)   
+one.test        | threshold       | Local Variable  
+experiment      | Nexperiments    | Formal Parameter 
+experiment      | N               | Formal Parameter 
+experiment      | truemu          | Formal Parameter 
+experiment      | sum             | Free (System)   
+experiment      | replicate       | Free (System)   
+experiment      | one.test        | Funtion Call    
+Global          | experiment      | Funtion Call    
+Global          | muvalues        | Local Variable  
+Global          | seq             | Free (System)   
+Global          | results         | Local Variable  
+Global          | truth           | Free (System)   
+Global          | c               | Free (System)   
+Global          | par             | Free (System)   
+Global          | mai             | Local Variable  
+Global          | plot            | Free (System)   
+Global          | type            | Local Variable  
+Global          | lwd             | Local Variable  
+Global          | ylim            | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | abline          | Free (System)   
+Global          | h               | Local Variable  
+Global          | lty             | Local Variable  
+Global          | lines           | Free (System)   
+Global          | col             | Local Variable  
+Global          | legend          | Free (System)   
+Global          | x               | Local Variable  
+Global          | y               | Local Variable  
+Global          | cex             | Local Variable  
+Global          | bty             | Local Variable  
+-----------------------------------------------------

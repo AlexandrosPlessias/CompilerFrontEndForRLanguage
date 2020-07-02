@@ -1,0 +1,41 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | zoo             | Free (System)   
+Global          | p               | Local Variable  
+Global          | structure       | Free (System)   
+Global          | c               | Free (System)   
+Global          | index           | Local Variable  
+Global          | class           | Local Variable  
+Global          | frequency       | Local Variable  
+Global          | r               | Local Variable  
+Global          | diff            | Free (System)   
+Global          | log             | Free (System)   
+Global          | head            | Free (System)   
+Global          | summary         | Free (System)   
+Global          | sd              | Free (System)   
+Global          | vol             | Local Variable  
+Global          | sqrt            | Free (System)   
+Global          | rollapply       | Free (System)   
+Global          | align           | Local Variable  
+Global          | plot            | Free (System)   
+Global          | type            | Local Variable  
+Global          | ylim            | Local Variable  
+Global          | max             | Free (System)   
+Global          | na.rm           | Local Variable  
+Global          | lwd             | Local Variable  
+Global          | col             | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | paste           | Free (System)   
+Global          | grid            | Free (System)   
+Global          | legend          | Free (System)   
+Global          | x               | Local Variable  
+Global          | bty             | Local Variable  
+Global          | cex             | Local Variable  
+Global          | par             | Free (System)   
+Global          | new             | Local Variable  
+Global          | xaxt            | Local Variable  
+Global          | yaxt            | Local Variable  
+Global          | axis            | Free (System)   
+-----------------------------------------------------
