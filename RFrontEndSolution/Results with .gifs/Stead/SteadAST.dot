@@ -1,0 +1,1679 @@
+digraph {
+
+subgraph cluster0 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_PROG";
+
+"NT_EXPR_CALL_FUNCTION_2712"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2721"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2724"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2735"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2740"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2757"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2762"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2771"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2780"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2785"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2798"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2807"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2816"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2825"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2830"
+ [fillcolor = yellow]
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2837"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2859"
+ [fillcolor = yellow]
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2874"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2881"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2889"
+ [fillcolor = yellow]
+"NT_EXPR_CALL_FUNCTION_2893"
+ [fillcolor = yellow]
+}
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2712"
+subgraph cluster1 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2713"
+ [fillcolor = yellow]
+}
+subgraph cluster2 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_PARENTHESIS_2716"
+ [fillcolor = yellow]
+"NT_EXPR_ASSIGNMENT_OPETATORS_2718"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2712"->"NT_EXPR_ASSIGNMENT_OPETATORS_2713"
+subgraph cluster3 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2714< dat >"
+ [fillcolor = green]
+}
+subgraph cluster4 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2715< read.table >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2713"->"NT_ID_2714< dat >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2713"->"NT_ID_2715< read.table >"
+"NT_EXPR_CALL_FUNCTION_2712"->"NT_EXPR_PARENTHESIS_2716"
+subgraph cluster5 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_PARENTHESIS";
+
+"NT_STRING_2717< http://www.uvm.edu/~dhowell/methods8/DataFiles/SmokingGum.dat >"
+ [fillcolor = green]
+}
+"NT_EXPR_PARENTHESIS_2716"->"NT_STRING_2717< http://www.uvm.edu/~dhowell/methods8/DataFiles/SmokingGum.dat >"
+"NT_EXPR_CALL_FUNCTION_2712"->"NT_EXPR_ASSIGNMENT_OPETATORS_2718"
+subgraph cluster6 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2719< header >"
+ [fillcolor = green]
+}
+subgraph cluster7 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_LITERALSPECIFIER_2720< TRUE >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2718"->"NT_ID_2719< header >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2718"->"NT_LITERALSPECIFIER_2720< TRUE >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2721"
+subgraph cluster8 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2722< attach >"
+ [fillcolor = green]
+}
+subgraph cluster9 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2723< dat >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2721"->"NT_ID_2722< attach >"
+"NT_EXPR_CALL_FUNCTION_2721"->"NT_ID_2723< dat >"
+"NT_PROG_2711"->"NT_EXPR_ASSIGNMENT_OPETATORS_2724"
+subgraph cluster10 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2725< RiskRatio >"
+ [fillcolor = green]
+}
+subgraph cluster11 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2726"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2724"->"NT_ID_2725< RiskRatio >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2724"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2726"
+subgraph cluster12 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_EXPR_PARENTHESIS_2727"
+ [fillcolor = yellow]
+}
+subgraph cluster13 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_EXPR_PARENTHESIS_2731"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2726"->"NT_EXPR_PARENTHESIS_2727"
+subgraph cluster14 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_PARENTHESIS";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2728"
+ [fillcolor = yellow]
+}
+"NT_EXPR_PARENTHESIS_2727"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2728"
+subgraph cluster15 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_ID_2729< SuccessT >"
+ [fillcolor = green]
+}
+subgraph cluster16 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2730< TotalT >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2728"->"NT_ID_2729< SuccessT >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2728"->"NT_ID_2730< TotalT >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2726"->"NT_EXPR_PARENTHESIS_2731"
+subgraph cluster17 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_PARENTHESIS";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2732"
+ [fillcolor = yellow]
+}
+"NT_EXPR_PARENTHESIS_2731"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2732"
+subgraph cluster18 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_ID_2733< SuccessC >"
+ [fillcolor = green]
+}
+subgraph cluster19 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2734< TotalC >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2732"->"NT_ID_2733< SuccessC >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2732"->"NT_ID_2734< TotalC >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2735"
+subgraph cluster20 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2736"
+ [fillcolor = yellow]
+}
+subgraph cluster21 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2739< RiskRatio >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2735"->"NT_EXPR_ASSIGNMENT_OPETATORS_2736"
+subgraph cluster22 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2737< lnRR >"
+ [fillcolor = green]
+}
+subgraph cluster23 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2738< log >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2736"->"NT_ID_2737< lnRR >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2736"->"NT_ID_2738< log >"
+"NT_EXPR_CALL_FUNCTION_2735"->"NT_ID_2739< RiskRatio >"
+"NT_PROG_2711"->"NT_EXPR_ASSIGNMENT_OPETATORS_2740"
+subgraph cluster24 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2741< VarlnRR >"
+ [fillcolor = green]
+}
+subgraph cluster25 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2742"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2740"->"NT_ID_2741< VarlnRR >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2740"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2742"
+subgraph cluster26 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2743"
+ [fillcolor = yellow]
+}
+subgraph cluster27 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2754"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2742"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2743"
+subgraph cluster28 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2744"
+ [fillcolor = yellow]
+}
+subgraph cluster29 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2751"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2743"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2744"
+subgraph cluster30 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2745"
+ [fillcolor = yellow]
+}
+subgraph cluster31 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2748"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2744"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2745"
+subgraph cluster32 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_INT_2746< 1 >"
+ [fillcolor = green]
+}
+subgraph cluster33 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2747< SuccessT >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2745"->"NT_INT_2746< 1 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2745"->"NT_ID_2747< SuccessT >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2744"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2748"
+subgraph cluster34 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_INT_2749< 1 >"
+ [fillcolor = green]
+}
+subgraph cluster35 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2750< TotalT >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2748"->"NT_INT_2749< 1 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2748"->"NT_ID_2750< TotalT >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2743"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2751"
+subgraph cluster36 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_INT_2752< 1 >"
+ [fillcolor = green]
+}
+subgraph cluster37 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2753< SuccessC >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2751"->"NT_INT_2752< 1 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2751"->"NT_ID_2753< SuccessC >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2742"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2754"
+subgraph cluster38 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_INT_2755< 1 >"
+ [fillcolor = green]
+}
+subgraph cluster39 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2756< TotalC >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2754"->"NT_INT_2755< 1 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2754"->"NT_ID_2756< TotalC >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2757"
+subgraph cluster40 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2758"
+ [fillcolor = yellow]
+}
+subgraph cluster41 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2761< VarlnRR >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2757"->"NT_EXPR_ASSIGNMENT_OPETATORS_2758"
+subgraph cluster42 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2759< SERR >"
+ [fillcolor = green]
+}
+subgraph cluster43 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2760< sqrt >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2758"->"NT_ID_2759< SERR >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2758"->"NT_ID_2760< sqrt >"
+"NT_EXPR_CALL_FUNCTION_2757"->"NT_ID_2761< VarlnRR >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2762"
+subgraph cluster44 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2763"
+ [fillcolor = yellow]
+}
+subgraph cluster45 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2766"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2762"->"NT_EXPR_ASSIGNMENT_OPETATORS_2763"
+subgraph cluster46 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2764< lowerCI >"
+ [fillcolor = green]
+}
+subgraph cluster47 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2765< exp >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2763"->"NT_ID_2764< lowerCI >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2763"->"NT_ID_2765< exp >"
+"NT_EXPR_CALL_FUNCTION_2762"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2766"
+subgraph cluster48 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_ID_2767< lnRR >"
+ [fillcolor = green]
+}
+subgraph cluster49 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2768"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2766"->"NT_ID_2767< lnRR >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2766"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2768"
+subgraph cluster50 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_FLOAT_2769< 1.96 >"
+ [fillcolor = green]
+}
+subgraph cluster51 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2770< SERR >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2768"->"NT_FLOAT_2769< 1.96 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2768"->"NT_ID_2770< SERR >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2771"
+subgraph cluster52 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2772"
+ [fillcolor = yellow]
+}
+subgraph cluster53 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2775"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2771"->"NT_EXPR_ASSIGNMENT_OPETATORS_2772"
+subgraph cluster54 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2773< upperCI >"
+ [fillcolor = green]
+}
+subgraph cluster55 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2774< exp >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2772"->"NT_ID_2773< upperCI >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2772"->"NT_ID_2774< exp >"
+"NT_EXPR_CALL_FUNCTION_2771"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2775"
+subgraph cluster56 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_ID_2776< lnRR >"
+ [fillcolor = green]
+}
+subgraph cluster57 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2777"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2775"->"NT_ID_2776< lnRR >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2775"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2777"
+subgraph cluster58 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_FLOAT_2778< 1.96 >"
+ [fillcolor = green]
+}
+subgraph cluster59 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2779< SERR >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2777"->"NT_FLOAT_2778< 1.96 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2777"->"NT_ID_2779< SERR >"
+"NT_PROG_2711"->"NT_EXPR_ASSIGNMENT_OPETATORS_2780"
+subgraph cluster60 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2781< weight >"
+ [fillcolor = green]
+}
+subgraph cluster61 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2782"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2780"->"NT_ID_2781< weight >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2780"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2782"
+subgraph cluster62 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_INT_2783< 1 >"
+ [fillcolor = green]
+}
+subgraph cluster63 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2784< VarlnRR >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2782"->"NT_INT_2783< 1 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2782"->"NT_ID_2784< VarlnRR >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2785"
+subgraph cluster64 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2786"
+ [fillcolor = yellow]
+}
+subgraph cluster65 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_2789"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2785"->"NT_EXPR_ASSIGNMENT_OPETATORS_2786"
+subgraph cluster66 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2787< summaryRR >"
+ [fillcolor = green]
+}
+subgraph cluster67 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2788< exp >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2786"->"NT_ID_2787< summaryRR >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2786"->"NT_ID_2788< exp >"
+"NT_EXPR_CALL_FUNCTION_2785"->"NT_EXPR_CALL_FUNCTION_2789"
+subgraph cluster68 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2790"
+ [fillcolor = yellow]
+}
+subgraph cluster69 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2797< weight >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2789"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2790"
+subgraph cluster70 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_EXPR_CALL_FUNCTION_2791"
+ [fillcolor = yellow]
+}
+subgraph cluster71 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2796< sum >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2790"->"NT_EXPR_CALL_FUNCTION_2791"
+subgraph cluster72 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2792< sum >"
+ [fillcolor = green]
+}
+subgraph cluster73 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2793"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2791"->"NT_ID_2792< sum >"
+"NT_EXPR_CALL_FUNCTION_2791"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2793"
+subgraph cluster74 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_ID_2794< weight >"
+ [fillcolor = green]
+}
+subgraph cluster75 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2795< lnRR >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2793"->"NT_ID_2794< weight >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2793"->"NT_ID_2795< lnRR >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2790"->"NT_ID_2796< sum >"
+"NT_EXPR_CALL_FUNCTION_2789"->"NT_ID_2797< weight >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2798"
+subgraph cluster76 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2799"
+ [fillcolor = yellow]
+}
+subgraph cluster77 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_CALL_FUNCTION_2802"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2798"->"NT_EXPR_ASSIGNMENT_OPETATORS_2799"
+subgraph cluster78 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2800< SEsummary >"
+ [fillcolor = green]
+}
+subgraph cluster79 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2801< sqrt >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2799"->"NT_ID_2800< SEsummary >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2799"->"NT_ID_2801< sqrt >"
+"NT_EXPR_CALL_FUNCTION_2798"->"NT_EXPR_CALL_FUNCTION_2802"
+subgraph cluster80 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2803"
+ [fillcolor = yellow]
+}
+subgraph cluster81 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2806< weight >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2802"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2803"
+subgraph cluster82 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_INT_2804< 1 >"
+ [fillcolor = green]
+}
+subgraph cluster83 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2805< sum >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2803"->"NT_INT_2804< 1 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2803"->"NT_ID_2805< sum >"
+"NT_EXPR_CALL_FUNCTION_2802"->"NT_ID_2806< weight >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2807"
+subgraph cluster84 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2808"
+ [fillcolor = yellow]
+}
+subgraph cluster85 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2811"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2807"->"NT_EXPR_ASSIGNMENT_OPETATORS_2808"
+subgraph cluster86 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2809< lowerSummary >"
+ [fillcolor = green]
+}
+subgraph cluster87 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2810< exp >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2808"->"NT_ID_2809< lowerSummary >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2808"->"NT_ID_2810< exp >"
+"NT_EXPR_CALL_FUNCTION_2807"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2811"
+subgraph cluster88 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_ID_2812< summaryRR >"
+ [fillcolor = green]
+}
+subgraph cluster89 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2813"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2811"->"NT_ID_2812< summaryRR >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2811"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2813"
+subgraph cluster90 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_FLOAT_2814< 1.96 >"
+ [fillcolor = green]
+}
+subgraph cluster91 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2815< SEsummary >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2813"->"NT_FLOAT_2814< 1.96 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2813"->"NT_ID_2815< SEsummary >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2816"
+subgraph cluster92 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2817"
+ [fillcolor = yellow]
+}
+subgraph cluster93 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2820"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2816"->"NT_EXPR_ASSIGNMENT_OPETATORS_2817"
+subgraph cluster94 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2818< upperSummary >"
+ [fillcolor = green]
+}
+subgraph cluster95 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2819< exp >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2817"->"NT_ID_2818< upperSummary >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2817"->"NT_ID_2819< exp >"
+"NT_EXPR_CALL_FUNCTION_2816"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2820"
+subgraph cluster96 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_ID_2821< summaryRR >"
+ [fillcolor = green]
+}
+subgraph cluster97 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2822"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2820"->"NT_ID_2821< summaryRR >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2820"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2822"
+subgraph cluster98 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_FLOAT_2823< 1.96 >"
+ [fillcolor = green]
+}
+subgraph cluster99 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2824< SEsummary >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2822"->"NT_FLOAT_2823< 1.96 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2822"->"NT_ID_2824< SEsummary >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2825"
+subgraph cluster100 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2826< cat >"
+ [fillcolor = green]
+}
+subgraph cluster101 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_2827< The summary risk ratio is =  >"
+ [fillcolor = green]
+"NT_ID_2828< summaryRR >"
+ [fillcolor = green]
+"NT_STRING_2829< \n >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2825"->"NT_ID_2826< cat >"
+"NT_EXPR_CALL_FUNCTION_2825"->"NT_STRING_2827< The summary risk ratio is =  >"
+"NT_EXPR_CALL_FUNCTION_2825"->"NT_ID_2828< summaryRR >"
+"NT_EXPR_CALL_FUNCTION_2825"->"NT_STRING_2829< \n >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2830"
+subgraph cluster102 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2831< cat >"
+ [fillcolor = green]
+}
+subgraph cluster103 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_2832< The confidence limits on summary risk ratio are = \n >"
+ [fillcolor = green]
+"NT_ID_2833< lowerSummary >"
+ [fillcolor = green]
+"NT_STRING_2834<    and    >"
+ [fillcolor = green]
+"NT_ID_2835< upperSummary >"
+ [fillcolor = green]
+"NT_STRING_2836< \n >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2830"->"NT_ID_2831< cat >"
+"NT_EXPR_CALL_FUNCTION_2830"->"NT_STRING_2832< The confidence limits on summary risk ratio are = \n >"
+"NT_EXPR_CALL_FUNCTION_2830"->"NT_ID_2833< lowerSummary >"
+"NT_EXPR_CALL_FUNCTION_2830"->"NT_STRING_2834<    and    >"
+"NT_EXPR_CALL_FUNCTION_2830"->"NT_ID_2835< upperSummary >"
+"NT_EXPR_CALL_FUNCTION_2830"->"NT_STRING_2836< \n >"
+"NT_PROG_2711"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2837"
+subgraph cluster104 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_CALL_FUNCTION_2838"
+ [fillcolor = yellow]
+}
+subgraph cluster105 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_EXPR_PARENTHESIS_2847"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2837"->"NT_EXPR_CALL_FUNCTION_2838"
+subgraph cluster106 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2839"
+ [fillcolor = yellow]
+}
+subgraph cluster107 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2842"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2838"->"NT_EXPR_ASSIGNMENT_OPETATORS_2839"
+subgraph cluster108 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2840< Q >"
+ [fillcolor = green]
+}
+subgraph cluster109 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2841< sum >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2839"->"NT_ID_2840< Q >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2839"->"NT_ID_2841< sum >"
+"NT_EXPR_CALL_FUNCTION_2838"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2842"
+subgraph cluster110 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_ID_2843< weight >"
+ [fillcolor = green]
+}
+subgraph cluster111 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_EXPR_EXPONENTIATION_BINARY_2844"
+ [fillcolor = yellow]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2842"->"NT_ID_2843< weight >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2842"->"NT_EXPR_EXPONENTIATION_BINARY_2844"
+subgraph cluster112 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_LEFT";
+
+"NT_ID_2845< lnRR >"
+ [fillcolor = green]
+}
+subgraph cluster113 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_RIGHT";
+
+"NT_INT_2846< 2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_EXPONENTIATION_BINARY_2844"->"NT_ID_2845< lnRR >"
+"NT_EXPR_EXPONENTIATION_BINARY_2844"->"NT_INT_2846< 2 >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2837"->"NT_EXPR_PARENTHESIS_2847"
+subgraph cluster114 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_PARENTHESIS";
+
+"NT_EXPR_CALL_FUNCTION_2848"
+ [fillcolor = yellow]
+}
+"NT_EXPR_PARENTHESIS_2847"->"NT_EXPR_CALL_FUNCTION_2848"
+subgraph cluster115 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2849"
+ [fillcolor = yellow]
+}
+subgraph cluster116 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2858< weight >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2848"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2849"
+subgraph cluster117 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_EXPR_EXPONENTIATION_BINARY_2850"
+ [fillcolor = yellow]
+}
+subgraph cluster118 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2857< sum >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2849"->"NT_EXPR_EXPONENTIATION_BINARY_2850"
+subgraph cluster119 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_LEFT";
+
+"NT_EXPR_CALL_FUNCTION_2851"
+ [fillcolor = yellow]
+}
+subgraph cluster120 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_EXPONENTIATION_BINARY_RIGHT";
+
+"NT_INT_2856< 2 >"
+ [fillcolor = green]
+}
+"NT_EXPR_EXPONENTIATION_BINARY_2850"->"NT_EXPR_CALL_FUNCTION_2851"
+subgraph cluster121 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2852< sum >"
+ [fillcolor = green]
+}
+subgraph cluster122 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2853"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2851"->"NT_ID_2852< sum >"
+"NT_EXPR_CALL_FUNCTION_2851"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2853"
+subgraph cluster123 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_ID_2854< weight >"
+ [fillcolor = green]
+}
+subgraph cluster124 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2855< lnRR >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2853"->"NT_ID_2854< weight >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2853"->"NT_ID_2855< lnRR >"
+"NT_EXPR_EXPONENTIATION_BINARY_2850"->"NT_INT_2856< 2 >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2849"->"NT_ID_2857< sum >"
+"NT_EXPR_CALL_FUNCTION_2848"->"NT_ID_2858< weight >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2859"
+subgraph cluster125 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2860"
+ [fillcolor = yellow]
+}
+subgraph cluster126 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2873< weight >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2859"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2860"
+subgraph cluster127 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_EXPR_CALL_FUNCTION_2861"
+ [fillcolor = yellow]
+}
+subgraph cluster128 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2872< sum >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2860"->"NT_EXPR_CALL_FUNCTION_2861"
+subgraph cluster129 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2862"
+ [fillcolor = yellow]
+}
+subgraph cluster130 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2869"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2861"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2862"
+subgraph cluster131 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_CALL_FUNCTION_2863"
+ [fillcolor = yellow]
+}
+subgraph cluster132 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_ID_2868< sum >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2862"->"NT_EXPR_CALL_FUNCTION_2863"
+subgraph cluster133 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2864"
+ [fillcolor = yellow]
+}
+subgraph cluster134 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2867< weight >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2863"->"NT_EXPR_ASSIGNMENT_OPETATORS_2864"
+subgraph cluster135 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2865< C >"
+ [fillcolor = green]
+}
+subgraph cluster136 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2866< sum >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2864"->"NT_ID_2865< C >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2864"->"NT_ID_2866< sum >"
+"NT_EXPR_CALL_FUNCTION_2863"->"NT_ID_2867< weight >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2862"->"NT_ID_2868< sum >"
+"NT_EXPR_CALL_FUNCTION_2861"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2869"
+subgraph cluster137 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_ID_2870< weight >"
+ [fillcolor = green]
+}
+subgraph cluster138 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2871< lnRR >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2869"->"NT_ID_2870< weight >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2869"->"NT_ID_2871< lnRR >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2860"->"NT_ID_2872< sum >"
+"NT_EXPR_CALL_FUNCTION_2859"->"NT_ID_2873< weight >"
+"NT_PROG_2711"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2874"
+subgraph cluster139 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_EXPR_CALL_FUNCTION_2875"
+ [fillcolor = yellow]
+}
+subgraph cluster140 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_INT_2880< 1 >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2874"->"NT_EXPR_CALL_FUNCTION_2875"
+subgraph cluster141 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_EXPR_ASSIGNMENT_OPETATORS_2876"
+ [fillcolor = yellow]
+}
+subgraph cluster142 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_ID_2879< weight >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2875"->"NT_EXPR_ASSIGNMENT_OPETATORS_2876"
+subgraph cluster143 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2877< df >"
+ [fillcolor = green]
+}
+subgraph cluster144 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_ID_2878< length >"
+ [fillcolor = green]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2876"->"NT_ID_2877< df >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2876"->"NT_ID_2878< length >"
+"NT_EXPR_CALL_FUNCTION_2875"->"NT_ID_2879< weight >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2874"->"NT_INT_2880< 1 >"
+"NT_PROG_2711"->"NT_EXPR_ASSIGNMENT_OPETATORS_2881"
+subgraph cluster145 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_LEFT";
+
+"NT_ID_2882< Tsqr >"
+ [fillcolor = green]
+}
+subgraph cluster146 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_ASSIGNMENT_OPETATORS_RIGHT";
+
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2883"
+ [fillcolor = yellow]
+}
+"NT_EXPR_ASSIGNMENT_OPETATORS_2881"->"NT_ID_2882< Tsqr >"
+"NT_EXPR_ASSIGNMENT_OPETATORS_2881"->"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2883"
+subgraph cluster147 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_LEFT";
+
+"NT_EXPR_PARENTHESIS_2884"
+ [fillcolor = yellow]
+}
+subgraph cluster148 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_RIGHT";
+
+"NT_ID_2888< C >"
+ [fillcolor = green]
+}
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2883"->"NT_EXPR_PARENTHESIS_2884"
+subgraph cluster149 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_PARENTHESIS";
+
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2885"
+ [fillcolor = yellow]
+}
+"NT_EXPR_PARENTHESIS_2884"->"NT_EXPR_MINUS_OR_PLUS_BINARY_2885"
+subgraph cluster150 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_LEFT";
+
+"NT_ID_2886< Q >"
+ [fillcolor = green]
+}
+subgraph cluster151 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_MINUS_OR_PLUS_BINARY_RIGHT";
+
+"NT_ID_2887< df >"
+ [fillcolor = green]
+}
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2885"->"NT_ID_2886< Q >"
+"NT_EXPR_MINUS_OR_PLUS_BINARY_2885"->"NT_ID_2887< df >"
+"NT_EXPR_MULTIPLICATION_OR_DIVISION_BINARY_2883"->"NT_ID_2888< C >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2889"
+subgraph cluster152 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2890< cat >"
+ [fillcolor = green]
+}
+subgraph cluster153 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_2891< Our obtained value of Q is \n >"
+ [fillcolor = green]
+"NT_ID_2892< Q >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2889"->"NT_ID_2890< cat >"
+"NT_EXPR_CALL_FUNCTION_2889"->"NT_STRING_2891< Our obtained value of Q is \n >"
+"NT_EXPR_CALL_FUNCTION_2889"->"NT_ID_2892< Q >"
+"NT_PROG_2711"->"NT_EXPR_CALL_FUNCTION_2893"
+subgraph cluster154 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2894< cat >"
+ [fillcolor = green]
+}
+subgraph cluster155 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_STRING_2895< The critical value of chi-square on  >"
+ [fillcolor = green]
+"NT_ID_2896< df >"
+ [fillcolor = green]
+"NT_STRING_2897<  degrees of freedom is \n >"
+ [fillcolor = green]
+"NT_EXPR_CALL_FUNCTION_2898"
+ [fillcolor = yellow]
+}
+"NT_EXPR_CALL_FUNCTION_2893"->"NT_ID_2894< cat >"
+"NT_EXPR_CALL_FUNCTION_2893"->"NT_STRING_2895< The critical value of chi-square on  >"
+"NT_EXPR_CALL_FUNCTION_2893"->"NT_ID_2896< df >"
+"NT_EXPR_CALL_FUNCTION_2893"->"NT_STRING_2897<  degrees of freedom is \n >"
+"NT_EXPR_CALL_FUNCTION_2893"->"NT_EXPR_CALL_FUNCTION_2898"
+subgraph cluster156 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_ID";
+
+"NT_ID_2899< qchisq >"
+ [fillcolor = green]
+}
+subgraph cluster157 {
+ node [style=filled,color=white];
+ style=filled;
+ color=lightgrey;
+ label = "CT_EXPR_CALL_FUNCTION_PARAMS";
+
+"NT_FLOAT_2900< .95 >"
+ [fillcolor = green]
+"NT_ID_2901< df >"
+ [fillcolor = green]
+}
+"NT_EXPR_CALL_FUNCTION_2898"->"NT_ID_2899< qchisq >"
+"NT_EXPR_CALL_FUNCTION_2898"->"NT_FLOAT_2900< .95 >"
+"NT_EXPR_CALL_FUNCTION_2898"->"NT_ID_2901< df >"
+}

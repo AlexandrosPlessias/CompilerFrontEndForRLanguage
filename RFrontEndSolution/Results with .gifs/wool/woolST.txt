@@ -1,0 +1,17 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | wool            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | library         | Free (System)   
+Global          | lme4            | Free (System)   
+Global          | wool2           | Local Variable  
+Global          | clean           | Free (System)   
+Global          | wool.vc         | Local Variable  
+Global          | lmer            | Free (System)   
+Global          | bale            | Free (System)   
+Global          | data            | Local Variable  
+Global          | bale.f          | Free (System)   
+Global          | as.factor       | Free (System)   
+-----------------------------------------------------

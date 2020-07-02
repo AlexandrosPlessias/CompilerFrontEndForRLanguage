@@ -1,0 +1,18 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | schiz2          | Free (System)   
+Global          | pair            | Free (System)   
+Global          | y               | Free (System)   
+Global          | type            | Local Variable  
+Global          | text            | Free (System)   
+Global          | substring       | Free (System)   
+Global          | trt             | Free (System)   
+Global          | bmean           | Local Variable  
+Global          | tapply          | Free (System)   
+Global          | mean            | Free (System)   
+Global          | match           | Free (System)   
+Global          | sort            | Free (System)   
+Global          | unique          | Free (System)   
+Global          | plot            | Free (System)   
+-----------------------------------------------------

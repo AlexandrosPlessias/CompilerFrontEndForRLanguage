@@ -1,0 +1,17 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | d               | Local Variable  
+k               | y               | Local Variable  
+g               | x               | Formal Parameter 
+g               | d               | Local Variable  
+g               | cat             | Free (System)   
+g               | k               | Funtion Call    
+g               | f               | Funtion Call    
+g               | result          | Local Variable  
+g               | y               | Free ( Exists in k) 
+Global          | m               | Local Variable  
+Global          | xx              | Local Variable  
+Global          | k               | Funtion Call    
+Global          | xxx             | Local Variable  
+Global          | xxxx            | Local Variable  
+-----------------------------------------------------

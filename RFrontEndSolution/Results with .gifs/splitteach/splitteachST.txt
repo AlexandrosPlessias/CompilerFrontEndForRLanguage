@@ -1,0 +1,29 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | class           | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | as.is           | Local Variable  
+Global          | class.f         | Free (System)   
+Global          | as.factor       | Free (System)   
+Global          | method.f        | Free (System)   
+Global          | method          | Free (System)   
+Global          | tutor.f         | Free (System)   
+Global          | tutor           | Free (System)   
+Global          | class.aov       | Local Variable  
+Global          | aov             | Free (System)   
+Global          | score           | Free (System)   
+Global          | Error           | Free (System)   
+Global          | data            | Local Variable  
+Global          | model.tables    | Free (System)   
+Global          | type            | Local Variable  
+Global          | se              | Local Variable  
+Global          | summary         | Free (System)   
+Global          | library         | Free (System)   
+Global          | lme4            | Free (System)   
+Global          | class.lmer      | Local Variable  
+Global          | lmer            | Free (System)   
+Global          | print           | Free (System)   
+Global          | anova           | Free (System)   
+-----------------------------------------------------

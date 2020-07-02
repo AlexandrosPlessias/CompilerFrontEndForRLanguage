@@ -1,0 +1,30 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | data            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | file.choose     | Free (System)   
+Global          | header          | Local Variable  
+Global          | attach          | Free (System)   
+Global          | dv              | Local Variable  
+Global          | After           | Free (System)   
+Global          | group           | Local Variable  
+Global          | Group           | Free (System)   
+Global          | ni              | Local Variable  
+Global          | tapply          | Free (System)   
+Global          | length          | Free (System)   
+Global          | means           | Local Variable  
+Global          | mean            | Free (System)   
+Global          | variance        | Local Variable  
+Global          | var             | Free (System)   
+Global          | wk              | Local Variable  
+Global          | xbarprime       | Local Variable  
+Global          | sum             | Free (System)   
+Global          | a               | Local Variable  
+Global          | b               | Local Variable  
+Global          | k               | Local Variable  
+Global          | num             | Local Variable  
+Global          | den             | Local Variable  
+Global          | Fprime          | Local Variable  
+Global          | dfprime         | Local Variable  
+Global          | cat             | Free (System)   
+-----------------------------------------------------

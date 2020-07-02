@@ -1,0 +1,33 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | dat             | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | attach          | Free (System)   
+Global          | RiskRatio       | Local Variable  
+Global          | SuccessT        | Free (System)   
+Global          | TotalT          | Free (System)   
+Global          | SuccessC        | Free (System)   
+Global          | TotalC          | Free (System)   
+Global          | lnRR            | Local Variable  
+Global          | log             | Free (System)   
+Global          | VarlnRR         | Local Variable  
+Global          | SERR            | Local Variable  
+Global          | sqrt            | Free (System)   
+Global          | lowerCI         | Local Variable  
+Global          | exp             | Free (System)   
+Global          | upperCI         | Local Variable  
+Global          | weight          | Local Variable  
+Global          | summaryRR       | Local Variable  
+Global          | sum             | Free (System)   
+Global          | SEsummary       | Local Variable  
+Global          | lowerSummary    | Local Variable  
+Global          | upperSummary    | Local Variable  
+Global          | cat             | Free (System)   
+Global          | Q               | Local Variable  
+Global          | C               | Local Variable  
+Global          | df              | Local Variable  
+Global          | length          | Free (System)   
+Global          | Tsqr            | Local Variable  
+Global          | qchisq          | Free (System)   
+-----------------------------------------------------

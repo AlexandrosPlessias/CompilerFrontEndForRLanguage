@@ -1,0 +1,29 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | schiz           | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | as.is           | Local Variable  
+Global          | T               | Free (System)   
+Global          | header          | Local Variable  
+Global          | t.test          | Free (System)   
+Global          | unaff           | Free (System)   
+Global          | aff             | Free (System)   
+Global          | paired          | Local Variable  
+Global          | wilcox.test     | Free (System)   
+Global          | schiz2          | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | pair            | Local Variable  
+Global          | rep             | Free (System)   
+Global          | trt             | Local Variable  
+Global          | c               | Free (System)   
+Global          | y               | Local Variable  
+Global          | schiz2.aov      | Local Variable  
+Global          | aov             | Free (System)   
+Global          | as.factor       | Free (System)   
+Global          | data            | Local Variable  
+Global          | anova           | Free (System)   
+Global          | model.tables    | Free (System)   
+Global          | type            | Local Variable  
+Global          | TukeyHSD        | Free (System)   
+Global          | which           | Local Variable  
+-----------------------------------------------------

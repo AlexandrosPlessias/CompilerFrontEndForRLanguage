@@ -1,0 +1,35 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | Eysenck         | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | subj            | Free (System)   
+Global          | factor          | Free (System)   
+Global          | Condition       | Free (System)   
+Global          | levels          | Local Variable  
+Global          | labels          | Local Variable  
+Global          | Age             | Free (System)   
+Global          | attach          | Free (System)   
+Global          | result          | Local Variable  
+Global          | anova           | Free (System)   
+Global          | aov             | Free (System)   
+Global          | Recall          | Free (System)   
+Global          | data            | Local Variable  
+Global          | print           | Free (System)   
+Global          | plot            | Free (System)   
+Global          | library         | Free (System)   
+Global          | car             | Free (System)   
+Global          | resultsCar      | Local Variable  
+Global          | Anova           | Free (System)   
+Global          | type            | Local Variable  
+Global          | old.dat         | Local Variable  
+Global          | subset          | Free (System)   
+Global          | young.dat       | Local Variable  
+Global          | results1        | Local Variable  
+Global          | cat             | Free (System)   
+Global          | main            | Local Variable  
+Global          | results2        | Local Variable  
+-----------------------------------------------------

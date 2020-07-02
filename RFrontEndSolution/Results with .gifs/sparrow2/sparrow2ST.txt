@@ -1,0 +1,30 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | sparrow         | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | as.is           | Local Variable  
+Global          | T               | Free (System)   
+Global          | header          | Local Variable  
+Global          | lhumerus        | Free (System)   
+Global          | log             | Free (System)   
+Global          | humerus         | Free (System)   
+Global          | fate.f          | Free (System)   
+Global          | as.factor       | Free (System)   
+Global          | fate            | Free (System)   
+Global          | sparrow.lm      | Local Variable  
+Global          | lm              | Free (System)   
+Global          | data            | Local Variable  
+Global          | anova           | Free (System)   
+Global          | qqnorm          | Free (System)   
+Global          | resid           | Free (System)   
+Global          | plot            | Free (System)   
+Global          | predict         | Free (System)   
+Global          | abs             | Free (System)   
+Global          | absresid        | Free (System)   
+Global          | t.test          | Free (System)   
+Global          | var.equal       | Local Variable  
+Global          | wilcox.test     | Free (System)   
+Global          | correct         | Local Variable  
+Global          | F               | Free (System)   
+Global          | exact           | Local Variable  
+-----------------------------------------------------

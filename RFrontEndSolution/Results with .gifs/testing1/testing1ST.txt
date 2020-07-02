@@ -1,0 +1,10 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+foo1            | x               | Formal Parameter 
+foo1            | a               | Local Variable  
+foo1            | foo2            | Free (System)   
+foo2            | x               | Formal Parameter 
+foo2            | b               | Local Variable  
+foo2            | a               | Free ( Exists in foo1) 
+Global          | foo1            | Funtion Call    
+-----------------------------------------------------

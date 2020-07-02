@@ -1,0 +1,16 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | sparrow         | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | as.is           | Local Variable  
+Global          | T               | Free (System)   
+Global          | header          | Local Variable  
+Global          | lhumerus        | Free (System)   
+Global          | log             | Free (System)   
+Global          | humerus         | Free (System)   
+Global          | t.test          | Free (System)   
+Global          | fate            | Free (System)   
+Global          | var.equal       | Local Variable  
+Global          | as.factor       | Free (System)   
+Global          | data            | Local Variable  
+-----------------------------------------------------

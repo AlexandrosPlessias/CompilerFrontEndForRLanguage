@@ -1,0 +1,23 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | read.table      | Free (System)   
+Global          | as.is           | Local Variable  
+Global          | T               | Free (System)   
+Global          | header          | Local Variable  
+Global          | print           | Free (System)   
+Global          | tomato          | Free (System)   
+Global          | tomato2         | Free (System)   
+Global          | group           | Free (System)   
+Global          | summary         | Free (System)   
+Global          | by              | Free (System)   
+Global          | hist            | Free (System)   
+Global          | yield           | Free (System)   
+Global          | par             | Free (System)   
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | boxplot         | Free (System)   
+Global          | split           | Free (System)   
+Global          | plot            | Free (System)   
+Global          | as.factor       | Free (System)   
+-----------------------------------------------------
