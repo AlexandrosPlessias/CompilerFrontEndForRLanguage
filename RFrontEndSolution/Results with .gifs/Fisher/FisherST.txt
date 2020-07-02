@@ -1,0 +1,19 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | table1          | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | c               | Free (System)   
+Global          | nrow            | Local Variable  
+Global          | print           | Free (System)   
+Global          | chisq.test      | Free (System)   
+Global          | correct         | Local Variable  
+Global          | simulate.p.value | Local Variable  
+Global          | fisher.test     | Free (System)   
+Global          | alternative     | Local Variable  
+Global          | table2          | Local Variable  
+Global          | contintab       | Local Variable  
+Global          | as.table        | Free (System)   
+Global          | array           | Free (System)   
+Global          | dim             | Local Variable  
+Global          | mantelhaen.test | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,25 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | xpts            | Local Variable  
+Global          | seq             | Free (System)   
+Global          | pdf             | Free (System)   
+Global          | width           | Local Variable  
+Global          | height          | Local Variable  
+Global          | bg              | Local Variable  
+Global          | pointsize       | Local Variable  
+Global          | par             | Free (System)   
+Global          | mai             | Local Variable  
+Global          | c               | Free (System)   
+Global          | plot            | Free (System)   
+Global          | sin             | Free (System)   
+Global          | type            | Local Variable  
+Global          | lwd             | Local Variable  
+Global          | col             | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | grid            | Free (System)   
+Global          | lty             | Local Variable  
+Global          | abline          | Free (System)   
+Global          | h               | Local Variable  
+Global          | v               | Local Variable  
+-----------------------------------------------------

@@ -1,0 +1,11 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | pwr             | Free (System)   
+Global          | n               | Local Variable  
+Global          | r               | Local Variable  
+Global          | power           | Local Variable  
+Global          | pwr.r.test      | Free (System)   
+Global          | sig.level       | Local Variable  
+Global          | print           | Free (System)   
+-----------------------------------------------------

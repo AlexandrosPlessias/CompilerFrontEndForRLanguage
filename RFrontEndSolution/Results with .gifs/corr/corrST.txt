@@ -1,0 +1,10 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | meat            | Free (System)   
+Global          | cor             | Free (System)   
+Global          | method          | Local Variable  
+Global          | cor.test        | Free (System)   
+Global          | time            | Free (System)   
+Global          | ph              | Free (System)   
+-----------------------------------------------------

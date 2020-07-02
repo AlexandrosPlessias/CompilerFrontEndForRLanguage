@@ -1,0 +1,16 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | useFancyQuotes  | Local Variable  
+Global          | env             | Local Variable  
+Global          | as.environment  | Free (System)   
+Global          | d               | Local Variable  
+Global          | ls              | Free (System)   
+Global          | f               | Free (System)   
+Global          | cat             | Free (System)   
+Global          | sep             | Local Variable  
+Global          | str             | Free (System)   
+Global          | get             | Free (System)   
+Global          | envir           | Local Variable  
+Global          | inherits        | Local Variable  
+-----------------------------------------------------

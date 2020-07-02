@@ -1,0 +1,12 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | .ptime          | Local Variable  
+Global          | proc.time       | Free (System)   
+Global          | set.seed        | Free (System)   
+Global          | demos           | Local Variable  
+Global          | c               | Free (System)   
+Global          | nam             | Free (System)   
+Global          | demo            | Free (System)   
+Global          | character.only  | Local Variable  
+Global          | cat             | Free (System)   
+-----------------------------------------------------

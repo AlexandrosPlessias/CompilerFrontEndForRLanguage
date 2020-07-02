@@ -1,0 +1,14 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x               | Local Variable  
+Global          | charToRaw       | Free (System)   
+Global          | xx              | Local Variable  
+Global          | iconv           | Free (System)   
+Global          | c               | Free (System)   
+Global          | sub             | Local Variable  
+Global          | require         | Free (System)   
+Global          | .C              | Free (System)   
+Global          | PACKAGE         | Local Variable  
+Global          | ENCODING        | Local Variable  
+Global          | delimMatch      | Free (System)   
+-----------------------------------------------------

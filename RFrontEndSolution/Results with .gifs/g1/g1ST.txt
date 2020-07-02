@@ -1,0 +1,26 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | plot            | Free (System)   
+Global          | density         | Free (System)   
+Global          | runif           | Free (System)   
+Global          | lwd             | Local Variable  
+Global          | text            | Free (System)   
+Global          | x               | Local Variable  
+Global          | y               | Local Variable  
+Global          | abline          | Free (System)   
+Global          | h               | Local Variable  
+Global          | v               | Local Variable  
+Global          | seq             | Free (System)   
+Global          | par             | Free (System)   
+Global          | col             | Local Variable  
+Global          | sin             | Free (System)   
+Global          | type            | Local Variable  
+Global          | lines           | Free (System)   
+Global          | cos             | Free (System)   
+Global          | exp             | Free (System)   
+Global          | log             | Free (System)   
+Global          | tan             | Free (System)   
+-----------------------------------------------------

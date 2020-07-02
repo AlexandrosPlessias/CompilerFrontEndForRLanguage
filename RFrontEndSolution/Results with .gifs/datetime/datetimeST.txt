@@ -1,0 +1,19 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | TZ              | Local Variable  
+Global          | z               | Local Variable  
+Global          | as.POSIXct      | Free (System)   
+Global          | c               | Free (System)   
+Global          | unclass         | Free (System)   
+Global          | Sys.setenv      | Free (System)   
+Global          | as.POSIXlt      | Free (System)   
+Global          | ISOdate         | Free (System)   
+Global          | tz              | Local Variable  
+Global          | wday            | Free (System)   
+Global          | old             | Local Variable  
+Global          | Sys.setlocale   | Free (System)   
+Global          | stopifnot       | Free (System)   
+Global          | is.na           | Free (System)   
+Global          | strptime        | Free (System)   
+-----------------------------------------------------

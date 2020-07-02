@@ -1,0 +1,40 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | .ptime          | Local Variable  
+Global          | proc.time       | Free (System)   
+Global          | set.seed        | Free (System)   
+Global          | options         | Free (System)   
+Global          | keep.source     | Local Variable  
+Global          | useFancyQuotes  | Local Variable  
+Global          | warn            | Local Variable  
+Global          | dont            | Local Variable  
+Global          | list            | Free (System)   
+Global          | graphics        | Local Variable  
+Global          | c               | Free (System)   
+Global          | stats           | Local Variable  
+Global          | pkg             | Free (System)   
+Global          | demos           | Local Variable  
+Global          | list.files      | Free (System)   
+Global          | file.path       | Free (System)   
+Global          | system.file     | Free (System)   
+Global          | package         | Local Variable  
+Global          | pattern         | Local Variable  
+Global          | is.na           | Free (System)   
+Global          | match           | Free (System)   
+Global          | paste           | Free (System)   
+Global          | sep             | Local Variable  
+Global          | library         | Free (System)   
+Global          | character.only  | Local Variable  
+Global          | need            | Local Variable  
+Global          | any             | Free (System)   
+Global          | fpkg            | Local Variable  
+Global          | search          | Free (System)   
+Global          | nam             | Free (System)   
+Global          | sub             | Free (System)   
+Global          | demo            | Free (System)   
+Global          | detach          | Free (System)   
+Global          | pos             | Local Variable  
+Global          | which           | Free (System)   
+Global          | length          | Free (System)   
+Global          | cat             | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,28 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | z               | Local Variable  
+Global          | ISOdate         | Free (System)   
+Global          | tz              | Local Variable  
+Global          | as.POSIXlt      | Free (System)   
+Global          | zz              | Local Variable  
+Global          | strftime        | Free (System)   
+Global          | c               | Free (System)   
+Global          | seq             | Free (System)   
+Global          | i               | Free (System)   
+Global          | seq_along       | Free (System)   
+Global          | print           | Free (System)   
+Global          | strptime        | Free (System)   
+Global          | d               | Local Variable  
+Global          | expand.grid     | Free (System)   
+Global          | day             | Local Variable  
+Global          | year            | Local Variable  
+Global          | z1              | Local Variable  
+Global          | with            | Free (System)   
+Global          | z2              | Local Variable  
+Global          | sort            | Free (System)   
+Global          | as.Date         | Free (System)   
+Global          | x               | Local Variable  
+Global          | fmts            | Local Variable  
+Global          | f               | Free (System)   
+Global          | format          | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,15 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | psych           | Free (System)   
+Global          | datapsych       | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | head            | Free (System)   
+Global          | attach          | Free (System)   
+Global          | output          | Local Variable  
+Global          | describe        | Free (System)   
+Global          | RxTime          | Free (System)   
+Global          | print           | Free (System)   
+Global          | hist            | Free (System)   
+-----------------------------------------------------

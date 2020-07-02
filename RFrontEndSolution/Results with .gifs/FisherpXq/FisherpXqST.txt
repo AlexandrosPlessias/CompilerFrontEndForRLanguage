@@ -1,0 +1,12 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | datmat          | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | c               | Free (System)   
+Global          | nrow            | Local Variable  
+Global          | chisq.test      | Free (System)   
+Global          | correct         | Local Variable  
+Global          | fisher.test     | Free (System)   
+Global          | conf.int        | Local Variable  
+Global          | simulate.p.value | Local Variable  
+-----------------------------------------------------

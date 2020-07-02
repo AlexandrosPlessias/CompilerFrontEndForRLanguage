@@ -1,0 +1,12 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x               | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | hx              | Local Variable  
+Global          | hist            | Free (System)   
+Global          | breaks          | Local Variable  
+Global          | plot            | Local Variable  
+Global          | col             | Local Variable  
+Global          | ifelse          | Free (System)   
+Global          | abs             | Free (System)   
+-----------------------------------------------------
