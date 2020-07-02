@@ -1,0 +1,23 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | X               | Local Variable  
+Global          | list            | Free (System)   
+Global          | height          | Local Variable  
+Global          | weight          | Local Variable  
+Global          | print           | Free (System)   
+Global          | cat             | Free (System)   
+square          | x               | Formal Parameter 
+cube            | x               | Formal Parameter 
+Global          | cube            | Funtion Call    
+powers          | x               | Formal Parameter 
+powers          | parcel          | Local Variable  
+powers          | list            | Free ( Exists in Global) 
+powers          | x2              | Local Variable  
+powers          | x3              | Local Variable  
+powers          | x4              | Local Variable  
+powerful        | x               | Formal Parameter 
+powerful        | x2              | Local Variable  
+powerful        | x3              | Local Variable  
+powerful        | x4              | Local Variable  
+powerful        | list            | Free ( Exists in Global) 
+-----------------------------------------------------

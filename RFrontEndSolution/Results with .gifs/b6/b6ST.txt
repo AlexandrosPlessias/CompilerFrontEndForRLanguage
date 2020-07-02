@@ -1,0 +1,13 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x               | Local Variable  
+Global          | c               | Free (System)   
+Global          | indexes         | Local Variable  
+Global          | seq             | Free (System)   
+Global          | require         | Local Variable  
+Global          | is.na           | Free (System)   
+Global          | y               | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | nrow            | Local Variable  
+Global          | str             | Free (System)   
+-----------------------------------------------------

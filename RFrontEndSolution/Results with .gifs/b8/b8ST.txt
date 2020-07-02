@@ -1,0 +1,22 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x               | Local Variable  
+Global          | c               | Free (System)   
+Global          | names           | Free (System)   
+Global          | m               | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | runif           | Free (System)   
+Global          | nrow            | Local Variable  
+Global          | rownames        | Free (System)   
+Global          | colnames        | Free (System)   
+Global          | library         | Free (System)   
+Global          | xtable          | Free (System)   
+Global          | colour          | Free (System)   
+Global          | cat             | Free (System)   
+Global          | D               | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | str             | Free (System)   
+Global          | Africa          | Free (System)   
+Global          | subset          | Free (System)   
+Global          | America         | Free (System)   
+-----------------------------------------------------

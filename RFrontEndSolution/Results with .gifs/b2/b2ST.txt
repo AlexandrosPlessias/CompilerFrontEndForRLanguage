@@ -1,0 +1,11 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | D               | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | x               | Local Variable  
+Global          | c               | Free (System)   
+Global          | y               | Local Variable  
+Global          | indexes         | Local Variable  
+Global          | order           | Free (System)   
+Global          | rev             | Free (System)   
+-----------------------------------------------------

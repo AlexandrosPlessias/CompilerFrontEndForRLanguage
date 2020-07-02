@@ -1,0 +1,24 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | m               | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | rnorm           | Free (System)   
+Global          | nrow            | Local Variable  
+Global          | rownames        | Free (System)   
+Global          | c               | Free (System)   
+Global          | colnames        | Free (System)   
+Global          | library         | Free (System)   
+Global          | xtable          | Free (System)   
+Global          | digits          | Local Variable  
+Global          | rep             | Free (System)   
+Global          | print           | Free (System)   
+Global          | caption         | Local Variable  
+Global          | label           | Local Variable  
+Global          | type            | Local Variable  
+Global          | file            | Local Variable  
+Global          | table.placement | Local Variable  
+Global          | latex.environments | Local Variable  
+Global          | data            | Local Variable  
+Global          | cbind           | Free (System)   
+Global          | rbind           | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,56 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | x               | Local Variable  
+Global          | c               | Free (System)   
+Global          | n               | Local Variable  
+Global          | length          | Free (System)   
+Global          | r               | Local Variable  
+Global          | numeric         | Free (System)   
+Global          | i               | Free (System)   
+Global          | sin             | Free (System)   
+Global          | print           | Free (System)   
+Global          | cat             | Free (System)   
+Global          | N               | Local Variable  
+Global          | M               | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | runif           | Free (System)   
+Global          | mean1           | Local Variable  
+Global          | mean            | Free (System)   
+Global          | mean2           | Local Variable  
+Global          | rep             | Free (System)   
+Global          | all.equal       | Free (System)   
+nsz             | b0              | Formal Parameter 
+nsz             | b1              | Formal Parameter 
+nsz             | b2              | Formal Parameter 
+nsz             | tau             | Formal Parameter 
+nsz             | t               | Formal Parameter 
+nsz             | tmp             | Local Variable  
+nsz             | tmp2            | Local Variable  
+nsz             | exp             | Free (System)   
+Global          | timepoints      | Local Variable  
+Global          | z               | Local Variable  
+Global          | nsz             | Funtion Call    
+Global          | C               | Local Variable  
+Global          | sum             | Free (System)   
+npv             | C               | Formal Parameter 
+npv             | timepoints      | Formal Parameter 
+npv             | r               | Formal Parameter 
+Global          | npv             | Funtion Call    
+Global          | y               | Local Variable  
+method1         | x               | Formal Parameter 
+method1         | y               | Formal Parameter 
+method1         | tmp             | Local Variable  
+method1         | i               | Free ( Exists in Global) 
+method1         | N               | Free ( Exists in Global) 
+method1         | c               | Free ( Exists in Global) 
+method2         | x               | Formal Parameter 
+method2         | y               | Formal Parameter 
+Global          | s1              | Local Variable  
+Global          | system.time     | Free (System)   
+Global          | ans1            | Local Variable  
+Global          | method1         | Funtion Call    
+Global          | s2              | Local Variable  
+Global          | ans2            | Local Variable  
+Global          | method2         | Funtion Call    
+-----------------------------------------------------

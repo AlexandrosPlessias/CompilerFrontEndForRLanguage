@@ -1,0 +1,76 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+ranrw           | mu              | Formal Parameter 
+ranrw           | sigma           | Formal Parameter 
+ranrw           | p0              | Formal Parameter 
+ranrw           | T               | Formal Parameter 
+ranrw           | cumprod         | Free (System)   
+ranrw           | c               | Free (System)   
+ranrw           | rnorm           | Free (System)   
+ranrw           | n               | Local Variable  
+ranrw           | mean            | Local Variable  
+ranrw           | sd              | Local Variable  
+prices2returns  | x               | Formal Parameter 
+prices2returns  | diff            | Free (System)   
+prices2returns  | log             | Free (System)   
+returns2prices  | r               | Formal Parameter 
+returns2prices  | p0              | Formal Parameter 
+returns2prices  | c               | Free ( Exists in ranrw) 
+returns2prices  | exp             | Free (System)   
+returns2prices  | cumsum          | Free (System)   
+Global          | cat             | Free (System)   
+Global          | p               | Local Variable  
+Global          | ranrw           | Funtion Call    
+Global          | p0              | Local Variable  
+Global          | T               | Local Variable  
+Global          | print           | Free (System)   
+Global          | r               | Local Variable  
+Global          | prices2returns  | Funtion Call    
+Global          | goback          | Local Variable  
+Global          | returns2prices  | Funtion Call    
+Global          | summary         | Free (System)   
+Global          | sd              | Free ( Exists in ranrw) 
+Global          | plot            | Free (System)   
+Global          | density         | Free (System)   
+Global          | acf             | Free (System)   
+Global          | ar              | Free (System)   
+Global          | Box.test        | Free (System)   
+Global          | lag             | Local Variable  
+Global          | type            | Local Variable  
+Global          | library         | Free (System)   
+Global          | tseries         | Free (System)   
+Global          | runs.test       | Free (System)   
+Global          | factor          | Free (System)   
+Global          | sign            | Free (System)   
+Global          | bds.test        | Free (System)   
+visualisation   | p0              | Formal Parameter 
+visualisation   | s               | Formal Parameter 
+visualisation   | mu              | Formal Parameter 
+visualisation   | labelstring     | Formal Parameter 
+visualisation   | N               | Local Variable  
+visualisation   | x               | Local Variable  
+visualisation   | plot            | Free ( Exists in Global) 
+visualisation   | ranrw           | Funtion Call    
+visualisation   | ylab            | Local Variable  
+visualisation   | log             | Local Variable  
+visualisation   | type            | Local Variable  
+visualisation   | col             | Local Variable  
+visualisation   | xlab            | Local Variable  
+visualisation   | main            | Local Variable  
+visualisation   | paste           | Free (System)   
+visualisation   | grid            | Free (System)   
+visualisation   | z               | Local Variable  
+visualisation   | locator         | Free (System)   
+Global          | visualisation   | Funtion Call    
+Global          | set.seed        | Free (System)   
+one.ts          | arima.sim       | Free (System)   
+one.ts          | list            | Free (System)   
+one.ts          | order           | Local Variable  
+one.ts          | c               | Free ( Exists in ranrw) 
+one.ts          | ar              | Local Variable  
+one.ts          | n               | Local Variable  
+Global          | table           | Free (System)   
+Global          | replicate       | Free (System)   
+Global          | one.ts          | Funtion Call    
+Global          | p.value         | Free (System)   
+-----------------------------------------------------
