@@ -1,0 +1,267 @@
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\documents\visual studio 2015\Projects\RFrontEnd\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 30_10_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\dhmhgre\Desktop\RFrontEnd 30_10_2016  (UPDATED)\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 8_11_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+E:\RFrontEnd 20_11_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+E:\RFrontEnd 20_11_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+E:\RFrontEnd 20_11_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+E:\RFrontEnd 20_11_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RLexer.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RParser.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RListener.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RVisitor.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilter.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+E:\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\lab\Desktop\RFrontEnd 20_11_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\lab\Desktop\New folder\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 13_12_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 11_01_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 15_01_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 16_01_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 17_01_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\obj\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\bin\Debug\RGrammarParser.dll.CodeAnalysisLog.xml
+C:\Users\Alex\Desktop\RFrontEnd 29_01_2016\RGrammarParser\bin\Debug\RGrammarParser.dll.lastcodeanalysissucceeded
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\bin\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\bin\Debug\RGrammarParser.pdb
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RGrammar.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RGrammar.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RGrammarParser.dll
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RGrammarParser.pdb

@@ -1,0 +1,11 @@
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RLexer.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RParser.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RListener.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RVisitor.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RBaseVisitor.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilter.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilterListener.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilterBaseListener.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilterVisitor.cs
+C:\Users\Alex\Desktop\RFrontEndSolution\RGrammarParser\obj\Debug\RFilterBaseVisitor.cs
