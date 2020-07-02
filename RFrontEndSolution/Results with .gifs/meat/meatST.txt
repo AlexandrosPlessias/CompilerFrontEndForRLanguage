@@ -1,0 +1,33 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | meat            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | as.is           | Local Variable  
+Global          | logtime         | Free (System)   
+Global          | log             | Free (System)   
+Global          | time            | Free (System)   
+Global          | meat.new        | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | seq             | Free (System)   
+Global          | meat.lm         | Local Variable  
+Global          | lm              | Free (System)   
+Global          | ph              | Free (System)   
+Global          | data            | Local Variable  
+Global          | summary         | Free (System)   
+Global          | meat.pred       | Local Variable  
+Global          | predict         | Free (System)   
+Global          | newdata         | Local Variable  
+Global          | meta.pred       | Free (System)   
+Global          | se.fit          | Local Variable  
+Global          | interval        | Local Variable  
+Global          | matplot         | Free (System)   
+Global          | type            | Local Variable  
+Global          | lty             | Local Variable  
+Global          | c               | Free (System)   
+Global          | col             | Local Variable  
+Global          | meat.lof        | Local Variable  
+Global          | as.factor       | Free (System)   
+Global          | anova           | Free (System)   
+-----------------------------------------------------

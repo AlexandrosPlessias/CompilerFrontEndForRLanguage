@@ -1,0 +1,23 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | data            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | attach          | Free (System)   
+Global          | Gender          | Local Variable  
+Global          | factor          | Free (System)   
+Global          | Therapist       | Local Variable  
+Global          | model1          | Local Variable  
+Global          | lm              | Free (System)   
+Global          | ResponseTime    | Free (System)   
+Global          | cat             | Free (System)   
+Global          | print           | Free (System)   
+Global          | anova           | Free (System)   
+Global          | model3          | Local Variable  
+Global          | Fgender         | Local Variable  
+Global          | pf              | Free (System)   
+Global          | q               | Local Variable  
+Global          | df1             | Local Variable  
+Global          | Df              | Free (System)   
+Global          | df2             | Local Variable  
+-----------------------------------------------------

@@ -1,0 +1,20 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | p               | Local Variable  
+Global          | max.sample.size | Local Variable  
+Global          | j               | Free (System)   
+Global          | probs           | Local Variable  
+Global          | numeric         | Free (System)   
+Global          | i               | Free (System)   
+Global          | rbinom          | Free (System)   
+Global          | plot            | Free (System)   
+Global          | ylim            | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | legend          | Free (System)   
+Global          | paste           | Free (System)   
+Global          | bty             | Local Variable  
+-----------------------------------------------------

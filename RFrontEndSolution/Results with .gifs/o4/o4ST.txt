@@ -1,0 +1,19 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | education       | Local Variable  
+Global          | factor          | Free (System)   
+Global          | sample          | Free (System)   
+Global          | replace         | Local Variable  
+Global          | labels          | Local Variable  
+Global          | c               | Free (System)   
+Global          | experience      | Local Variable  
+Global          | runif           | Free (System)   
+Global          | intercept       | Local Variable  
+Global          | log.earnings    | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | A               | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | e2              | Local Variable  
+Global          | summary         | Free (System)   
+Global          | lm              | Free (System)   
+-----------------------------------------------------

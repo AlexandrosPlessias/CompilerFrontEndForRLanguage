@@ -1,0 +1,14 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | p               | Local Variable  
+Global          | q               | Local Variable  
+Global          | outcome         | Local Variable  
+Global          | c               | Free (System)   
+Global          | N               | Local Variable  
+Global          | sum             | Free (System)   
+Global          | dbinom          | Free (System)   
+Global          | x               | Local Variable  
+Global          | size            | Local Variable  
+Global          | prob            | Local Variable  
+Global          | dmultinom       | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,14 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | people          | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | age             | Local Variable  
+Global          | c               | Free (System)   
+Global          | education       | Local Variable  
+Global          | education.code  | Local Variable  
+Global          | str             | Free (System)   
+Global          | lm              | Free (System)   
+Global          | factor          | Free (System)   
+Global          | m               | Local Variable  
+Global          | model.matrix    | Free (System)   
+-----------------------------------------------------

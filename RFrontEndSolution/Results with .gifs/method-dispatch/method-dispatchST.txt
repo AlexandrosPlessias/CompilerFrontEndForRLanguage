@@ -1,0 +1,38 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                | ...             | Formal Parameter 
+cat             | ...             | Formal Parameter 
+cat             | cat             | Funtion Call    
+Ops.foo         | ...             | Formal Parameter 
+Ops.foo         | cat             | Funtion Call    
+Ops.foo         | NextMethod      | Free (System)   
+Ops.bar         | ...             | Formal Parameter 
+Ops.bar         | cat             | Funtion Call    
+Global          | x               | Local Variable  
+Global          | class           | Free (System)   
+Global          | c               | Free (System)   
+Global          | y               | Local Variable  
+Global          | rm              | Free (System)   
+Global          | list            | Local Variable  
+abc             | x               | Formal Parameter 
+abc             | ...             | Formal Parameter 
+abc             | cat             | Funtion Call    
+abc             | class           | Free ( Exists in Global) 
+abc             | sep             | Local Variable  
+abc             | str             | Free (System)   
+abc             | UseMethod       | Free (System)   
+abc.default     | x               | Formal Parameter 
+abc.default     | ...             | Formal Parameter 
+sys.call        | x               | Formal Parameter 
+sys.call        | cat             | Funtion Call    
+Global          | deparse         | Free (System)   
+Global          | sys.call        | Funtion Call    
+Global          | sys.parent      | Free (System)   
+abc.expression  | x               | Formal Parameter 
+abc.expression  | cat             | Funtion Call    
+Global          | abc             | Funtion Call    
+Global          | e0              | Local Variable  
+Global          | expression      | Free (System)   
+Global          | e1              | Local Variable  
+Global          | sin             | Free (System)   
+-----------------------------------------------------

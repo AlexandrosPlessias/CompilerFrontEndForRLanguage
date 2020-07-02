@@ -1,0 +1,22 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x1              | Local Variable  
+Global          | runif           | Free (System)   
+Global          | x2              | Local Variable  
+Global          | y               | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | m               | Local Variable  
+Global          | lm              | Free (System)   
+Global          | library         | Free (System)   
+Global          | xtable          | Free (System)   
+Global          | anova           | Free (System)   
+Global          | print.xtable    | Free (System)   
+Global          | caption         | Local Variable  
+Global          | label           | Local Variable  
+Global          | digits          | Local Variable  
+Global          | c               | Free (System)   
+Global          | type            | Local Variable  
+Global          | file            | Local Variable  
+Global          | table.placement | Local Variable  
+Global          | latex.environments | Local Variable  
+-----------------------------------------------------

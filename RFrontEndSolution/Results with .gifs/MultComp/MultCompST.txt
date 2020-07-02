@@ -1,0 +1,53 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | Hmisc           | Free (System)   
+Global          | library         | Free (System)   
+Global          | car             | Free (System)   
+Global          | asbio           | Free (System)   
+Global          | n               | Local Variable  
+Global          | ni              | Local Variable  
+Global          | c               | Free (System)   
+Global          | wk              | Local Variable  
+Global          | numeric         | Free (System)   
+Global          | g1              | Local Variable  
+Global          | g2              | Local Variable  
+Global          | g3              | Local Variable  
+Global          | g4              | Local Variable  
+Global          | g5              | Local Variable  
+Global          | dv              | Local Variable  
+Global          | grp             | Local Variable  
+Global          | factor          | Free (System)   
+Global          | rep             | Free (System)   
+Global          | each            | Local Variable  
+Global          | data            | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | head            | Free (System)   
+Global          | means           | Local Variable  
+Global          | tapply          | Free (System)   
+Global          | mean            | Free (System)   
+Global          | GM              | Local Variable  
+Global          | stdev           | Local Variable  
+Global          | sd              | Free (System)   
+Global          | variance        | Local Variable  
+Global          | var             | Free (System)   
+Global          | names           | Free (System)   
+Global          | print           | Free (System)   
+Global          | MSwithin        | Local Variable  
+Global          | sum             | Free (System)   
+Global          | length          | Free (System)   
+Global          | model1          | Local Variable  
+Global          | lm              | Free (System)   
+Global          | Anova           | Free (System)   
+Global          | Tukey           | Local Variable  
+Global          | Pairw.test      | Free (System)   
+Global          | conf.level      | Local Variable  
+Global          | method          | Local Variable  
+Global          | cat             | Free (System)   
+Global          | LSD             | Local Variable  
+Global          | Bonferroni      | Local Variable  
+Global          | Scheffe         | Local Variable  
+Global          | p               | Local Variable  
+Global          | p.adjust.methods | Local Variable  
+Global          | p.adjust        | Free (System)   
+-----------------------------------------------------

@@ -1,0 +1,49 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | tseries         | Free (System)   
+Global          | prices          | Local Variable  
+Global          | cbind           | Free (System)   
+Global          | get.hist.quote  | Free (System)   
+Global          | quote           | Local Variable  
+Global          | start           | Local Variable  
+Global          | retclass        | Local Variable  
+Global          | colnames        | Free (System)   
+Global          | c               | Free (System)   
+Global          | na.locf         | Free (System)   
+nextfri.Date    | x               | Formal Parameter 
+nextfri.Date    | ceiling         | Free (System)   
+Global          | as.numeric      | Free (System)   
+Global          | x               | Free ( Exists in nextfri.Date) 
+Global          | as.Date         | Free (System)   
+Global          | weekly.prices   | Local Variable  
+Global          | aggregate       | Free (System)   
+Global          | nextfri.Date    | Funtion Call    
+Global          | tail            | Free (System)   
+Global          | r               | Local Variable  
+Global          | diff            | Free (System)   
+Global          | log             | Free (System)   
+Global          | coredata        | Free (System)   
+Global          | rj              | Local Variable  
+Global          | rM              | Local Variable  
+Global          | d               | Local Variable  
+Global          | lm              | Free (System)   
+Global          | print           | Free (System)   
+Global          | summary         | Free (System)   
+Global          | big             | Local Variable  
+Global          | max             | Free (System)   
+Global          | abs             | Free (System)   
+Global          | range           | Local Variable  
+Global          | plot            | Free (System)   
+Global          | xlim            | Local Variable  
+Global          | ylim            | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | grid            | Free (System)   
+Global          | abline          | Free (System)   
+Global          | h               | Local Variable  
+Global          | v               | Local Variable  
+Global          | lines           | Free (System)   
+Global          | fitted.values   | Free (System)   
+Global          | col             | Local Variable  
+-----------------------------------------------------

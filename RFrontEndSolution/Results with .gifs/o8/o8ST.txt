@@ -1,0 +1,22 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x               | Local Variable  
+Global          | runif           | Free (System)   
+Global          | y               | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | d               | Local Variable  
+Global          | lm              | Free (System)   
+Global          | summary         | Free (System)   
+Global          | library         | Free (System)   
+Global          | sandwich        | Free (System)   
+Global          | lmtest          | Free (System)   
+Global          | dwtest          | Free (System)   
+Global          | alternative     | Local Variable  
+Global          | bptest          | Free (System)   
+Global          | coeftest        | Free (System)   
+Global          | vcov            | Local Variable  
+Global          | kernHAC         | Free (System)   
+Global          | xtable          | Free (System)   
+Global          | sum.d           | Local Variable  
+Global          | coefficients    | Free (System)   
+-----------------------------------------------------

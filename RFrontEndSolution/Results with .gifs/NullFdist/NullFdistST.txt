@@ -1,0 +1,54 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | car             | Free (System)   
+Global          | setwd           | Free (System)   
+Global          | recall          | Local Variable  
+Global          | c               | Free (System)   
+Global          | cond            | Local Variable  
+Global          | factor          | Free (System)   
+Global          | rep             | Free (System)   
+Global          | each            | Local Variable  
+Global          | eysenck         | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | levels          | Free (System)   
+Global          | head            | Free (System)   
+Global          | options         | Free (System)   
+Global          | contrasts       | Local Variable  
+Global          | model1          | Local Variable  
+Global          | lm              | Free (System)   
+Global          | data            | Local Variable  
+Global          | Anova           | Free (System)   
+Global          | type            | Local Variable  
+Global          | nreps           | Local Variable  
+Global          | Fdist           | Local Variable  
+Global          | numeric         | Free (System)   
+Global          | group           | Local Variable  
+Global          | i               | Free (System)   
+Global          | grp1            | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | grp2            | Local Variable  
+Global          | grp3            | Local Variable  
+Global          | grp4            | Local Variable  
+Global          | grp5            | Local Variable  
+Global          | dv              | Local Variable  
+Global          | model           | Local Variable  
+Global          | anova           | Free (System)   
+Global          | par             | Free (System)   
+Global          | mfrow           | Local Variable  
+Global          | hist            | Free (System)   
+Global          | breaks          | Local Variable  
+Global          | font.lab        | Local Variable  
+Global          | font.main       | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | yaxt            | Local Variable  
+Global          | density         | Local Variable  
+Global          | main            | Local Variable  
+Global          | box             | Free (System)   
+Global          | col             | Local Variable  
+Global          | arrows          | Free (System)   
+Global          | length          | Local Variable  
+Global          | text            | Free (System)   
+Global          | font            | Local Variable  
+-----------------------------------------------------

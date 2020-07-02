@@ -1,0 +1,28 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | x               | Local Variable  
+Global          | runif           | Free (System)   
+Global          | y               | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | summary         | Free (System)   
+Global          | lm              | Free (System)   
+Global          | D               | Local Variable  
+Global          | data.frame      | Free (System)   
+Global          | d               | Local Variable  
+Global          | print           | Free (System)   
+Global          | par             | Free (System)   
+Global          | mfrow           | Local Variable  
+Global          | c               | Free (System)   
+Global          | plot            | Free (System)   
+Global          | cat             | Free (System)   
+Global          | coefficients    | Free (System)   
+Global          | sigma           | Free (System)   
+Global          | m               | Local Variable  
+Global          | residuals       | Free (System)   
+Global          | fitted          | Free (System)   
+Global          | AIC             | Free (System)   
+Global          | k               | Local Variable  
+Global          | log             | Free (System)   
+Global          | vcov            | Free (System)   
+Global          | logLik          | Free (System)   
+-----------------------------------------------------

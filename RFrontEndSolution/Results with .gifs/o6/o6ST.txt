@@ -1,0 +1,35 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | tseries         | Free (System)   
+getstock        | x               | Formal Parameter 
+getstock        | c               | Free (System)   
+Global          | get.hist.quote  | Free (System)   
+Global          | x               | Free ( Exists in getstock) 
+Global          | quote           | Local Variable  
+Global          | start           | Local Variable  
+Global          | compress        | Local Variable  
+Global          | r               | Local Variable  
+Global          | diff            | Free (System)   
+Global          | log             | Free (System)   
+Global          | cbind           | Free (System)   
+Global          | sp500           | Local Variable  
+Global          | getstock        | Funtion Call    
+Global          | sunw            | Local Variable  
+Global          | mm              | Local Variable  
+Global          | lm              | Free (System)   
+Global          | .               | Free (System)   
+Global          | print           | Free (System)   
+Global          | summary         | Free (System)   
+Global          | range           | Local Variable  
+Global          | plot            | Free (System)   
+Global          | xlim            | Local Variable  
+Global          | ylim            | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+Global          | grid            | Free (System)   
+Global          | abline          | Free (System)   
+Global          | h               | Local Variable  
+Global          | v               | Local Variable  
+Global          | col             | Local Variable  
+-----------------------------------------------------
