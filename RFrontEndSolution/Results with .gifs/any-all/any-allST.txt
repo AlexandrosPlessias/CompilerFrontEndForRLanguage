@@ -1,0 +1,47 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | basic_tests     | Local Variable  
+Global          | list            | Free (System)   
+Global          | input           | Local Variable  
+Global          | c               | Free (System)   
+Global          | any             | Local Variable  
+Global          | all             | Local Variable  
+Global          | any.na.rm       | Local Variable  
+Global          | all.na.rm       | Local Variable  
+Global          | logical         | Free (System)   
+Global          | list_input_tests | Local Variable  
+Global          | rep             | Free (System)   
+do_tests        | L               | Formal Parameter 
+run             | f               | Formal Parameter 
+run             | input           | Formal Parameter 
+run             | na.rm           | Formal Parameter 
+run             | is.list         | Free (System)   
+run             | do.call         | Free (System)   
+run             | c               | Free ( Exists in Global) 
+run             | list            | Free ( Exists in Global) 
+do_check        | case            | Formal Parameter 
+do_check        | f               | Formal Parameter 
+do_check        | fun             | Local Variable  
+do_check        | deparse         | Free (System)   
+do_check        | substitute      | Free (System)   
+do_check        | cat             | Free (System)   
+do_check        | dput            | Free (System)   
+do_check        | input           | Free ( Exists in Global) 
+do_check        | stop            | Free (System)   
+do_check        | run             | Funtion Call    
+do_check        | call.           | Local Variable  
+do_check        | identical       | Free (System)   
+do_check        | narm            | Local Variable  
+do_check        | paste           | Free (System)   
+do_check        | sep             | Local Variable  
+do_check        | na.rm           | Local Variable  
+do_check        | is.null         | Free (System)   
+do_tests        | lab             | Local Variable  
+do_tests        | deparse         | Free ( Exists in do_check) 
+do_tests        | substitute      | Free ( Exists in do_check) 
+do_tests        | case            | Free ( Exists in do_check) 
+do_tests        | do_check        | Funtion Call    
+do_tests        | any             | Free ( Exists in Global) 
+do_tests        | all             | Free ( Exists in Global) 
+Global          | do_tests        | Funtion Call    
+-----------------------------------------------------

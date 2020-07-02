@@ -1,0 +1,21 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | digits          | Local Variable  
+Global          | outer           | Free (System)   
+Global          | a               | Local Variable  
+Global          | n1              | Free (System)   
+Global          | print           | Free (System)   
+Global          | zapsmall        | Free (System)   
+Global          | polyroot        | Free (System)   
+Global          | options         | Free (System)   
+Global          | lowess          | Free (System)   
+Global          | c               | Free (System)   
+Global          | y               | Free (System)   
+Global          | y1              | Local Variable  
+Global          | f               | Local Variable  
+Global          | x               | Local Variable  
+Global          | rep             | Free (System)   
+Global          | iter            | Local Variable  
+Global          | delta           | Local Variable  
+-----------------------------------------------------

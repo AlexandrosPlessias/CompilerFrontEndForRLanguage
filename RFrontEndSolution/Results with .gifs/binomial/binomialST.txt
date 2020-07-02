@@ -1,0 +1,17 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | n               | Local Variable  
+Global          | scan            | Free (System)   
+Global          | nmax            | Local Variable  
+Global          | cat             | Free (System)   
+Global          | p               | Local Variable  
+Global          | successes       | Local Variable  
+Global          | c               | Free (System)   
+Global          | y               | Local Variable  
+Global          | dbinom          | Free (System)   
+Global          | plot            | Free (System)   
+Global          | type            | Local Variable  
+Global          | xlab            | Local Variable  
+Global          | ylab            | Local Variable  
+-----------------------------------------------------

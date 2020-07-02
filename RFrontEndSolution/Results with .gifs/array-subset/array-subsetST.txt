@@ -1,0 +1,33 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | m               | Local Variable  
+Global          | matrix          | Free (System)   
+Global          | ncol            | Local Variable  
+Global          | dimnames        | Local Variable  
+Global          | list            | Free (System)   
+Global          | letters         | Free (System)   
+Global          | LETTERS         | Free (System)   
+Global          | si              | Local Variable  
+Global          | c               | Free (System)   
+Global          | byrow           | Local Variable  
+Global          | ss              | Local Variable  
+Global          | stopifnot       | Free (System)   
+Global          | identical       | Free (System)   
+Global          | ssna            | Local Variable  
+Global          | mnadim          | Local Variable  
+Global          | tmp             | Local Variable  
+Global          | rownames        | Free (System)   
+Global          | ssnm            | Local Variable  
+Global          | inherits        | Free (System)   
+Global          | try             | Free (System)   
+Global          | silent          | Local Variable  
+Global          | m3              | Local Variable  
+Global          | m2              | Free (System)   
+Global          | a               | Local Variable  
+Global          | array           | Free (System)   
+Global          | dim             | Local Variable  
+Global          | a2              | Local Variable  
+Global          | a1              | Free (System)   
+Global          | a3              | Local Variable  
+Global          | dn              | Local Variable  
+-----------------------------------------------------

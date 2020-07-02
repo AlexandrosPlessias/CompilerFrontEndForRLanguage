@@ -1,0 +1,17 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | births          | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | library         | Free (System)   
+Global          | nlme            | Free (System)   
+Global          | birth.ar        | Local Variable  
+Global          | gls             | Free (System)   
+Global          | netherlands     | Free (System)   
+Global          | year            | Free (System)   
+Global          | data            | Local Variable  
+Global          | birth           | Free (System)   
+Global          | corr            | Local Variable  
+Global          | corAR1          | Free (System)   
+-----------------------------------------------------

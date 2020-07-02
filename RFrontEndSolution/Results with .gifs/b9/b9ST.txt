@@ -1,0 +1,25 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | p               | Local Variable  
+Global          | structure       | Free (System)   
+Global          | c               | Free (System)   
+Global          | .Dim            | Local Variable  
+Global          | .Dimnames       | Local Variable  
+Global          | list            | Free (System)   
+Global          | r               | Local Variable  
+Global          | diff            | Free (System)   
+Global          | log             | Free (System)   
+Global          | colMeans        | Free (System)   
+Global          | cor             | Free (System)   
+Global          | S               | Local Variable  
+Global          | cov             | Free (System)   
+Global          | w               | Local Variable  
+Global          | t               | Free (System)   
+Global          | library         | Free (System)   
+Global          | tseries         | Free (System)   
+Global          | optimised       | Local Variable  
+Global          | portfolio.optim | Free (System)   
+Global          | pw              | Free (System)   
+Global          | pm              | Free (System)   
+Global          | ps              | Free (System)   
+-----------------------------------------------------

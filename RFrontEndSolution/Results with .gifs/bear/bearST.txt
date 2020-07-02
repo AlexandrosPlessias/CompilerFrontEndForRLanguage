@@ -1,0 +1,14 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | bear            | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | bear.lm         | Local Variable  
+Global          | lm              | Free (System)   
+Global          | weight          | Free (System)   
+Global          | .               | Free (System)   
+Global          | data            | Local Variable  
+Global          | bear.step       | Local Variable  
+Global          | step            | Free (System)   
+-----------------------------------------------------

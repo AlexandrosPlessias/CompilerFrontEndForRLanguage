@@ -1,0 +1,20 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | Biobase         | Free (System)   
+Global          | library         | Free (System)   
+Global          | mutoss          | Free (System)   
+Global          | pValues         | Local Variable  
+Global          | c               | Free (System)   
+Global          | alpha           | Local Variable  
+Global          | sig.test        | Local Variable  
+Global          | linearStepUp    | Free (System)   
+Global          | m               | Local Variable  
+Global          | q               | Local Variable  
+Global          | cat             | Free (System)   
+Global          | print           | Free (System)   
+Global          | Pvals           | Free (System)   
+Global          | exact.p         | Local Variable  
+Global          | BH              | Free (System)   
+Global          | str             | Free (System)   
+-----------------------------------------------------

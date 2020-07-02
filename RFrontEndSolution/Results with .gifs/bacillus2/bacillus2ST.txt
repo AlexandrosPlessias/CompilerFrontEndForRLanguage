@@ -1,0 +1,34 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | bacillus        | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | a1              | Free (System)   
+Global          | trt             | Free (System)   
+Global          | a2              | Free (System)   
+Global          | a3              | Free (System)   
+Global          | a.lm            | Local Variable  
+Global          | lm              | Free (System)   
+Global          | post            | Free (System)   
+Global          | data            | Local Variable  
+Global          | a0.lm           | Local Variable  
+Global          | anova           | Free (System)   
+Global          | coef            | Free (System)   
+Global          | b.lm            | Local Variable  
+Global          | b1              | Free (System)   
+Global          | b2              | Free (System)   
+Global          | c.lm            | Local Variable  
+Global          | n1              | Free (System)   
+Global          | as.integer      | Free (System)   
+Global          | n2              | Free (System)   
+Global          | n3              | Free (System)   
+Global          | d.lm            | Local Variable  
+Global          | summary         | Free (System)   
+Global          | trt.f           | Free (System)   
+Global          | as.factor       | Free (System)   
+Global          | model.matrix    | Free (System)   
+Global          | contrasts       | Local Variable  
+Global          | list            | Free (System)   
+Global          | contr.SAS       | Free (System)   
+-----------------------------------------------------

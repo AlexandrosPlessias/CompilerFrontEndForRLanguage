@@ -1,0 +1,25 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | car             | Free (System)   
+Global          | dat             | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | attach          | Free (System)   
+Global          | Group           | Local Variable  
+Global          | as.factor       | Free (System)   
+Global          | options         | Free (System)   
+Global          | contrasts       | Local Variable  
+Global          | c               | Free (System)   
+Global          | print           | Free (System)   
+Global          | anova           | Free (System)   
+Global          | aov             | Free (System)   
+Global          | Posttest        | Free (System)   
+Global          | Pretest         | Free (System)   
+Global          | Anova           | Free (System)   
+Global          | type            | Local Variable  
+Global          | full.model      | Local Variable  
+Global          | lm              | Free (System)   
+Global          | grp.model       | Local Variable  
+Global          | cov.model       | Local Variable  
+-----------------------------------------------------

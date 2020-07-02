@@ -1,0 +1,33 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | births          | Local Variable  
+Global          | read.table      | Free (System)   
+Global          | header          | Local Variable  
+Global          | T               | Free (System)   
+Global          | birth.lo        | Local Variable  
+Global          | loess           | Free (System)   
+Global          | netherlands     | Free (System)   
+Global          | year            | Free (System)   
+Global          | data            | Local Variable  
+Global          | plot            | Free (System)   
+Global          | birth           | Free (System)   
+Global          | predict         | Free (System)   
+Global          | birth.lm2       | Local Variable  
+Global          | lm              | Free (System)   
+Global          | I               | Free (System)   
+Global          | lines           | Free (System)   
+Global          | birth.lo2       | Local Variable  
+Global          | span            | Local Variable  
+Global          | anova           | Free (System)   
+Global          | birth.lo1       | Local Variable  
+Global          | degree          | Local Variable  
+Global          | birth.lm        | Local Variable  
+Global          | esq             | Local Variable  
+Global          | resid           | Free (System)   
+Global          | bp              | Local Variable  
+Global          | summary         | Free (System)   
+Global          | yeargroup       | Local Variable  
+Global          | cut             | Free (System)   
+Global          | breaks          | Local Variable  
+Global          | seq             | Free (System)   
+-----------------------------------------------------

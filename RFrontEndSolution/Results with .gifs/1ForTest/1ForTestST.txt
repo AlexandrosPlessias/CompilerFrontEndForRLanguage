@@ -1,0 +1,12 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+                |                 |                 
+Global          | print           | Free (System)   
+Global          | is.list         | Free (System)   
+Global          | input           | Free (System)   
+Global          | do.call         | Free (System)   
+Global          | f               | Free (System)   
+Global          | c               | Free (System)   
+Global          | list            | Free (System)   
+Global          | na.rm           | Local Variable  
+-----------------------------------------------------

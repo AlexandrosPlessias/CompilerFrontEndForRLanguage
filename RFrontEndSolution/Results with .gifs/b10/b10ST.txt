@@ -1,0 +1,12 @@
+Scope           | Variable        | Typification     
+-----------------------------------------------------
+Global          | e1              | Local Variable  
+Global          | runif           | Free (System)   
+Global          | e2              | Local Variable  
+Global          | rnorm           | Free (System)   
+Global          | cbind           | Free (System)   
+Global          | sample          | Free (System)   
+Global          | combined        | Local Variable  
+Global          | missing         | Local Variable  
+Global          | is.na           | Free (System)   
+-----------------------------------------------------
